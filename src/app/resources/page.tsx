@@ -31,7 +31,7 @@ export default function Events() {
               <div className="col-md-6 general-content">
                 
                 <p className="fs-4">
-                  BADD is a communitity resource.
+                  BADD is a community resource.
                   Don&apos;t hesitate to <Link href="/connect" aria-label="connect with BADD">connect with us</Link>, 
                   to start a conversation.
                 </p>

@@ -20,21 +20,6 @@ interface IData {
 	items : [IArticle];
 }
 
-interface IResponse {
-	body : string | null | unknown;
-	bodyUsed? : boolean;
-	headers? : unknown;
-	Headers? : unknown;
-	ok? : boolean;
-	redirected? : boolean;
-	status? : number;
-	statusText? : string;
-	type? : string;
-	url? : string;
-	json? : string | null | unknown;
-}
-
-
 const emptyArticle = {
 	id : "string",
 	image : "string",
@@ -59,7 +44,7 @@ const Articles = () => {
 				if (!response.ok) {
 					throw new Error(`HTTP error! status: ${response.status}`);
 				}
-				const json:string = await response.json();
+				const json = await response.json();
 				setData(json);
 				setLoading(false);
 			} catch (e) {
@@ -83,20 +68,16 @@ const Articles = () => {
 				<li key={article.id} className="col-md-4" aria-label="article">
 					<div className="card mb-4 box-shadow">
 						<div className="card-image-frame">
-							<img className="card-img-top article-image" 
-							alt={article.alt} 
-							src={article.image}
-							data-holder-rendered="true" />
-
-							<Image
+							{ article.image && (<Image
 								src={article.image}
 								layout="responsive"
 								width={1000}
 								height={800}
-								alt={article.alt} 
-								aria-hidden={article.alt ? false : true}
+								alt=""
+								aria-hidden={true}
 								className="card-img-top article-image" 
-							/>
+							/>) }
+							
 
 						</div>
 						<div className="card-body">

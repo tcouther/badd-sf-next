@@ -27,6 +27,9 @@ export default function Events() {
             <h2 className="fs-1">Who We Are</h2>
           </div>
 
+
+          
+
           <div className="row">
 
             <div className="col-md-6 general-content">

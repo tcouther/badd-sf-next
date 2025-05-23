@@ -70,12 +70,67 @@ export default function Home() {
         </section>
 
 
+
+        <section className="ourwork bg-light">
+
+          <div className="section-content">
+            <div className="headline-content">
+              <h2 className="fs-1">BADD stands for Brothers Against Drug Deaths</h2>
+            </div>
+            <div className="row">
+
+              <div className="col-md-7 col-lg-8 general-content fs-4">
+                <p>
+                  “BADD is a ministry born out of the pain of losing my son, 
+                  TC, to addiction while he was in custody. 
+                  We believe God can turn grief into purpose, 
+                  so we’re standing in the gap for families battling addiction, 
+                  mental illness, and injustice—especially in our Black and 
+                  underserved communities.
+                </p>
+                <p>
+                  We advocate for healing over punishment, 
+                  support families in crisis, and help people coming out of 
+                  incarceration find a path to restoration.
+                </p>
+                <p>
+                  We lean on 
+                  Proverbs 16:3: ‘Commit to the Lord whatever you do, and He will establish your plans.’
+                </p>
+                <p>
+                  BADD is our commitment—and we’re trusting God to use it for change.”
+                </p>
+                <p>Theris L. Coats, Sr.<br/>CEO of BADD</p>
+              </div>
+
+              <div className="col-md-1 py-4"></div>
+
+
+              <div className="col-sm-9 col-md-4 col-lg-3">
+                <Image
+                src="/graphics/badd-stands-for.jpg"
+                layout="responsive"
+                width={1005}
+                height={1501}
+                className="rounded-3"
+                alt="This is a crisis, we need treatment, not punishment."
+                />
+              </div>
+
+            </div>
+          </div>
+
+        </section>
+
+
         <section className="ourwork bg-body">
 
           <div className="section-content">
             <div className="headline-content">
-              <h2 className="fs-1">Why BADD?</h2>
+              <h2 className="fs-1">The Crisis</h2>
             </div>
+
+
 
             <div className="row">
               
@@ -125,7 +180,7 @@ export default function Home() {
                     <div className="py-2"></div>
 
                     <div className="row">
-                      <div className="col-md-4">
+                      <div className="col-sm-6 col-md-4 col-lg-3">
                         <Image
                           src="/graphics/treatment-not-punishment.png"
                           layout="responsive"
@@ -136,7 +191,7 @@ export default function Home() {
                         />
                         <div className="py-4"></div>
                       </div>
-                      <div className="col-md-8 col-lg-6">
+                      <div className="col-sm-6 col-md-8 col-lg-6">
                         <h4 className="fs-2">
                           <strong>Take Action</strong>
                         </h4>

@@ -1,8 +1,11 @@
 {
-  "/connect/page": "app/connect/page.js",
-  "/events/page": "app/events/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
+  "/connect/page": "app/connect/page.js",
+  "/who-we-are/richard-beal/page": "app/who-we-are/richard-beal/page.js",
+  "/events/page": "app/events/page.js",
+  "/who-we-are/theris-coats/page": "app/who-we-are/theris-coats/page.js",
   "/resources/page": "app/resources/page.js",
   "/who-we-are/page": "app/who-we-are/page.js"
 }

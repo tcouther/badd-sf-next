@@ -1,12 +1,9 @@
 "use client";
 
-import {useRef} from "react";
 import Link from "next/link";
 
 
 const BaddNavbar = () => {
-
-    const ddRef = useRef();
 
 	return (
 	<nav className="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Website Navigation">
@@ -14,7 +11,6 @@ const BaddNavbar = () => {
 		<div className="container-fluid">
 			<Link className="navbar-brand" href="/"><span className="navbar-brand-background"></span><span className="navbar-brand-foreground short-title d-md-none">BADD</span><span className="navbar-brand-foreground d-none d-md-block">BROTHERS AGAINST DRUG DEATHS</span></Link>
 			<button 
-			ref={ddRef}
 			className="navbar-toggler" 
 			type="button" 
 			data-bs-toggle="collapse" 

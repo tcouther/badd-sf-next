@@ -76,21 +76,21 @@ export default function Events() {
                 <hr/>
               </div>
 
-
-              <div id="event-checkin-5-29-2025" className="general-content col-md-6">
-                <h3 className="py-3"><strong>CITY HALL CHECK-IN</strong></h3>
-                <p>Thursday, May 29th, 2025
-                <br/>Yes SF HQ - 220 Montgomery Street
-                <br/>9:00am to 10:00am</p>
-              </div>
-
               <div className="row">
-                <div className="general-content col-md-5 fs-4">
-                  <p>
+                <div className="general-content col-md-5">
+
+                  <div id="event-checkin-5-29-2025" className="general-content col-md-9">
+                    <h3 className="py-3"><strong>CITY HALL CHECK-IN</strong></h3>
+                    <p>Thursday, May 29th, 2025
+                    <br/>Yes SF HQ - 220 Montgomery Street
+                    <br/>9:00am to 10:00am</p>
+                  </div>
+
+                  <p className="fs-4">
                     Join BADD and the San Francisco Chamber of Commerce 5/29/2025 for a FREE event to connect with 
                     District 6 Supervisor Matt Dorsey. 
                   </p>
-                  <p>
+                  <p className="fs-4">
                     Supervisor Dorsey 
                     will share legislative updates and priorities for the 
                     remainder of 2025.
@@ -111,6 +111,86 @@ export default function Events() {
                 </div>
               </div>
               
+
+
+
+
+
+              <div className="py-5">
+                <hr/>
+              </div>
+
+
+              
+
+              <div className="row">
+                <div className="general-content col-md-4">
+
+                  <div id="event-checkin-5-29-2025" className="general-content col-md-9">
+                    <h3 className="py-3"><strong>RECOVERY FIRST ORDINANCE SIGNING CEREMONY</strong></h3>
+                    <p>Friday, May 23, 2025
+                    <br/>Harbor Light Center, <br/>1275 Harrison Street, San Francisco, CA
+                    <br/>10:30am</p>
+                  </div>
+
+                  <p className="fs-4">
+                    BADD (Brothers Against Drug Deaths), Matt Dorsey, Mayor Lurie, 
+                    and friends celebrate the formal signing of  
+                    the “Recovery First” Ordinance!
+                  </p>
+                </div>
+                <div className="col-md-1"></div>
+                <div className="col-lg-7">
+                  <div className="row">
+                    <div className="general-content col-md-12">
+                  <p>
+                    <Image
+                      src="/events/ordinance-group.JPEG"
+                      layout="responsive"
+                      width={2560} // Original image width
+                      height={1920} // Original image height
+                      alt=""
+                      aria-hidden="true"
+                    />
+                  </p>
+                    </div>
+
+                    <div className="general-content col-md-7">
+                      <p>
+                        <Image
+                          src="/events/ordinance-richard-beal-supervisor-matt-dorsey.jpeg"
+                          layout="responsive"
+                          width={1170} // Original image width
+                          height={1556} // Original image height
+                          alt=""
+                          aria-hidden="true"
+                        />
+                      </p>
+                    </div>
+                    <div className="general-content col-md-5">
+                      <p>
+                        <Image
+                          src="/events/ordinance-richard-beal-sf-mayor.jpeg"
+                          layout="responsive"
+                          width={1170} // Original image width
+                          height={1545} // Original image height
+                          alt=""
+                          aria-hidden="true"
+                        />
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                
+              </div>
+
+
+
+
+
+
+
 
               <div className="py-5">
                 <hr/>

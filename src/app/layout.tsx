@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: '%s | BADD - Brothers Against Drug Deaths',
     default: 'BADD - Brothers Against Drug Deaths',
   },
-  description: 'One life. One story. One brother at a time.',
+  description: 'Our mission is to advocate for those battling addiction and mental illness, particularly within Black and underserved communities. One life. One story. One brother at a time.',
   metadataBase: new URL('https://www.badd-sf.org'),
 };
 
