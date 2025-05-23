@@ -1,0 +1,31 @@
+{
+	"date" : "5/3/2025",
+	"items": [
+		{
+			"id" : "article0001",
+			"image" : "/articles/article-001.jpeg",
+			"alt" : "Father and Son, Theris Coats II and Theris Coats Sr.",
+			"link" : "https://missionlocal.org/2025/03/sf-jail-conservatorship-drugs-theris-coats/",
+			"description" : "SF police, a city supervisor, local doctors — all tried to help...",
+			"source" : "Mission Local",
+			"date" : "March 22, 2025"
+		},
+		{
+			"id" : "article0002",
+			"image" : "/articles/article-002.jpeg",
+			"alt" : "Community organizers and activists in San Francisco",
+			"link" : "https://www.kqed.org/news/12034445",
+			"description" : "Black men born between 1951 & 1970 account for 12% of overdose deaths...",
+			"source" : "KQED: THE BAY",
+			"date" : "April 4, 2025"
+		},
+		{
+			"id" : "article0003",
+			"image" : "/articles/article-003.jpeg",
+			"alt" : "San Francisco's Tenderloin and SoMa struggling with drugs",
+			"link" : "https://missionlocal.org/2025/04/sf-addiction-treatment-often-near-street-drugs/",
+			"description" : "In the Tenderloin and SoMa, where drugs are ubiquitous, addiction treatment centers and...",
+			"source" : "Mission Local",
+			"date" : "April 11, 2025"
+		}]
+}
