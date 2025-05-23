@@ -282,7 +282,7 @@ export default function Home() {
               
               <div className="col-md-4 col-sm-12">
                 <Image
-                  src="/graphics/pano-girl-funeral.jpg"
+                  src="/graphics/pano-girl-funeral.JPG"
                   layout="responsive"
                   width={1920}
                   height={1280}
