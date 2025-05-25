@@ -1,6 +1,30 @@
 {
   "version": 4,
   "routes": {
+    "/who-we-are/theris-coats": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/who-we-are/theris-coats",
+      "dataRoute": "/who-we-are/theris-coats.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/favicon.ico": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -30,7 +54,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/connect": {
+    "/who-we-are/richard-beal": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -43,8 +67,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/connect",
-      "dataRoute": "/connect.rsc",
+      "srcRoute": "/who-we-are/richard-beal",
+      "dataRoute": "/who-we-are/richard-beal.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/who-we-are": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/who-we-are",
+      "dataRoute": "/who-we-are.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -102,7 +150,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/who-we-are": {
+    "/connect": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -115,56 +163,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/who-we-are",
-      "dataRoute": "/who-we-are.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/who-we-are/theris-coats": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/who-we-are/theris-coats",
-      "dataRoute": "/who-we-are/theris-coats.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/who-we-are/richard-beal": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/who-we-are/richard-beal",
-      "dataRoute": "/who-we-are/richard-beal.rsc",
+      "srcRoute": "/connect",
+      "dataRoute": "/connect.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -202,8 +202,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "1b7a4c5017a91ce503a4e213b24ef4d3",
-    "previewModeSigningKey": "8ad73587db68a76b6d2580b86ff350d5edbeb2de89a2fd424b8ecf30a83fa005",
-    "previewModeEncryptionKey": "f2aa35a6350908d49016dbd6810c8343dc921ed990b30409295b08b3fabb9802"
+    "previewModeId": "e8d4db52b80de243f1d5156028216a96",
+    "previewModeSigningKey": "73e388c4e7dc60227c7073c98cd487619156f57a240b6bb5813efc611978f15f",
+    "previewModeEncryptionKey": "bed48a1c3bde13bb81510601d3f290079732257da471aa477f8b4bf2d1844b1e"
   }
 }

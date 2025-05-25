@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../page.module.css";
 
 //Navbar
@@ -34,27 +35,35 @@ export default function Events() {
             <div className="row">
               
 
-              {/* 
+              
 
               <div className="py-5">
                 <hr/>
               </div>
 
-              <div id="event-checkin-5-29-2025" className="general-content col-md-6">
-                <h3 className="py-3"><strong>RICHARD BEAL 30 YEARS CLEAN</strong></h3>
-                <p>Saturday, July 19, 2025
-                <br/>1675 Post St., San Francisco, CA  94115
-                <br/>3:00pm to 6:00pm</p>
-              </div>
+
 
               <div className="row">
-                <div className="general-content col-md-5 fs-4">
-                  <p>
-                    You're invited! <br/>
-                    Celebrate Richard's 30th year clean. 
-                  </p>
+                <div className="general-content col-md-6">
+                  <div id="event-checkin-5-29-2025" className="general-content">
+                    <h3 className="py-3"><strong>RICHARD BEAL<br/>30 YEARS CLEAN</strong></h3>
+                    <p>Saturday, July 19, 2025
+                    <br/>1675 Post St., San Francisco, CA  94115
+                    <br/>3:00pm to 6:00pm</p>
+                  </div>
+                  <div className="general-content fs-4">
+                    <p>
+                      You&apos;re invited! <br/>
+                      Come celebrate Richard B.&apos;s 30 years of clean time with us - 
+                      mark your calendars and save the date for a special event in person!
+                    </p>
+                    <p>
+                      RSVP to attend: <br/>
+                      <Link href="https://tinyurl.com/Ambassador4Recovery">https://tinyurl.com/Ambassador4Recovery</Link>
+                    </p>
+                  </div>
                 </div>
-                <div className="col-md-1"></div>
+
                 <div className="general-content col-md-6">
                   <p>
                     <Image
@@ -69,7 +78,7 @@ export default function Events() {
                 </div>
               </div>
 
-              */}
+             
 
 
               <div className="py-5">
