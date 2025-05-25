@@ -3,9 +3,9 @@
   "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
   "/connect/page": "/connect",
-  "/events/page": "/events",
-  "/who-we-are/richard-beal/page": "/who-we-are/richard-beal",
+  "/resources/page": "/resources",
   "/who-we-are/theris-coats/page": "/who-we-are/theris-coats",
-  "/who-we-are/page": "/who-we-are",
-  "/resources/page": "/resources"
+  "/who-we-are/richard-beal/page": "/who-we-are/richard-beal",
+  "/events/page": "/events",
+  "/who-we-are/page": "/who-we-are"
 }

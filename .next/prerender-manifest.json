@@ -1,30 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/who-we-are/theris-coats": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/who-we-are/theris-coats",
-      "dataRoute": "/who-we-are/theris-coats.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/favicon.ico": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -54,6 +30,30 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/events": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/events",
+      "dataRoute": "/events.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/who-we-are/richard-beal": {
       "experimentalBypassFor": [
         {
@@ -69,6 +69,30 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/who-we-are/richard-beal",
       "dataRoute": "/who-we-are/richard-beal.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/who-we-are/theris-coats": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/who-we-are/theris-coats",
+      "dataRoute": "/who-we-are/theris-coats.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -117,30 +141,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/resources",
       "dataRoute": "/resources.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/events": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/events",
-      "dataRoute": "/events.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -202,8 +202,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "e8d4db52b80de243f1d5156028216a96",
-    "previewModeSigningKey": "73e388c4e7dc60227c7073c98cd487619156f57a240b6bb5813efc611978f15f",
-    "previewModeEncryptionKey": "bed48a1c3bde13bb81510601d3f290079732257da471aa477f8b4bf2d1844b1e"
+    "previewModeId": "4711a3ff5e5473a21c74346e5d821981",
+    "previewModeSigningKey": "3ee023846b65fc4b509fef6022f4710d35b49b2040513cd34a60d2d358deb24a",
+    "previewModeEncryptionKey": "3889a8b9d9dc842eecb0d4092c89ee25dee8e58258e79253ff48c841c29b55cf"
   }
 }

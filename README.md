@@ -33,6 +33,16 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+
+## Deploy static files with FTP
+
+1. In `next.config.js`, uncomment `output: 'export'`
+2. In terminal, run `npm run build`
+3. Log into your FTP account with your host
+4. FTP transfer the contents of the `out` folder to your server
+5. After you're done, in `next.config.js`, comment `output: 'export'`
+
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.

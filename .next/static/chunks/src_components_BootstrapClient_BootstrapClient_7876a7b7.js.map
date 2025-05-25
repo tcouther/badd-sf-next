@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/tcouther/development/badd/badd-sf-next/src/components/BootstrapClient/BootstrapClient.js"],"sourcesContent":["\"use client\";\nimport { useEffect } from 'react';\n\nfunction BootstrapClient() {\n    useEffect(() => {\n        import(\"bootstrap/dist/js/bootstrap\");\n    }, []);\n\n    return null;\n}\n\nexport default BootstrapClient;\n"],"names":[],"mappings":";;;AACA;;AADA;;AAGA,SAAS;;IACL,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;qCAAE;;QAEV;oCAAG,EAAE;IAEL,OAAO;AACX;GANS;KAAA;uCAQM","debugId":null}}]
-}
