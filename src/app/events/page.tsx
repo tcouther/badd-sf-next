@@ -28,7 +28,7 @@ export default function Events() {
             </div>
 
             <div className="general-content col-md-7 fs-4">
-              Join us for our next BADD event and support work and progress in our community.
+              Join us for our next BADD event, showing up goes a long way toward supporting our community.
             </div>
 
 
@@ -48,7 +48,8 @@ export default function Events() {
                   <div id="event-checkin-5-29-2025" className="general-content">
                     <h3 className="py-3"><strong>RICHARD BEAL<br/>30 YEARS CLEAN</strong></h3>
                     <p>Saturday, July 19, 2025
-                    <br/>1675 Post St., San Francisco, CA  94115
+                    <br/>1675 Post St., 
+                    <br/>San Francisco, CA  94115
                     <br/>3:00pm to 6:00pm</p>
                   </div>
                   <div className="general-content fs-4">
@@ -138,7 +139,9 @@ export default function Events() {
                   <div id="event-checkin-5-29-2025" className="general-content col-md-9">
                     <h3 className="py-3"><strong>RECOVERY FIRST ORDINANCE SIGNING CEREMONY</strong></h3>
                     <p>Friday, May 23, 2025
-                    <br/>Harbor Light Center, <br/>1275 Harrison Street, San Francisco, CA
+                    <br/>Harbor Light Center, 
+                    <br/>1275 Harrison Street, 
+                    <br/>San Francisco, CA
                     <br/>10:30am</p>
                   </div>
 
