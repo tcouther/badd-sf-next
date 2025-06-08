@@ -96,6 +96,13 @@ small {
   font-size: .7em;
 }
 
+@media only screen and (max-width: 780px) {
+  .articles .card-text-frame {
+    overflow: unset;
+    height: unset;
+  }
+}
+
 
 
 

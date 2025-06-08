@@ -67,7 +67,7 @@ const Articles = () => {
 		<ul className="row article-row">
 
 			{data && data.items.map((article:IArticle) => (
-				<li key={article.id} className="col-md-3" aria-label="article">
+				<li key={article.id} className="col-md-4" aria-label="article">
 					<div className="card mb-4 box-shadow">
 						<div className="card-image-frame">
 							{ article.image && (<Image
@@ -79,12 +79,15 @@ const Articles = () => {
 								aria-hidden={true}
 								className="card-img-top article-image" 
 							/>) }
-							
-
 						</div>
 						<div className="card-body">
 							<div className="card-text-frame card-text">
-								{article.description}
+								<p>
+									{article.description}
+									<span className="d-sm-none d-md-inline">...</span>
+									<span> </span>
+									<span className="d-md-none">{article.descriptionl}</span>
+								</p>
 							</div>
 							<div className="d-flex justify-content-between align-items-center">
 								<div className="btn-group">

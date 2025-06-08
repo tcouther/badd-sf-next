@@ -21,9 +21,9 @@
       256,
       384
     ],
-    "path": "/_next/image",
-    "loader": "default",
-    "loaderFile": "",
+    "path": "/_next/image/",
+    "loader": "custom",
+    "loaderFile": "/Users/tcouther/development/badd/badd-sf-next/ImageLoader.js",
     "domains": [],
     "disableStaticImages": false,
     "minimumCacheTTL": 60,
