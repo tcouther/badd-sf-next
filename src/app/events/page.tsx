@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import styles from "../page.module.css";
 
 //Navbar
@@ -86,7 +85,7 @@ export default function Events() {
                 <div className="general-content col-md-5">
 
                   <div id="event-checkin-5-29-2025" className="general-content col-md-9">
-                    <h3 className="py-3"><strong>CITY HALL <nobr>CHECK-IN</nobr></strong></h3>
+                    <h3 className="py-3"><strong>CITY HALL <span className="text-nowrap">CHECK-IN</span></strong></h3>
                     <p>Thursday, May 29th, 2025
                     <br/>Yes SF HQ - 220 Montgomery Street
                     <br/>9:00am to 10:00am</p>

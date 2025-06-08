@@ -42,7 +42,7 @@ export default function Connect() {
                   </p>
 
                   <p className="fs-4">
-                    Email our team at <nobr><a href="mailto:contact@badd-sf.org">contact@badd-sf.org</a></nobr> with any questions or concerns.
+                    Email our team at <a href="mailto:contact@badd-sf.org" className="text-nowrap">contact@badd-sf.org</a> with any questions or concerns.
                   </p>
 
                   <p className="fs-4">  
