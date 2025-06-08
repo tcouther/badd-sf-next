@@ -239,3 +239,21 @@ small {
   background: #FFF;
   background: linear-gradient(0deg,rgba(255, 255, 255, 1) 7%, rgba(255, 192, 105, 1) 100%);
 }
+
+
+.video-container {
+  position: relative; /* Essential for absolute positioning of the iframe */
+  overflow: hidden; /* Hides any overflowing content */
+  width: 100%; /* Makes the container fill the width */
+  padding-top: 56.25%; /* Creates a 16:9 aspect ratio (9/16 = 0.5625) */
+  height: 0; /*  Resets height to zero to prevent unwanted space */
+}
+
+.video-container iframe,
+.video-container embed {
+  position: absolute; /* Positions the iframe relative to the container */
+  top: 0;
+  left: 0;
+  width: 100%; /* Makes the iframe fill the container's width */
+  height: 100%; /* Makes the iframe fill the container's height */
+}

@@ -45,6 +45,8 @@ const Articles = () => {
 					throw new Error(`HTTP error! status: ${response.status}`);
 				}
 				const json = await response.json();
+				json.items.reverse();
+
 				setData(json);
 				setLoading(false);
 			} catch (e) {
@@ -65,7 +67,7 @@ const Articles = () => {
 		<ul className="row article-row">
 
 			{data && data.items.map((article:IArticle) => (
-				<li key={article.id} className="col-md-4" aria-label="article">
+				<li key={article.id} className="col-md-3" aria-label="article">
 					<div className="card mb-4 box-shadow">
 						<div className="card-image-frame">
 							{ article.image && (<Image

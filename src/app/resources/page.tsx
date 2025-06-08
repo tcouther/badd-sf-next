@@ -44,7 +44,7 @@ export default function Events() {
 
                 <div className="py-2"></div>
 
-                <h3 class="fs-2">Emergency</h3>
+                <h3 className="fs-2">Emergency</h3>
                 <p className="fs-4">
                   <b className="fs-3 highlight">Call: 9-1-1</b><br/>
                   For emergencies requiring <strong>police</strong>, <strong>fire</strong>, or <strong>medical</strong> responses.
@@ -53,7 +53,7 @@ export default function Events() {
 
                 <div className="py-4"></div>
 
-                <h3 class="fs-2">Mental Health Emergency</h3>
+                <h3 className="fs-2">Mental Health Emergency</h3>
                 <p className="fs-4">
                   <b className="fs-3 highlight">Call: 9-8-8</b><br/>
                   For <strong>mental health crisis</strong>, <strong>substance use</strong>, or <strong>emotional distress</strong>.
@@ -62,7 +62,7 @@ export default function Events() {
 
                 <div className="py-4"></div>
 
-                <h3 class="fs-2">Non-Emergency</h3>
+                <h3 className="fs-2">Non-Emergency</h3>
                 <p className="fs-4">
                   <b className="fs-3 highlight">Call: 3-1-1</b><br/>
                   For <strong>non-emergency</strong> municipal services.

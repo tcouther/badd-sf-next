@@ -9,6 +9,9 @@ import BaddFooter from "../../components/BaddFooter";
 //Contact
 import NewsletterForm from '../../components/NewsletterForm';
 
+//Globals
+import GLOBALS from "../globals.json";
+
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -36,7 +39,17 @@ export default function Connect() {
                   <p className="fs-4">
                     Would you like to start a conversation with 
                     Brothers Against Drug Deaths? 
-                    You can email our team at <a href="mailto:contact@badd-sf.org">contact@badd-sf.org</a> with any questions or concerns.
+                  </p>
+
+                  <p className="fs-4">
+                    Email our team at <nobr><a href="mailto:contact@badd-sf.org">contact@badd-sf.org</a></nobr> with any questions or concerns.
+                  </p>
+
+                  <p className="fs-4">  
+                    Reach us by phone: <br/>
+                    <a href={`tel:${GLOBALS.GLOBAL_PHON1B}`}>{GLOBALS.GLOBAL_PHON1B}</a><br/>
+                    <a href={`tel:${GLOBALS.GLOBAL_PHON1A}`}>{GLOBALS.GLOBAL_PHON1A}</a><br/>
+                    <br/>
                   </p>
 
                   <p className="fs-4">

@@ -42,7 +42,7 @@ export default function Events() {
 
               <div className="row">
                 <div className="general-content col-md-6">
-                  <div id="event-checkin-5-29-2025" className="general-content">
+                  <div id="event-richard-30-years-clean-7-19-2025" className="general-content">
                     <h3 className="py-3"><strong>RICHARD BEAL<br/>30 YEARS CLEAN</strong></h3>
                     <p>Saturday, July 19, 2025
                     <br/>1675 Post St., 
@@ -86,7 +86,7 @@ export default function Events() {
                 <div className="general-content col-md-5">
 
                   <div id="event-checkin-5-29-2025" className="general-content col-md-9">
-                    <h3 className="py-3"><strong>CITY HALL CHECK-IN</strong></h3>
+                    <h3 className="py-3"><strong>CITY HALL <nobr>CHECK-IN</nobr></strong></h3>
                     <p>Thursday, May 29th, 2025
                     <br/>Yes SF HQ - 220 Montgomery Street
                     <br/>9:00am to 10:00am</p>
@@ -127,7 +127,7 @@ export default function Events() {
               <div className="row">
                 <div className="general-content col-md-4">
 
-                  <div id="event-checkin-5-29-2025" className="general-content col-md-9">
+                  <div id="event-recovery-first-signing-5-23-2025" className="general-content col-md-9">
                     <h3 className="py-3"><strong>RECOVERY FIRST ORDINANCE SIGNING CEREMONY</strong></h3>
                     <p>Friday, May 23, 2025
                     <br/>Harbor Light Center, 
@@ -141,47 +141,69 @@ export default function Events() {
                     and friends celebrate the formal signing of  
                     the “Recovery First” Ordinance!
                   </p>
+
+                  <p className="fs-4">
+                    Mayor Daniel Lurie signed new “Recovery First” legislation, another step in his administration’s work to support San Franciscans in recovery and tackle the city’s behavioral health and homelessness crisis. 
+                  </p>
+
+                  <p className="fs-4">
+                    Sponsored by District 6 Supervisor Matt Dorsey, the legislation enshrines long-term remission through recovery as San Francisco’s primary substance use disorder policy goal.
+                  </p>
                 </div>
                 <div className="col-md-1"></div>
-                <div className="col-lg-7">
+                <div className="col-md-7">
                   <div className="row">
-                    <div className="general-content col-md-12">
-                  <p>
-                    <Image
-                      src="/badd-assets/events/ordinance-group.JPEG"
-                      layout="responsive"
-                      width={2560} // Original image width
-                      height={1920} // Original image height
-                      alt=""
-                      aria-hidden="true"
-                    />
-                  </p>
+                    <div className="general-content col-md-12 py-3">
+
+                      <div className="video-container">
+                        <iframe src="https://www.youtube.com/embed/nKxLLLJG7vo?si=xfzRdZq_ekJJQ-fQ" title="YouTube video player" frameBorder="0" allowFullScreen></iframe>
+                      </div>
+
                     </div>
 
-                    <div className="general-content col-md-7">
-                      <p>
-                        <Image
-                          src="/badd-assets/events/ordinance-richard-beal-supervisor-matt-dorsey.jpeg"
-                          layout="responsive"
-                          width={1170} // Original image width
-                          height={1556} // Original image height
-                          alt=""
-                          aria-hidden="true"
-                        />
-                      </p>
+                    <div className="general-content col-md-12">
+                      <div className="row">
+                        <div className="general-content col-md-12">
+                          <p>
+                            <Image
+                              src="/badd-assets/events/ordinance-group.JPEG"
+                              layout="responsive"
+                              width={2560} // Original image width
+                              height={1920} // Original image height
+                              alt=""
+                              aria-hidden="true"
+                            />
+                          </p>
+                        </div>
+                        <div className="general-content col-md-6">
+                          <p>
+                            <Image
+                              src="/badd-assets/events/ordinance-richard-beal-supervisor-matt-dorsey.jpeg"
+                              layout="responsive"
+                              width={1170} // Original image width
+                              height={1556} // Original image height
+                              alt=""
+                              aria-hidden="true"
+                            />
+                          </p>
+                        </div>
+                        <div className="general-content col-md-6">
+                          <p>
+                            <Image
+                              src="/badd-assets/events/ordinance-richard-beal-sf-mayor.jpeg"
+                              layout="responsive"
+                              width={1170} // Original image width
+                              height={1545} // Original image height
+                              alt=""
+                              aria-hidden="true"
+                            />
+                          </p>
+                        </div>
+                      </div>
+
                     </div>
-                    <div className="general-content col-md-5">
-                      <p>
-                        <Image
-                          src="/badd-assets/events/ordinance-richard-beal-sf-mayor.jpeg"
-                          layout="responsive"
-                          width={1170} // Original image width
-                          height={1545} // Original image height
-                          alt=""
-                          aria-hidden="true"
-                        />
-                      </p>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
