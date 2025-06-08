@@ -11,6 +11,7 @@ interface IArticle {
 	alt? : string;
 	link? : string;
 	description? : string;
+	descriptionl? : string;
 	source? : string;
 	date? : string;
 };
@@ -26,6 +27,7 @@ const emptyArticle = {
 	alt : "string",
 	link : "string",
 	description : "string",
+	descriptionl : "string",
 	source : "string",
 	date : "string"
 };
