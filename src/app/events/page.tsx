@@ -33,8 +33,6 @@ export default function Events() {
             <div className="row">
 
 
-
-
               <div className="py-5">
                 <hr/>
               </div>
@@ -63,7 +61,7 @@ export default function Events() {
                 <div className="general-content col-md-6">
                   <p>
                     <Image
-                      src="/badd-assets/events/Richard-Beal-30-years.jpeg"
+                      src="/badd-assets/events/richard-beal-30-years.jpeg"
                       layout="responsive"
                       width={1170} // Original image width
                       height={765} // Original image height
@@ -75,6 +73,99 @@ export default function Events() {
               </div>
 
              
+
+
+
+
+
+              <div className="py-5">
+                <hr/>
+              </div>
+
+              <div className="row">
+                <div className="general-content col-md-6">
+                  <div id="event-united-playaz-grand-opening-6-12-2025" className="general-content">
+                    <h3 className="py-3"><strong>UNITED PLAYAZ’s<br/>GRAND OPENING CEREMONY</strong></h3>
+                    <p>
+                      Saturday, June 12, 2025
+                      <br/>1044 Howard Street, 
+                      <br/>San Francisco, CA
+                    </p>
+                  </div>
+                  <div className="general-content fs-4">
+                    <p>
+                      BADD was in attendance as Mayor Daniel Lurie celebrated the grand opening of a new community resource center 
+                      in San Francisco’s South of Market Neighborhood (SoMa). 
+                    </p>
+                    <p>
+                      Owned and operated by United Playaz, a San Francisco-based 
+                      violence prevention and youth development organization, the new facility at 1044 Howard expands United Playaz’s wide 
+                      range of services to prepare vulnerable youth for higher education, employment, and healthy living with a safe, nurturing, 
+                      and collaborative environment.
+                    </p>
+                    <p>
+                      <a href="https://www.sf.gov/news-mayor-lurie-celebrates-opening-of-new-community-resources-center-in-soma" className="btn btn-secondary btn-md my-2" target="_blank">Read More</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div className="general-content col-md-6">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div className="row">
+                        <div className="col-md-12 pb-3">
+                          <Image
+                            src="/badd-assets/events/united-playaz-003.jpg"
+                            layout="responsive"
+                            width={1170} // Original image width
+                            height={730} // Original image height
+                            alt=""
+                            aria-hidden="true"
+                          />
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-md-12 pb-3">
+                          <Image
+                            src="/badd-assets/events/united-playaz-001.png"
+                            layout="responsive"
+                            width={1802} // Original image width
+                            height={1346} // Original image height
+                            alt=""
+                            aria-hidden="true"
+                          />
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col-md-12 pb-3">
+                          <Image
+                            src="/badd-assets/events/united-playaz-004.jpg"
+                            layout="responsive"
+                            width={1170} // Original image width
+                            height={673} // Original image height
+                            alt=""
+                            aria-hidden="true"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <Image
+                        src="/badd-assets/events/united-playaz-002.png"
+                        layout="responsive"
+                        width={1022} // Original image width
+                        height={1366} // Original image height
+                        alt=""
+                        aria-hidden="true"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+
 
 
               <div className="py-5">
