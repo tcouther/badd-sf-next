@@ -1,0 +1,54 @@
+{
+	"date" : "6/8/2025",
+	"items": [
+		{
+			"id" : "article0001",
+			"image" : "/badd-assets/articles/article-001.jpeg",
+			"alt" : "Father and Son, Theris Coats II and Theris Coats Sr.",
+			"link" : "https://missionlocal.org/2025/03/sf-jail-conservatorship-drugs-theris-coats/",
+			"description" : "SF police, a city supervisor, local doctors, His family tried to help ",
+			"descriptionl" : "him off the streets. He ended up dead in San Francisco jail. Theris “TC” Coats had the support of his large family as he struggled with mental illness and addiction, living on the streets of the Tenderloin and in the Sixth and Mission streets area of SoMa in San Francisco. ",
+			"source" : "Mission Local",
+			"date" : "March 22, 2025"
+		},
+		{
+			"id" : "article0002",
+			"image" : "/badd-assets/articles/article-002.jpeg",
+			"alt" : "Community organizers and activists in San Francisco",
+			"link" : "https://www.kqed.org/news/12034445",
+			"description" : "Black men born between 1951 & 1970 account for 12% of overdose deaths ",
+			"descriptionl" : "in San Francisco between January 2020 and October 2024, despite representing less than 1% of the city’s population. A Generation of Black Men Is Being Lost to Overdoses in San Francisco. The disparity in San Francisco is greater than any other major city.",
+			"source" : "KQED: THE BAY",
+			"date" : "April 4, 2025"
+		},
+		{
+			"id" : "article0003",
+			"image" : "/badd-assets/articles/article-003.jpeg",
+			"alt" : "San Francisco's Tenderloin and SoMa struggling with drugs",
+			"link" : "https://missionlocal.org/2025/04/sf-addiction-treatment-often-near-street-drugs/",
+			"description" : "In the Tenderloin and SoMa, where drugs are ubiquitous, addiction treatment centers and ",
+			"descriptionl" : "S.F. addiction treatment is often placed within arm’s reach of street drugs. Why? When Theris Coats failed to make it from his San Francisco hospital bed to a sobering center in February, and wound up dead in county jail a few weeks later, his father, like any parent, wanted someone to blame. ",
+			"source" : "Mission Local",
+			"date" : "April 11, 2025"
+		},
+		{
+			"id" : "article0004",
+			"image" : "/badd-assets/articles/article-004.jpeg",
+			"alt" : "The “Recovery First” legislation signing event group photo with BADD's Richard Beal",
+			"link" : "/events/#event-recovery-first-signing-5-23-2025",
+			"description" : "Mayor Daniel Lurie today signed new “Recovery First” legislation, another step in his ",
+			"descriptionl" : "Mayor Daniel Lurie signed new “Recovery First” legislation, another step in his administration’s work to support San Franciscans in recovery and tackle the city’s behavioral health and homelessness crisis. Sponsored by District 6 Supervisor Matt Dorsey, the legislation enshrines long-term remission through recovery as San Francisco’s primary substance use disorder policy goal.",
+			"source" : "BADD",
+			"date" : "May 23, 2025"
+		},
+		{
+			"id" : "article0005",
+			"image" : "/badd-assets/articles/article-005.jpeg",
+			"alt" : "Drug users are regulars at the city-funded Monarch",
+			"link" : "https://beyondchron.org/san-franciscos-overdose-crisis-a-call-for-drug-free-housing/",
+			"description" : "San Francisco’s Overdose Crisis: A Call for Drug-Free Housing ",
+			"descriptionl" : "The Best Strategy for Stopping Overdoses San Francisco is on a record-setting drug overdose pace that should alarm every single resident. As of May 2025, San Francisco has already recorded 320 overdose deaths. If this current trend continues, we are on track for 770 overdose deaths by the end of this year. These numbers are not just statistics; they represent lives lost, families shattered, and communities devastated.",
+			"source" : "BeyondChron",
+			"date" : "June 16, 2025"
+		}]
+}
