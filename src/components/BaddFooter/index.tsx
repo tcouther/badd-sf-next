@@ -17,9 +17,9 @@ const BaddFooter = () => {
 				<p>
 					Copyright 2025 BADD-SF.org, Brothers Against Drug Deaths
 					<br/>
-					BADD is a 501(c)3 nonprofit organization 
 					{GLOBALS.GLOBAL_FEDEIN !== "" ? 
-						`, Federal Tax ID #${GLOBALS.GLOBAL_FEDEIN}.` : "."
+						`BADD is a 501(c)(3) nonprofit organization, Federal Tax ID #${GLOBALS.GLOBAL_FEDEIN}.` : 
+						`BADD is a nonprofit organization, 501(c)(3) status pending.`
 					}
 				</p>
 				<p></p>

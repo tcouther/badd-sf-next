@@ -55,16 +55,21 @@ export default function Home() {
                     </a>.
                   </p>
 
-                  <p className="lead mb-0">
-                    <strong className="fs-4">Thank you for your Donations.</strong><br/>
-                    <a href={GLOBALS.GLOBAL_FUNDME} className="btn btn-warning btn-lg my-2 mx-2" target="_blank" aria-label="donate to BADD with Go fund me">GoFundMe</a>
-                    <a href={GLOBALS.GLOBAL_PAYPAL} className="btn btn-warning btn-lg my-2 mx-2" target="_blank" aria-label="donate to BADD with Pay Pal">PayPal</a>
-                  </p>
-
-                  BADD is a 501(c)3 nonprofit organization 
+                  
                   {GLOBALS.GLOBAL_FEDEIN !== "" ? 
-                    (<p><small>BADD’s Federal Tax ID #{GLOBALS.GLOBAL_FEDEIN}</small></p>) : 
-                    (<p></p>)
+                    (<>
+
+                      <p className="lead mb-0">
+                        <strong className="fs-4">Thank you for your Donations.</strong><br/>
+                        <a href={GLOBALS.GLOBAL_FUNDME} className="btn btn-warning btn-lg my-2 mx-2" target="_blank" aria-label="donate to BADD with Go fund me">GoFundMe</a>
+                        <a href={GLOBALS.GLOBAL_PAYPAL} className="btn btn-warning btn-lg my-2 mx-2" target="_blank" aria-label="donate to BADD with Pay Pal">PayPal</a>
+                      </p>
+
+                      <p>BADD is a 501(c)(3) nonprofit organization</p>
+                      <p><small>BADD’s Federal Tax ID #{GLOBALS.GLOBAL_FEDEIN}</small></p>
+                      </>
+                    ) : 
+                    (<p>501(c)(3) status pending. <br/>Contact our team to learn more.</p>)
                   }
                 </div>
               </div>
@@ -207,10 +212,15 @@ export default function Home() {
                           <a href="/connect" aria-label="connect with BADD">Connect with us</a>, 
                           to start a conversation.
                         </p>
+
+                        {GLOBALS.GLOBAL_FEDEIN !== "" ? (
+                          <p className="fs-4">
+                            Support BADD in it&apos;s mission to end this crisis 
+                            with a <Link href={GLOBALS.GLOBAL_PAYPAL}>donation</Link>.
+                          </p>
+                        ) : ('')}
+
                         <p className="fs-4">
-                          Support BADD in it&apos;s mission to end this crisis 
-                          with a <Link href={GLOBALS.GLOBAL_PAYPAL}>donation</Link>.
-                        </p><p className="fs-4">
                           Also, you can join us at our next <Link href="/events">community event or rally</Link>.
                         </p>
                       </div>
