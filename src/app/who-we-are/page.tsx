@@ -106,8 +106,8 @@ export default function Events() {
                 so that timely, life-saving interventions are never delayed 
                 by unnecessary barriers.
               </p>
+              
               <br/>
-
 
               <div className="board-of-directors">
                 <h3>Board of Directors</h3>
@@ -136,6 +136,19 @@ export default function Events() {
                     </div>
                     <div className="col py-3">
                       <p className="bod-name">Mosi Williams, Psy.D.</p>
+                      <p className="bod-title">Board Member</p>
+                    </div>
+                    <div className="w-100 p-1"></div>
+                    <div className="col py-3">
+                      <p className="bod-name">
+                        <Link href="/who-we-are/pamela-brown/">Pamela Brown, M.A.</Link>
+                      </p>
+                      <p className="bod-title">Board Member</p>
+                    </div>
+                    <div className="col py-3">
+                      <p className="bod-name">
+                        <Link href="/who-we-are/john-jeffrey/">John Jeffrey</Link>
+                      </p>
                       <p className="bod-title">Board Member</p>
                     </div>
                   </div>

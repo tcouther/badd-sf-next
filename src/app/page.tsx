@@ -48,7 +48,11 @@ export default function Home() {
                     </b>
                   </p>
 
-                  <p className="fs-4">
+                  <p className="lead my-3 fs-5">
+                    <Link href="/theris-law" className="btn btn-warning">About Theris’ Law</Link>
+                  </p>
+
+                  <p className="fs-5">
                     Reach out and <Link href="/connect" aria-label="connect with BADD">connect with us</Link>, 
                     <br/>or follow us on <a href="https://www.facebook.com/people/BADD-Brothers-Against-Drug-Deaths/61575812852358/" className="" target="_blank">
                       <span>facebook</span>
@@ -69,7 +73,7 @@ export default function Home() {
                       <p><small>BADD’s Federal Tax ID #{GLOBALS.GLOBAL_FEDEIN}</small></p>
                       </>
                     ) : 
-                    (<p>501(c)(3) status pending. <br/>Contact our team to learn more.</p>)
+                    (<p>501(c)(3) status pending.</p>)
                   }
                 </div>
               </div>
@@ -139,7 +143,7 @@ export default function Home() {
 
           <div className="section-content">
             <div className="headline-content">
-              <h2 className="fs-1">The Crisis</h2>
+              <h2 className="fs-1">The Crisis & Taking Action</h2>
             </div>
 
 
@@ -192,6 +196,20 @@ export default function Home() {
                     <div className="py-2"></div>
 
                     <div className="row">
+                      <div className="col-lg-12">
+                        <h4 className="fs-2">
+                          <strong>Taking Action</strong>
+                        </h4>
+                        <p className="py-1"></p>
+
+                        <p className="fs-4">
+                          BADD is taking action to end this crisis, supporting our communities, advocating for those battling addiction and mental illness, and  
+                          policies like <Link href="/events#event-recovery-first-signing-5-23-2025">The&nbsp;Recovery&nbsp;First&nbsp;Ordinance</Link>. 
+                        </p>
+                        <div className="py-2"></div>
+                      </div>
+
+
                       <div className="col-sm-6 col-md-4 col-lg-3">
                         <Image
                           src="/badd-assets/graphics/treatment-not-punishment.png"
@@ -203,25 +221,17 @@ export default function Home() {
                         />
                         <div className="py-4"></div>
                       </div>
-                      <div className="col-sm-6 col-md-8 col-lg-6">
-                        <h4 className="fs-2">
-                          <strong>Take Action</strong>
-                        </h4>
-                        <p className="py-1"></p>
+                      <div className="col-sm-6 col-md-8 col-lg-7">
+                        
+
                         <p className="fs-4">
-                          <a href="/connect" aria-label="connect with BADD">Connect with us</a>, 
-                          to start a conversation.
+                          BADD is proposing new policy change with <Link href="/theris-law">Theris’ Law</Link>, giving families legal pathways to intervene on behalf of loved ones incapacitated by addiction and mental illness.
                         </p>
 
-                        {GLOBALS.GLOBAL_FEDEIN !== "" ? (
-                          <p className="fs-4">
-                            Support BADD in it&apos;s mission to end this crisis 
-                            with a <Link href={GLOBALS.GLOBAL_PAYPAL}>donation</Link>.
-                          </p>
-                        ) : ('')}
-
                         <p className="fs-4">
-                          Also, you can join us at our next <Link href="/events">community event or rally</Link>.
+                          Reach out and <Link href="/connect" aria-label="connect with BADD">Connect with us</Link>, 
+                          
+                          or join us at our next <Link href="/events">community event or rally</Link>.
                         </p>
                       </div>
                       

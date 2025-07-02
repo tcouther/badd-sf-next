@@ -9,13 +9,13 @@ import CookieConsent from "react-cookie-consent";
 const BaddFooter = () => {
 
 	return (
-		<footer className="bg-light text-muted p-5">
+		<footer className="bg-dark text-muted p-5">
 			<div className="container">
 				<p className="float-right">
 					<a href="#">Back to top</a>
 				</p>
 				<p>
-					Copyright 2025 BADD-SF.org, Brothers Against Drug Deaths
+					{GLOBALS.COPYRIGHT}
 					<br/>
 					{GLOBALS.GLOBAL_FEDEIN !== "" ? 
 						`BADD is a 501(c)(3) nonprofit organization, Federal Tax ID #${GLOBALS.GLOBAL_FEDEIN}.` : 

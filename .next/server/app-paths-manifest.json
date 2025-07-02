@@ -1,8 +1,16 @@
 {
-  "/connect/page": "app/connect/page.js",
-  "/events/page": "app/events/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/page": "app/page.js",
+  "/connect/page": "app/connect/page.js",
+  "/events/page": "app/events/page.js",
   "/resources/page": "app/resources/page.js",
-  "/who-we-are/page": "app/who-we-are/page.js"
+  "/theris-law/page": "app/theris-law/page.js",
+  "/who-we-are/john-jeffrey/page": "app/who-we-are/john-jeffrey/page.js",
+  "/theris-law/print/page": "app/theris-law/print/page.js",
+  "/who-we-are/pamela-brown/page": "app/who-we-are/pamela-brown/page.js",
+  "/who-we-are/richard-beal/page": "app/who-we-are/richard-beal/page.js",
+  "/who-we-are/page": "app/who-we-are/page.js",
+  "/who-we-are/theris-coats/page": "app/who-we-are/theris-coats/page.js",
+  "/give/page": "app/give/page.js"
 }

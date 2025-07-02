@@ -10,7 +10,7 @@ import { Metadata } from 'next';
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: 'Who We Are : Theris Coats'
+  title: 'Who We Are : Richard Beal'
 };
 
 export default function Events() {
@@ -63,6 +63,7 @@ export default function Events() {
                   height={4032}
                   alt="BADD Secretary Richard Beal"
                   aria-hidden="false"
+                  className="photo-perspective"
                 />
               </div>
             </div>

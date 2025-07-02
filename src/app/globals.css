@@ -150,8 +150,12 @@ small {
   margin: 0;
 }
 .bod-name {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.1em;
+}
+
+.photo-perspective {
+  border: 3px solid #222;
 }
 
 .social-button .bi {
@@ -232,6 +236,9 @@ small {
   background-size: cover;
 }
 
+
+
+
 .border.bg-gradient-short,
 .border.bg-gradient-long {
   border-color: #fff5cb !important;
@@ -263,4 +270,139 @@ small {
   left: 0;
   width: 100%; /* Makes the iframe fill the container's width */
   height: 100%; /* Makes the iframe fill the container's height */
+}
+
+.letter {
+  background-color: #ededed;
+  padding: 15px;
+  color: #333;
+}
+
+.theris-law-bg-image {
+  background-image: url('/badd-assets/graphics/theris-law-background.jpg');
+  background-size: cover;
+}
+
+
+figure .theris-law {
+  padding: 25px;
+  font-size: 14px;
+}
+
+.theris-law {
+  padding: 60px;
+  font-size: 25px;
+}
+
+.theris-law h1 {
+  color: #111;
+}
+
+.theris-law a {
+  text-decoration: none;
+}
+
+.theris-law hr {
+  border: 1px solid #672115;
+}
+
+.theris-law-background {
+  background-color: #faf6eb;
+}
+
+.theris-law-hightlight {
+  color: #672115;
+}
+
+.theris-law-bullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.theris-law-bullets .big-disc {
+  color: #fff;
+  background-color: #672115;
+  border-radius: 50%;
+  width: 1.6em;
+  height: 1.6em;
+  font-size: 3.2em;
+  font-weight: 600;
+  line-height: 1.6em;
+  display: inline-block;
+}
+
+
+
+:root {
+  --main-line-color: hsl(234, 62%, 86%);
+  --side-line-color: hsl(350, 100%, 91%);
+  --paper-color: hsl(0, 15%, 95%);
+  --ink-color: hsl(0, 0%, 12%);
+  --line-thickness: 1px;
+  --top-space: 1.5em;
+}
+
+.paper {
+  line-height: 3em;
+  background: var(--paper-color);
+  padding: 3.9em 6em 2em 6em;
+  font-family: system-ui;
+  color: var(--ink-color);
+  background-image: 
+  /* the red line */ linear-gradient(
+    90deg,
+    transparent,
+    transparent 4rem,
+    var(--side-line-color) 4rem,
+    var(--side-line-color) 4.25rem,
+    transparent 4.25rem
+  ),
+  /*  The top space  */
+    linear-gradient(
+      var(--paper-color),
+      var(--paper-color) var(--top-space),
+      transparent var(--top-space)
+    ),
+  /* the blue lines */
+    repeating-linear-gradient(
+      transparent,
+      transparent calc(1lh - var(--line-thickness)),
+      var(--main-line-color) calc(1lh - var(--line-thickness)),
+      var(--main-line-color) 1lh,
+      transparent 1lh
+    );
+  box-shadow: 0 0 1rem rgb(0 0 0 / 0.25);
+}
+
+.paper p {
+  margin: 0 0 2em;
+}
+
+
+.ol {
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 40px;
+}
+.ol li {
+  margin: 0 0 0.5rem 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+}
+.ol li::before {
+  content: counter(my-awesome-counter);
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: absolute;
+  --size: 32px;
+  left: calc(-1 * var(--size) - 10px);
+  top: 5px;
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  background: #e35e13;;
+  border-radius: 50%;
+  text-align: center;
 }

@@ -32,30 +32,22 @@ export default function Events() {
                   <strong>Serving as CEO of BADD</strong>
                 </p>
                 <p>
-                  Born in San Francisco as the 11th of 17 children 
-                  in a tight-knit family rooted in Hallsville, Texas. His parents, Curtis and 
-                  Gradie Coats, raised their children in the fear and admonition of the 
-                  Lord—instilling deep faith, strong values, and a love for music. 
-                  That love became his life’s passion, leading him to sing from an early age 
-                  and dream of becoming an opera performer.
+                  Theris L. Coats, Sr., born in San Francisco, is a lifelong music professional, public servant, and passionate advocate for mental health and recovery support. Raised in a large, musically gifted family, he began singing gospel music as a child and went on to perform for nearly five decades with the Coats Singers, sharing stages with renowned artists and appearing in Michael Jackson’s Cry video.
                 </p>
                 <p>
-                  He spent decades singing Gospel music with the Coats Singers, performing across 
-                  the world—including appearances with Shirley Caesar and in Michael Jackson’s “Cry” video. 
-                  After retiring as a Research Analyst II from the California Department of Health Services, 
-                  Theris returned to school, earned a degree in Business Administration, and finally saw a 
-                  lifelong dream fulfilled when he performed the lead role of Sarastro in Mozart’s The Magic Flute.
+                  Theris spent over 20 years working for the State of California, where he rose through the ranks and retired as a Research Analyst II in the Department of Health Services. Later in life, he returned to school and earned an Associate of Science degree in Business Administration, further strengthening his skills in management, leadership, and community development.
                 </p>
                 <p>
-                  In 2016, he co-founded STLR Entertainment, managing artists and producing concerts. 
-                  But in 2025, his life took a devastating turn when his son, Theris II—who struggled with addiction 
-                  and mental illness—died in jail while awaiting treatment. After years of trying to get his son help, 
-                  Theris responded with action: he founded <Link href="http://www.badd-sf.org/">BADD – Brothers Against Drug Deaths</Link>, an advocacy group committed to fighting for better treatment 
-                  access and support for Black men and families affected by addiction and mental health challenges.
+                  For nearly 30 years, he has managed and worked alongside musicians—many of whom battled addiction or mental illness, and some of whom passed away as a result. These lived experiences, along with the tragic loss of his son, Theris Lee “TC” Coats II, who died in custody on March 20, 2025, after struggling with both mental illness and addiction, have driven his life’s purpose.
                 </p>
                 <p>
-                  Through music, ministry, and now advocacy, Theris continues to turn pain into purpose—helping others live 
-                  with dignity, hope, and healing.
+                  He is the co-founder of <Link href="http://www.badd-sf.org/">BADD – Brothers Against Drug Deaths</Link>, a nonprofit committed to breaking the cycle of drug-related deaths through education, family support, treatment access, and legislative change. His central advocacy effort is <Link href="/theris-law">Theris’ Law</Link>—a proposed policy that would give families legal pathways to intervene on behalf of loved ones incapacitated by addiction and mental illness.
+                </p>
+                <p>
+                  Theris also founded <Link href="http://www.stlrentertainment.com/">STLR Entertainment</Link>, a Bay Area company that promotes artists, produces live shows, and champions cultural expression rooted in healing and purpose. His work continues to blend creativity, compassion, and policy to build a future where recovery, dignity, and second chances are possible for all.
+                </p>
+                <p>
+                  A devoted man of faith, Theris has long served in his local church community, both in music ministry and spiritual leadership. He is a firm believer in God’s providence and stands on the promise found in Romans 8:28 — that “all things work together for good to those who love God, to those who are the called according to His purpose.” This unwavering faith is the foundation of his life, service, and advocacy.
                 </p>
               </div>
               <div className="col-md-1"></div>
@@ -67,6 +59,7 @@ export default function Events() {
                   height={2604}
                   alt="BADD CEO Theris L. Coats Sr."
                   aria-hidden="false"
+                  className="photo-perspective"
                 />
               </div>
             </div>
