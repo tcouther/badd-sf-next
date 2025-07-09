@@ -49,7 +49,7 @@ export default function Home() {
                   </p>
 
                   <p className="lead my-3 fs-5">
-                    <Link href="/theris-law" className="btn btn-warning">About Theris’ Law</Link>
+                    <Link href="/theris-law" className="btn btn-primary">&nbsp; About Theris’ Law &nbsp; &#x3009;</Link>
                   </p>
 
                   <p className="fs-5">
@@ -62,18 +62,12 @@ export default function Home() {
                   
                   {GLOBALS.GLOBAL_FEDEIN !== "" ? 
                     (<>
-
-                      <p className="lead mb-0">
-                        <strong className="fs-4">Thank you for your Donations.</strong><br/>
-                        <a href={GLOBALS.GLOBAL_FUNDME} className="btn btn-warning btn-lg my-2 mx-2" target="_blank" aria-label="donate to BADD with Go fund me">GoFundMe</a>
-                        <a href={GLOBALS.GLOBAL_PAYPAL} className="btn btn-warning btn-lg my-2 mx-2" target="_blank" aria-label="donate to BADD with Pay Pal">PayPal</a>
+                      <p>
+                        <small>BADD’s Federal Tax ID #{GLOBALS.GLOBAL_FEDEIN}</small>
                       </p>
-
-                      <p>BADD is a 501(c)(3) nonprofit organization</p>
-                      <p><small>BADD’s Federal Tax ID #{GLOBALS.GLOBAL_FEDEIN}</small></p>
                       </>
                     ) : 
-                    (<p>501(c)(3) status pending.</p>)
+                    ('')
                   }
                 </div>
               </div>

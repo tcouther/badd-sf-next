@@ -37,22 +37,27 @@ export default function Connect() {
                   </div>
 
 
-
-                  <div className="p-3 p-md-4 border rounded-3">
-                  
                   {GLOBALS.GLOBAL_FEDEIN !== "" ? 
                     (<>
 
-                      <h3>Make a Difference Today</h3>
-
-                      <p className="lead mb-0">
-                        <strong className="fs-4">No gift is too small. With your help, we can save lives, support families, and transform our communities for the better.</strong><br/>
-                        <a href={GLOBALS.GLOBAL_FUNDME} className="btn btn-warning btn-lg my-2 mx-2" target="_blank" aria-label="donate to BADD with Go fund me">GoFundMe</a>
-                        <a href={GLOBALS.GLOBAL_PAYPAL} className="btn btn-warning btn-lg my-2 mx-2" target="_blank" aria-label="donate to BADD with Pay Pal">PayPal</a>
+                      <p className="lead fs-4">
+                        No gift is too small. With your help, we can save lives, support families, 
+                        and transform our communities for the better.
                       </p>
 
-                      <p>BADD is a 501(c)(3) nonprofit organization</p>
-                      <p><small>BADD’s Federal Tax ID #{GLOBALS.GLOBAL_FEDEIN}</small></p>
+                      <p>
+                        BADD is a 501(c)(3) nonprofit organization
+                        <br/>
+                        <small>BADD’s Federal Tax ID #{GLOBALS.GLOBAL_FEDEIN}</small>
+                      </p>
+
+                      <p className="lead">
+                        <a href={GLOBALS.GLOBAL_PAYPAL} className="btn btn-warning btn-lg my-2" target="_blank" aria-label="donate to BADD with Pay Pal">Donate with PayPal Today</a>
+                      </p>
+
+
+
+                      
                       </>
                     ) : 
                     (<div>
@@ -79,7 +84,6 @@ export default function Connect() {
                       </p>
                     </div>)
                   }
-                  </div>
 
                   <div className="col-md-1 py-4"></div>
 

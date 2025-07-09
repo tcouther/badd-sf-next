@@ -230,6 +230,12 @@ small {
   padding-inline: 20px !important;
 }
 
+.navbar-nav .nav-link-highlight {
+  color: #111111;
+  background-color: #e35e13;
+  max-width: 200px;
+}
+
 
 .jumbotron {
   background-image: url('/badd-assets/graphics/jumbotron-bg-1.png');

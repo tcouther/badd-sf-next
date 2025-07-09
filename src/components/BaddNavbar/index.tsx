@@ -36,7 +36,7 @@ const BaddNavbar = () => {
 						<Link className="nav-link" href="/resources">Resources</Link>
 					</li>
 					<li className="nav-item">
-						<Link className="nav-link" href="/give">Give</Link>
+						<Link className="nav-link nav-link-highlight" href="/give">Give</Link>
 					</li>
 				</ul>
 			</div>
