@@ -49,7 +49,7 @@ export default function Home() {
                   </p>
 
                   <p className="lead my-3 fs-5">
-                    <Link href="/theris-law" className="btn btn-primary">&nbsp; About Theris’ Law &nbsp; &#x3009;</Link>
+                    <Link href="/theris-law" className="btn btn-primary">&nbsp; About Theris’ Law &nbsp;</Link>
                   </p>
 
                   <p className="fs-5">

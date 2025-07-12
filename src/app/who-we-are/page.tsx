@@ -115,7 +115,7 @@ export default function Events() {
                   Our Board of Directors, advocating for those 
                   battling addiction and mental illness.
                 </p><br/>
-                <div className="bod container">
+                <div className="bod">
                   <div className="row">
                     <div className="col py-3">
                       <p className="bod-name">
@@ -135,7 +135,9 @@ export default function Events() {
                       <p className="bod-title">Treasurer</p>
                     </div>
                     <div className="col py-3">
-                      <p className="bod-name">Mosi Williams, Psy.D.</p>
+                      <p className="bod-name">
+                        <Link href="/who-we-are/mosi-williams/">Mosi Williams, Psy.D.</Link>
+                      </p>
                       <p className="bod-title">Board Member</p>
                     </div>
                     <div className="w-100 p-1"></div>
@@ -149,6 +151,17 @@ export default function Events() {
                       <p className="bod-name">
                         <Link href="/who-we-are/john-jeffrey/">John Jeffrey</Link>
                       </p>
+                      <p className="bod-title">Board Member</p>
+                    </div>
+                    <div className="w-100 p-1"></div>
+                    <div className="col py-3">
+                      <p className="bod-name">
+                        <Link href="/who-we-are/romona-burton/">Romona Burton</Link>
+                      </p>
+                      <p className="bod-title">Board Member</p>
+                    </div>
+                    <div className="col py-3">
+                      <p className="bod-name">Stanley Winters Jr.</p>
                       <p className="bod-title">Board Member</p>
                     </div>
                   </div>
