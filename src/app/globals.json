@@ -1,10 +1,21 @@
 {
   "GLOBAL_CALEIN" : "33-4680804",
-  "GLOBAL_FEDEIN" : "33-4680804",
-  "GLOBAL_FUNDME" : "https://www.gofundme.com/f/support-badd-break-the-cycle-of-drug-deaths?attribution_id=sl:864ed0d8-9930-476f-ac00-d1e6c61109d9&lang=en_US&utm_campaign=fp_sharesheet&utm_content=amp13_t1-amp15_t2&utm_medium=customer&utm_source=copy_link",
+  "GLOBAL_FEDEIN" : "",
+  "GLOBAL_FUNDME" : "https://gofund.me/ecd49de5",
   "GLOBAL_PAYPAL" : "https://www.paypal.com/donate/?hosted_button_id=23P92NHESYZV2",
   "GLOBAL_PHON1A" : "1-833-292-2233",
   "GLOBAL_PHON1B" : "1-833-292-BADD",
-  "PUBLISHEDDATE" : "July 12, 2025",
+  "PUBLISHEDDATE" : "July 18, 2025",
+  "SOCIAL_MEDIA" : {
+    "FACEBOOK" : "https://www.facebook.com/people/BADD-Brothers-Against-Drug-Deaths/61575812852358/",
+    "YOUTUBE" : "https://www.youtube.com/@BADD-SF",
+    "YOUTUBE_AFR" : "https://www.youtube.com/@AmbassadorForRecovery",
+    "TWITTER" : "https://x.com/drug_deaths?s=11&t=lEEHicAXMsoPKQUJ_ZcVOw"
+  },
+  "ADDRESS": {
+    "NAME" : "BADD Brothers Against Drug Deaths",
+    "LINE1" : "77 Van Ness Avenue, Suite #101",
+    "LINE2" : "San Francisco, CA 94102"
+  },
   "COPYRIGHT" : "Copyright 2025 BADD-SF.org, Brothers Against Drug Deaths."
 }

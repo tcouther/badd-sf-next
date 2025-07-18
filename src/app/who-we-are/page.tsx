@@ -164,6 +164,13 @@ export default function Events() {
                       <p className="bod-name">Stanley Winters Jr.</p>
                       <p className="bod-title">Board Member</p>
                     </div>
+                    <div className="w-100 p-1"></div>
+                    <div className="col py-3">
+                      <p className="bod-name">
+                        <Link href="/who-we-are/tara-kugler/">Tara Kugler</Link>
+                      </p>
+                      <p className="bod-title">Board Member</p>
+                    </div>
                   </div>
                 </div>
               </div>

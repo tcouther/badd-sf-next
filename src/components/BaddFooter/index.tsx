@@ -19,7 +19,7 @@ const BaddFooter = () => {
 					<br/>
 					{GLOBALS.GLOBAL_FEDEIN !== "" ? 
 						`BADD is a 501(c)(3) nonprofit organization, Federal Tax ID #${GLOBALS.GLOBAL_FEDEIN}.` : 
-						`BADD is a nonprofit organization, 501(c)(3) status pending.`
+						`BADD is a nonprofit organization, 501(c)(3) and charitible registration status pending.`
 					}
 				</p>
 				<p></p>

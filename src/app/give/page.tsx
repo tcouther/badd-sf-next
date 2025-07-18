@@ -65,7 +65,7 @@ export default function Connect() {
                       Notice:
                       </p>
                       <p>
-                      501(c)(3) status pending.
+                      501(c)(3) and charitible registration status pending.
                       </p>
                       <p>
                       BADD is a newly established non-profit 
@@ -75,7 +75,7 @@ export default function Connect() {
                       <p> 
                       For transparency and compliance with regulations, 
                       giving will be available here, 
-                      once Federal identification is finalized.
+                      once registration is finalized.
                       </p>
                       <p>
                       <Link href="/connect" aria-label="connect with BADD">Contact our team</Link> to learn more,
