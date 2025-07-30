@@ -412,3 +412,47 @@ figure .theris-law {
   border-radius: 50%;
   text-align: center;
 }
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px; /* Moves the element far off the screen to the left */
+  width: 1px;
+  height: 1px;
+  overflow: hidden; /* Hides any overflowing content */
+  white-space: nowrap; /* Prevents text from wrapping */
+  border: 0;
+  clip: rect(0 0 0 0); /* Clips the element so no part is shown */
+  margin: -1px; /* Negates the height and width */
+  padding: 0; 
+}
+
+.events-deck {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.events-deck .card {
+  padding: 0;
+  text-align: left;
+  margin: 10px 0px 45px;
+  max-width: 48%;
+}
+.events-deck .card-img-top {
+    height: 200px;
+    width: 100%;
+    display: block;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    vertical-align: middle;
+    border-style: none;
+}
+
+.events-deck .card-title a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 991px) {
+  .events-deck .card {
+    max-width: 32%;
+  }
+}

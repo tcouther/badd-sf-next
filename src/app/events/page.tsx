@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../page.module.css";
 
 //Navbar
@@ -30,374 +31,146 @@ export default function Events() {
               Join us for our next BADD event, showing up goes a long way toward supporting our community.
             </div>
 
-            <div className="row">
+            <div className="py-5">
+              <hr/>
+            </div>
 
-              <div className="py-5">
-                <hr/>
-              </div>
 
-              <div className="row">
-                <div className="general-content col-md-6">
-                  <div id="event-recovery-day-2025-clean-9-12-2025" className="general-content">
-                    <h3 className="py-3"><strong>5TH ANNUAL<br/>RECOVERY DAY</strong></h3>
-                    <p>Friday, September 12, 2025
-                    <br/>246 Eddy St., 
-                    <br/>San Francisco, CA  94102
-                    <br/>12:00pm to 3:00pm</p>
-                  </div>
-                  <div className="general-content fs-4">
-                    <p>
-                      Join us at Father Alfred E. Boeddeker Park.<br/>
-                      Speakers, Food, Resources, Live Entertainment!
-                    </p>
-                    <p>
-                      <a href="/badd-assets/events/recovery-day-2025.jpg" className="btn btn-secondary btn-md my-2" target="_blank">Download Flyer</a>
-                    </p>
-                  </div>
-                </div>
+            <div className="card-deck events-deck">
 
-                <div className="general-content col-md-6">
-                  <p>
-                    <Image
+              <div className="card">
+                  <Image
                       src="/badd-assets/events/recovery-day-2025-pictures.jpg"
                       layout="responsive"
                       width={1408} // Original image width
                       height={1056} // Original image height
                       alt=""
                       aria-hidden="true"
-                    />
-                  </p>
-                </div>
+                      className="card-img-top"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/recovery-day-9-12-2025" aria-label=""><strong>5TH ANNUAL RECOVERY DAY</strong></Link> 
+                    </h5>
+                    <p className="card-text">Join us at Father Alfred E. Boeddeker Park. <br/>Speakers, Food, Resources, Live Entertainment!</p>
+                    <Link href="/events/recovery-day-9-12-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">September 12th 2025</small>
+                  </div>
               </div>
 
-              <div className="py-5">
-                <hr/>
-              </div>
-
-              <div className="row">
-                <div className="general-content col-md-6">
-                  <div id="event-richard-30-years-clean-7-19-2025" className="general-content">
-                    <h3 className="py-3"><strong>RICHARD BEAL<br/>30 YEARS CLEAN</strong></h3>
-                    <p>Saturday, July 19, 2025
-                    <br/>1675 Post St., 
-                    <br/>San Francisco, CA  94115
-                    <br/>3:00pm to 6:00pm</p>
-                  </div>
-                  <div className="general-content fs-4">
-                    <p>
-                      You&apos;re invited! <br/>
-                      Come celebrate Richard B.&apos;s 30 years of clean time with us - 
-                      mark your calendars and save the date for a special event in person!
-                    </p>
-                    <p>
-                      <a href="https://tinyurl.com/Ambassador4Recovery" className="btn btn-warning btn-md my-2" target="_blank">RSVP to attend</a>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="general-content col-md-6">
-                  <p>
-                    <Image
+              <div className="card">
+                  <Image
                       src="/badd-assets/events/richard-beal-30-years.jpeg"
                       layout="responsive"
                       width={1170} // Original image width
                       height={765} // Original image height
                       alt=""
                       aria-hidden="true"
-                    />
-                  </p>
-                </div>
+                      className="card-img-top"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/richard-beal-30-years-clean-7-19-2025" aria-label=""><strong>RICHARD BEAL 30 YEARS CLEAN</strong></Link> 
+                    </h5>
+                    <p className="card-text">Come celebrate Richard B.’s 30 years of clean time with us - mark your calendars and save the date for a special event in person!</p>
+                    <Link href="/events/richard-beal-30-years-clean-7-19-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">July 19th 2025</small>
+                  </div>
               </div>
 
-              <div className="py-5">
-                <hr/>
+              <div className="card">
+                  <Image
+                    src="/badd-assets/events/united-playaz-001.png"
+                    layout="responsive"
+                    width={1802} // Original image width
+                    height={1346} // Original image height
+                    alt=""
+                    aria-hidden="true"
+                    className="card-img-top"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/united-playaz-grand-opening-6-12-2025" aria-label=""><strong>UNITED PLAYAZ’s GRAND OPENING CEREMONY</strong></Link> 
+                    </h5>
+                    <p className="card-text">BADD was in attendance as Mayor Daniel Lurie celebrated the grand opening of a new community resource center in San Francisco’s South of Market Neighborhood (SoMa).</p>
+                    <Link href="/events/united-playaz-grand-opening-6-12-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">June 12th 2025</small>
+                  </div>
               </div>
 
-              <div className="row">
-                <div className="general-content col-md-6">
-                  <div id="event-united-playaz-grand-opening-6-12-2025" className="general-content">
-                    <h3 className="py-3"><strong>UNITED PLAYAZ’s<br/>GRAND OPENING CEREMONY</strong></h3>
-                    <p>
-                      Saturday, June 12, 2025
-                      <br/>1044 Howard Street, 
-                      <br/>San Francisco, CA
-                    </p>
-                  </div>
-                  <div className="general-content fs-4">
-                    <p>
-                      BADD was in attendance as Mayor Daniel Lurie celebrated the grand opening of a new community resource center 
-                      in San Francisco’s South of Market Neighborhood (SoMa). 
-                    </p>
-                    <p>
-                      Owned and operated by United Playaz, a San Francisco-based 
-                      violence prevention and youth development organization, the new facility at 1044 Howard expands United Playaz’s wide 
-                      range of services to prepare vulnerable youth for higher education, employment, and healthy living with a safe, nurturing, 
-                      and collaborative environment.
-                    </p>
-                    <p>
-                      <a href="https://www.sf.gov/news-mayor-lurie-celebrates-opening-of-new-community-resources-center-in-soma" className="btn btn-secondary btn-md my-2" target="_blank">Read More</a>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="general-content col-md-6">
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="row">
-                        <div className="col-md-12 pb-3">
-                          <Image
-                            src="/badd-assets/events/united-playaz-003.jpg"
-                            layout="responsive"
-                            width={1170} // Original image width
-                            height={730} // Original image height
-                            alt=""
-                            aria-hidden="true"
-                          />
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-md-12 pb-3">
-                          <Image
-                            src="/badd-assets/events/united-playaz-001.png"
-                            layout="responsive"
-                            width={1802} // Original image width
-                            height={1346} // Original image height
-                            alt=""
-                            aria-hidden="true"
-                          />
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-md-12 pb-3">
-                          <Image
-                            src="/badd-assets/events/united-playaz-004.jpg"
-                            layout="responsive"
-                            width={1170} // Original image width
-                            height={673} // Original image height
-                            alt=""
-                            aria-hidden="true"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <Image
-                        src="/badd-assets/events/united-playaz-002.png"
-                        layout="responsive"
-                        width={1022} // Original image width
-                        height={1366} // Original image height
-                        alt=""
-                        aria-hidden="true"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-
-
-              <div className="py-5">
-                <hr/>
-              </div>
-
-              <div className="row">
-                <div className="general-content col-md-5">
-
-                  <div id="event-checkin-5-29-2025" className="general-content col-md-9">
-                    <h3 className="py-3"><strong>CITY HALL <span className="text-nowrap">CHECK-IN</span></strong></h3>
-                    <p>Thursday, May 29th, 2025
-                    <br/>Yes SF HQ - 220 Montgomery Street
-                    <br/>9:00am to 10:00am</p>
-                  </div>
-
-                  <p className="fs-4">
-                    Join BADD and the San Francisco Chamber of Commerce 5/29/2025 for a FREE event to connect with 
-                    District 6 Supervisor Matt Dorsey. 
-                  </p>
-                  <p className="fs-4">
-                    Supervisor Dorsey 
-                    will share legislative updates and priorities for the 
-                    remainder of 2025.
-                  </p>
-                </div>
-                <div className="col-md-1"></div>
-                <div className="general-content col-md-6">
-                  <p style={{ position: 'relative' }}>
-                    <Image
+              <div className="card">
+                  <Image
                       src="/badd-assets/events/sf-city-hall-check-in-may29.jpeg"
                       layout="responsive"
                       width={1170} // Original image width
                       height={1455} // Original image height
                       alt=""
                       aria-hidden="true"
-                    />
-                  </p>
-                </div>
-              </div>
-              
-
-
-
-              <div className="py-5">
-                <hr/>
-              </div>
-
-              <div className="row">
-                <div className="general-content col-md-4">
-
-                  <div id="event-recovery-first-signing-5-23-2025" className="general-content col-md-9">
-                    <h3 className="py-3"><strong>RECOVERY FIRST ORDINANCE SIGNING CEREMONY</strong></h3>
-                    <p>Friday, May 23, 2025
-                    <br/>Harbor Light Center, 
-                    <br/>1275 Harrison Street, 
-                    <br/>San Francisco, CA
-                    <br/>10:30am</p>
-                  </div>
-
-                  <p className="fs-4">
-                    BADD (Brothers Against Drug Deaths), Matt Dorsey, Mayor Lurie, 
-                    and friends celebrate the formal signing of  
-                    the “Recovery First” Ordinance!
-                  </p>
-
-                  <p className="fs-4">
-                    Mayor Daniel Lurie signed new “Recovery First” legislation, another step in his administration’s work to support San Franciscans in recovery and tackle the city’s behavioral health and homelessness crisis. 
-                  </p>
-
-                  <p className="fs-4">
-                    Sponsored by District 6 Supervisor Matt Dorsey, the legislation enshrines long-term remission through recovery as San Francisco’s primary substance use disorder policy goal.
-                  </p>
-                </div>
-                <div className="col-md-1"></div>
-                <div className="col-md-7">
-                  <div className="row">
-                    <div className="general-content col-md-12 py-3">
-
-                      <div className="video-container">
-                        <iframe src="https://www.youtube.com/embed/nKxLLLJG7vo?si=xfzRdZq_ekJJQ-fQ" title="YouTube video player" frameBorder="0" allowFullScreen></iframe>
-                      </div>
-
-                    </div>
-
-                    <div className="general-content col-md-12">
-                      <div className="row">
-                        <div className="general-content col-md-12">
-                          <p>
-                            <Image
-                              src="/badd-assets/events/ordinance-group.JPEG"
-                              layout="responsive"
-                              width={2560} // Original image width
-                              height={1920} // Original image height
-                              alt=""
-                              aria-hidden="true"
-                            />
-                          </p>
-                        </div>
-                        <div className="general-content col-md-6">
-                          <p>
-                            <Image
-                              src="/badd-assets/events/ordinance-richard-beal-supervisor-matt-dorsey.jpeg"
-                              layout="responsive"
-                              width={1170} // Original image width
-                              height={1556} // Original image height
-                              alt=""
-                              aria-hidden="true"
-                            />
-                          </p>
-                        </div>
-                        <div className="general-content col-md-6">
-                          <p>
-                            <Image
-                              src="/badd-assets/events/ordinance-richard-beal-sf-mayor.jpeg"
-                              layout="responsive"
-                              width={1170} // Original image width
-                              height={1545} // Original image height
-                              alt=""
-                              aria-hidden="true"
-                            />
-                          </p>
-                        </div>
-                      </div>
-
-                    </div>
-
-
-                  </div>
-                </div>
-              </div>
-
-
-
-
-
-
-
-
-              <div className="py-5">
-                <hr/>
-              </div>
-
-              <div id="event-rallyforrecovery-5-5-2025" className="general-content col-md-12">
-                <h3 className="py-3"><strong>RALLY FOR RECOVERY</strong></h3>
-                <p>Monday, May 5th, 2025<br/>City Hall, San Francisco, CA</p>
-              </div>
-
-              <div className="general-content col-md-5 fs-4">
-                
-                <p>
-                  Thank You from the Founders of BADD – Brothers Against Drug Deaths
-                </p>
-
-                <p>
-                  On behalf of the entire BADD team, we extend our deepest gratitude to Supervisor 
-                  Matt Dorsey, Assemblymember Matt Haney, Mayor Daniel Lurie, District Attorney Brooke Jenkins, 
-                  and all the leaders and advocates who gave voice and vision to recovery at Monday’s Rally for Recovery at San Francisco City Hall.
-                </p>
-
-                <p>
-                  <Image
-                      src="/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.png"
-                      layout="responsive"
-                      width={1022} // Original image width
-                      height={798} // Original image height
-                      alt="Rally For Recovery, BADD's Richard Beale, District Attorney Brooke Jenkins"
+                      className="card-img-top"
                   />
-                </p>
-
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/city-hall-checkin-5-29-2025" aria-label=""><strong>CITY HALL <span className="text-nowrap">CHECK-IN</span></strong></Link> 
+                    </h5>
+                    <p className="card-text">Join BADD and the San Francisco Chamber of Commerce 5/29/2025 for a FREE event to connect with District 6 Supervisor Matt Dorsey.</p>
+                    <Link href="/events/city-hall-checkin-5-29-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">May 29th 2025</small>
+                  </div>
               </div>
 
-              <div className="col-md-1"></div>
-
-              <div className="general-content col-md-6 fs-4">
-
-                <p>
-                We are proud to stand with you in support of the Recovery First initiative and <a href="https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB255" target="_blank">Assembly Bill 255</a>—both 
-                of which mark vital steps toward making treatment, dignity, and drug-free recovery housing a reality for more of our brothers and sisters in need.
-                </p>
-
-                <p>
+              <div className="card">
                   <Image
-                      src="/badd-assets/events/rally-for-recovery-matt-dorsey-steve-adami.png"
-                      layout="responsive"
-                      width={1826} // Original image width
-                      height={1150} // Original image height
-                      alt="Rally For Recovery, Supervisor Matt Dorsey, Salvation Army's Steve Adami"
+                    src="/badd-assets/events/ordinance-group.JPEG"
+                    layout="responsive"
+                    width={2560} // Original image width
+                    height={1920} // Original image height
+                    alt=""
+                    aria-hidden="true"
+                    className="card-img-top"
                   />
-                </p>
-
-                <p>
-                This moment affirms our shared commitment: that recovery is possible, justice is necessary, and every life is worth saving. Thank you for leading with compassion, urgency, and courage.
-                </p>
-
-                <p>
-                With respect and solidarity,<br/>
-                The Founders of BADD (Brothers Against Drug Deaths)
-                </p>
-
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/recovery-first-signing-5-23-2025" aria-label=""><strong>RECOVERY FIRST ORDINANCE SIGNING CEREMONY</strong></Link> 
+                    </h5>
+                    <p className="card-text">BADD (Brothers Against Drug Deaths), Matt Dorsey, Mayor Lurie, and friends celebrate the formal signing of the “Recovery First” Ordinance!</p>
+                    <Link href="/events/recovery-first-signing-5-23-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">May 23rd 2025</small>
+                  </div>
               </div>
+
+              <div className="card">
+                  <Image
+                        src="/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.png"
+                        layout="responsive"
+                        width={1022} // Original image width
+                        height={798} // Original image height
+                        alt="Rally For Recovery, BADD's Richard Beale, District Attorney Brooke Jenkins"
+                    className="card-img-top"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/rally-for-recovery-5-5-2025" aria-label=""><strong>RALLY FOR RECOVERY</strong></Link> 
+                    </h5>
+                    <p className="card-text">
+                      Thank You from the Founders of BADD – Brothers Against Drug Deaths
+                    </p>
+                    <Link href="/events/rally-for-recovery-5-5-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">May 5th 2025</small>
+                  </div>
+              </div>
+
             </div>
           </div>
 
