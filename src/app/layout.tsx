@@ -17,10 +17,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | BADD - Brothers Against Drug Deaths',
-    default: 'BADD - Brothers Against Drug Deaths',
+    template: '%s | BADD',
+    default: 'Recovery Advocacy for Mental Health Support & Justice | BADD',
   },
-  description: 'Our mission is to advocate for those battling addiction and mental illness, particularly within Black and underserved communities.',
+  description: 'BADD Is A Recovery Advocacy For Mental Health Support Nonprofit Serving Underserved Communities. Join Us In Creating Real Change.',
   metadataBase: new URL('https://www.badd-sf.org'),
   alternates: {
     canonical: '/',

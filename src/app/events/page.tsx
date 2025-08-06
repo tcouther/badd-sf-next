@@ -38,6 +38,8 @@ export default function Events() {
 
             <div className="card-deck events-deck">
 
+
+
               <div className="card">
                   <Image
                       src="/badd-assets/events/recovery-day-2025-pictures.jpg"
@@ -59,6 +61,33 @@ export default function Events() {
                     <small className="text-muted">September 12th 2025</small>
                   </div>
               </div>
+
+
+              <div className="card">
+                  <Image
+                      src="/badd-assets/events/2025-BAACSG-ODA-Day-Flyer-small.png"
+                      layout="responsive"
+                      width={582} // Original image width
+                      height={366} // Original image height
+                      alt=""
+                      aria-hidden="true"
+                      className="card-img-top"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/overdose-awareness-day-8-20-2025" aria-label=""><strong>OVERDOSE AWARENESS DAY</strong></Link> 
+                    </h5>
+                    <p className="card-text">
+                      Join us for the 2nd annual Overdose Awareness Day at RAFIKI UMOJA HAP QUESADA in San Francisco.
+                      Enjoy CALIVE DJ, FOOD, WELLNESS, RESOURCES, and COMMUNITY SPEAKERS
+                    </p>
+                    <Link href="/events/overdose-awareness-day-8-20-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">August 20th, 2025</small>
+                  </div>
+              </div>
+
 
               <div className="card">
                   <Image

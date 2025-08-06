@@ -43,7 +43,7 @@ export default function Home() {
                   
                   <p className="lead my-3 font-weight-bold fs-3">
                     <b>
-                      Our mission is to advocate for those battling addiction and mental illness, 
+                      Recovery advocacy, mental health support, and justice, for those battling addiction and mental illness, 
                       particularly within Black and underserved communities. 
                     </b>
                   </p>
