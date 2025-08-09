@@ -98,7 +98,7 @@ const Articles = () => {
 									target="_blank" 
 									className="btn btn-sm btn-outline-secondary"
 									aria-label="Read article"
-									>Read</a>
+									>More</a>
 								</div>
 								<small className="card-date text-muted">
 									<span aria-label={`article source: ${article.source}`}>{article.source}</span>
