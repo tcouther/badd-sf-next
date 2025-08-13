@@ -247,17 +247,17 @@ small {
 
 .border.bg-gradient-short,
 .border.bg-gradient-long {
-  border-color: #fff5cb !important;
+  border-color: #eeeeee !important;
 }
 
 .bg-gradient-short {
   background: #FFF;
-  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 46%, rgba(255, 192, 105, 1) 100%);
+  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 46%, rgba(255, 148, 0, 1) 100%);
 }
 
 .bg-gradient-long {
   background: #FFF;
-  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 7%, rgba(255, 192, 105, 1) 100%);
+  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 7%, rgba(255, 148, 0, 1) 100%);
 }
 
 

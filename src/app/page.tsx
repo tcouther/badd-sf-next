@@ -19,6 +19,7 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
+
       <BaddNavbar />
       <main className={styles.main}>
         

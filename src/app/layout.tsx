@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { GoogleTagManager } from '@next/third-parties/google';
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -33,6 +34,8 @@ export const metadata: Metadata = {
   },
 };
 
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -40,7 +43,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="GTM-PVVF6V7X" />
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVVF6V7X"
+        height="0" width="0" style={{display:'none',visibility:'hidden'}}></iframe></noscript>
+
         <BootstrapClient />
         {children}
       </body>
