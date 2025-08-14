@@ -27,8 +27,23 @@ export default function TherisLawPage() {
               <h2 className="fs-1">Theris’ Law</h2>
             </div>
 
-            <div className="letter-to-you">
-              <div className="row fs-4">
+            <div className="general-content">
+              <Link href="/badd-assets/docs/Theris-Law-Fact-Sheet.pdf" className="btn btn-secondary btn-lg mb-4 me-4" target="_blank" aria-label="Print Theris’ Law">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-printer" viewBox="0 0 16 16">
+                  <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"></path>
+                  <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1"></path>
+                </svg> &nbsp; <span>Print Face Sheet</span>
+              </Link>
+              <Link href="/badd-assets/docs/Theris-Law-2-2.pdf" className="btn btn-secondary btn-lg mb-4" target="_blank" aria-label="Print Theris’ Law">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-printer" viewBox="0 0 16 16">
+                  <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"></path>
+                  <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1"></path>
+                </svg> &nbsp; <span>Print Theris’ Law</span>
+              </Link>
+            </div>
+
+            <div className="letter-to-you py-4 text-muted">
+              <div className="row fs-3">
 
                 <div className="col-md-6 general-content">
                   <div className="row">
@@ -94,7 +109,7 @@ export default function TherisLawPage() {
             <div className="row">
 
               <div className="col-md-8 general-content">
-                <h3 className="fs-2">So, What is Theris’ Law?</h3>
+                <h3 className="fs-2 py-2">So, What is Theris’ Law?</h3>
                 <p className="fs-4 highlight">
                   Theris’ Law is a local policy that would allow families to act before a crisis turns deadly, by doing three things:
                 </p>
@@ -121,14 +136,6 @@ export default function TherisLawPage() {
                   This is not about taking away rights—it’s about creating a path for compassionate intervention when a life is at risk.
                   It’s about giving families a chance to act before the jail cell, before the overdose, before the obituary.
                   We’re calling on San Francisco’s leaders to support this policy—and we’re asking our community to stand with us.
-                </p>
-                <p>
-                  <Link href="/theris-law/print" className="btn btn-secondary btn-lg" target="_blank" aria-label="Print Theris’ Law">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-printer" viewBox="0 0 16 16">
-                      <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"></path>
-                      <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1"></path>
-                    </svg> &nbsp; <span>Print Theris’ Law</span>
-                  </Link>
                 </p>
                 <br/>
               </div>

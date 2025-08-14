@@ -25,9 +25,9 @@ const NewsletterForm = (props:IProps) => {
 	        document.body.appendChild(script);
 
 	        script.addEventListener('load', () => {
-	            // @ts-expect-error we need to disable for
+	            
 	            if (window.hbspt) {
-	                // @ts-expect-error we need to disable for
+	                
 	                window.hbspt.forms.create({
 	                    region: region,
 	                    portalId: portalId,
