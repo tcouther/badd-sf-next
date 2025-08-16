@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import Image from "next/image";
     
 const ArticlesUrl = '/badd-data/articles.json';
@@ -18,7 +18,7 @@ interface IArticle {
 
 interface IData {
 	date : string;
-	items : [IArticle];
+	items : IArticle[];
 }
 
 const emptyArticle = {
@@ -32,7 +32,6 @@ const emptyArticle = {
 	date : "string"
 };
 
-const pageGrow = 3;
 const pageSize = 3;
 
 
@@ -48,7 +47,7 @@ const Articles = () => {
 	const setPaginatedData = (requestedPage:number, dataset:IData)=>{
 		const startIndex = 0;
 		const endIndex = startIndex + (pageSize * requestedPage);
-		const paginatedData = dataset.items.slice(startIndex, endIndex);
+		const paginatedData:IArticle[] = dataset.items.slice(startIndex, endIndex);
 		
 		if (paginatedData && paginatedData.length !== 0) {
 			setDataByPage({date:dataDate, items:paginatedData});
@@ -94,7 +93,7 @@ const Articles = () => {
 
 		fetchData();
 
-	}, []);
+	},[]);
 
 	if (loading) {
 		return <p>Loading...</p>;
