@@ -61,11 +61,10 @@ export default function TherisLawPage() {
 
                       <Image
                       src="/badd-assets/articles/article-3-22-2025-theris-coats-991x854.jpeg"
-                      layout="responsive"
                       width={991}
                       height={854}
                       alt="Theris Lee Coats II and Theris Coats, Sr."
-                      className="photo-perspective mb-4 mt-4"
+                      className="photo-perspective mb-4 mt-4 img-full-width"
                       />
                     </div>
                   </div>

@@ -48,12 +48,11 @@ export default function Events() {
               <div className="col-md-3 general-content">
                 <Image
                   src="/badd-assets/photos/bio-john-jeffrey.jpg"
-                  layout="responsive"
                   width={833}
                   height={1260}
                   alt="BADD Board Member John Jeffrey"
                   aria-hidden="false"
-                  className="photo-perspective"
+                  className="photo-perspective img-full-width"
                 />
               </div>
             </div>

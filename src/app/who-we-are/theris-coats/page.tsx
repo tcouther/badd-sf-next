@@ -54,12 +54,11 @@ export default function Events() {
               <div className="col-md-3 general-content">
                 <Image
                   src="/badd-assets/photos/bio-theris.jpg"
-                  layout="responsive"
                   width={1170}
                   height={1900}
                   alt="BADD CEO Theris L. Coats Sr."
                   aria-hidden="false"
-                  className="photo-perspective"
+                  className="photo-perspective img-full-width"
                 />
               </div>
             </div>

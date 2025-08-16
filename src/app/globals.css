@@ -22,7 +22,10 @@ small {
 .highlight {
   color: #e35e13;
 }
-
+.img-full-width {
+  width: 100%;
+  height: auto;
+}
 
 .logo {
   will-change: filter;
@@ -33,6 +36,12 @@ small {
 .logo-frame {
   display: inline-block;
   border: 15px solid #111;
+  box-sizing: border-box;
+  width: 80%;
+}
+.logo-frame img {
+  width: 100%;
+  height: auto;
 }
 @media only screen and (max-width: 780px) {
 .logo-frame {
@@ -71,17 +80,17 @@ small {
 
 .card-image-frame {
   max-width: 100%;
-  
-  max-height: 225px;
-
   display: block;
   overflow: hidden;
+  position:relative;
 }
 
-@media only screen and (max-width: 780px) {
-  .card-image-frame {
-    max-height: 400px;
-  }
+.card-image-frame img {
+  height: auto;
+}
+
+.badd-articles .card .card-body {
+  padding-inline: 0;
 }
 
 .card-text-frame {
@@ -438,8 +447,6 @@ figure .theris-law {
   max-width: 48%;
 }
 .events-deck .card-img-top {
-    height: 200px;
-    width: 100%;
     display: block;
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);

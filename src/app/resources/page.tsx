@@ -108,11 +108,11 @@ export default function Events() {
               <div className="col-md-5 general-content">
                 <Image
                   src="/badd-assets/graphics/numbers.png"
-                  layout="responsive"
                   width={1024}
                   height={1536}
                   alt=""
                   aria-hidden="true"
+                  className="img-full-width"
                 />
               </div>
 
@@ -138,11 +138,11 @@ export default function Events() {
                   <div className="col-sm-3 col-md-3 py-2">
                     <Image
                       src="/badd-assets/logos/partner-fresh-start-logo.png"
-                      layout="responsive"
                       width={2448}
                       height={2248}
                       alt=""
                       aria-hidden="true"
+                      className="img-full-width"
                     />
                   </div>
                   <div className="col-sm-6 col-md-8 py-2">
@@ -182,11 +182,11 @@ export default function Events() {
                   <div className="col-sm-3 col-md-3 py-1">
                     <Image
                       src="/badd-assets/logos/partner-pathway-humanity-logo.png"
-                      layout="responsive"
                       width={1024}
                       height={1024}
                       alt=""
                       aria-hidden="true"
+                      className="img-full-width"
                     />
                   </div>
                   <div className="col-sm-6 col-md-8 py-1">

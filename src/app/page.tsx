@@ -31,7 +31,6 @@ export default function Home() {
                 <a className="logo-frame" href="#" target="_blank">
                   <Image
                     src="/badd-assets/logos/brothers-against-drug-deaths-logo-web.png"
-                    layout="responsive"
                     width={1000}
                     height={1300}
                     alt="BADD Brother Against Drug Deaths Logo"
@@ -137,10 +136,9 @@ export default function Home() {
               <div className="col-sm-9 col-md-4 col-lg-3">
                 <Image
                 src="/badd-assets/graphics/badd-stands-for.jpg"
-                layout="responsive"
                 width={1005}
                 height={1501}
-                className="rounded-3"
+                className="rounded-3 img-full-width"
                 alt="This is a crisis, we need treatment, not punishment."
                 />
               </div>
@@ -225,10 +223,9 @@ export default function Home() {
                       <div className="col-sm-6 col-md-4 col-lg-3">
                         <Image
                           src="/badd-assets/graphics/treatment-not-punishment.png"
-                          layout="responsive"
                           width={1024}
                           height={1536}
-                          className="rounded-3"
+                          className="rounded-3 img-full-width"
                           alt="This is a crisis, we need treatment, not punishment."
                         />
                         <div className="py-4"></div>
@@ -322,10 +319,9 @@ export default function Home() {
               <div className="col-md-4 col-sm-12">
                 <Image
                   src="/badd-assets/graphics/pano-girl-funeral.JPG"
-                  layout="responsive"
                   width={1920}
                   height={1280}
-                  className="rounded-3"
+                  className="rounded-3 img-full-width"
                   alt="Drug overdose deaths memorials"
                 />
               </div>

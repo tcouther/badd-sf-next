@@ -47,11 +47,11 @@ export default function Events() {
                   <center>
                   <Image
                     src="/badd-assets/graphics/breaking-the-cycle-message.png"
-                    layout="responsive"
                     width={712}
                     height={1074}
                     alt="Breaking the cycle graphic"
                     aria-hidden="false"
+                    className="img-full-width"
                   />
                   </center>
                   <br/>

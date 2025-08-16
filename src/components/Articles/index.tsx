@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Image from "next/image";
     
 const ArticlesUrl = '/badd-data/articles.json';
@@ -23,7 +23,7 @@ interface IData {
 
 const emptyArticle = {
 	id : "string",
-	image : "string",
+	image : "/",
 	alt : "string",
 	link : "string",
 	description : "string",
@@ -32,10 +32,42 @@ const emptyArticle = {
 	date : "string"
 };
 
+const pageGrow = 3;
+const pageSize = 3;
+
+
 const Articles = () => {
 
 	const [data, setData] = useState<IData>({date:'', items:[emptyArticle]});
+	const [dataDate, setDataDate] = useState('');
+	const [dataByPage, setDataByPage] = useState<IData>({date:'', items:[emptyArticle]});
+	const [currentPage, setCurrentPage] = useState(1);
+	const [showMoreButton, setShowMoreButton] = useState(true);
 	const [loading, setLoading] = useState(true);
+	
+	const setPaginatedData = (requestedPage:number, dataset:IData)=>{
+		const startIndex = 0;
+		const endIndex = startIndex + (pageSize * requestedPage);
+		const paginatedData = dataset.items.slice(startIndex, endIndex);
+		
+		if (paginatedData && paginatedData.length !== 0) {
+			setDataByPage({date:dataDate, items:paginatedData});
+
+			if ( requestedPage !== currentPage ) {
+				setCurrentPage( requestedPage );
+			}
+		}
+
+		if ( paginatedData.length === data.items.length ) {
+			setShowMoreButton(false);
+		}
+	};
+
+	const showMore = ()=>{
+		
+		const requestedPage = currentPage + 1;
+		setPaginatedData(requestedPage, data);
+	};
 
 	useEffect(() => {
 	
@@ -50,7 +82,10 @@ const Articles = () => {
 				json.items.reverse();
 
 				setData(json);
+				setDataDate(json.date);
 				setLoading(false);
+
+				setPaginatedData(1,json);
 			} catch (e) {
 				console.warn(e);
 				setLoading(false);
@@ -66,15 +101,15 @@ const Articles = () => {
 	}
 
 	return (
-		<ul className="row article-row">
+	<div className="badd-articles">
+		<ul id="news-articles" className="row article-row" aria-label="news articles">
 
-			{data && data.items.map((article:IArticle) => (
+			{dataByPage && dataByPage.items.map((article:IArticle) => (
 				<li key={article.id} className="col-md-4" aria-label="article">
 					<div className="card mb-4 box-shadow">
 						<div className="card-image-frame">
 							{ article.image && (<Image
 								src={article.image}
-								layout="responsive"
 								width={1000}
 								height={800}
 								alt=""
@@ -111,6 +146,10 @@ const Articles = () => {
 				</li>
 			))}
 		</ul>
+		<p className="general-content">
+			{showMoreButton && (<button type="button" className="btn btn-md btn-outline-secondary" onClick={showMore} aria-label="Show more news articles above">More News Articles</button>)}
+		</p>
+	</div>
     );
 
 };

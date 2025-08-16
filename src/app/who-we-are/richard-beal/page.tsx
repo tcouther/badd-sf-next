@@ -58,12 +58,11 @@ export default function Events() {
               <div className="col-md-5 general-content">
                 <Image
                   src="/badd-assets/photos/bio-richard.jpg"
-                  layout="responsive"
                   width={3024}
                   height={4032}
                   alt="BADD Secretary Richard Beal"
                   aria-hidden="false"
-                  className="photo-perspective"
+                  className="photo-perspective img-full-width"
                 />
               </div>
             </div>

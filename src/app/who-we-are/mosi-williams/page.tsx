@@ -45,12 +45,11 @@ export default function Events() {
               <div className="col-md-3 general-content">
                 <Image
                   src="/badd-assets/photos/bio-mosi-williams.png"
-                  layout="responsive"
                   width={1168}
                   height={1116}
                   alt="BADD Board Member Mosi Williams, Psy.D."
                   aria-hidden="false"
-                  className="photo-perspective"
+                  className="photo-perspective img-full-width"
                 />
               </div>
             </div>

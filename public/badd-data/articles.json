@@ -1,5 +1,5 @@
 {
-	"date" : "6/8/2025",
+	"date" : "8/16/2025",
 	"items": [
 		{
 			"id" : "article0001",
@@ -60,6 +60,16 @@
 			"descriptionl" : "One pill. One time. One life gone. SFFD Chief report reversing 50–60 overdoses every single day — most of them never make the news. But not everyone gets that second chance. This video is a powerful reminder of how real and relentless this crisis is.",
 			"source" : "Tenderloinactivities",
 			"date" : "August 8, 2025"
+		},
+		{
+			"id" : "article0007",
+			"image" : "/badd-assets/articles/article-007.jpeg",
+			"alt" : "Father and Son, Theris Coats II and Theris Coats Sr.",
+			"link" : "https://www.sfchronicle.com/sf/article/jail-death-jail-theris-coats-lawsuit-20816131.php",
+			"description" : "The parents of a 33-year-old man who died from a fentanyl overdose roughly 28 hours after he was booked",
+			"descriptionl" : "The parents of a 33-year-old man who died from a fentanyl overdose roughly 28 hours after he was booked into San Francisco County jail on misdemeanor charges this spring have sued the city as they press for more answers about what happened to their son.",
+			"source" : "SF Chronicle",
+			"date" : "August 14, 2025"
 		}
 	]
 }

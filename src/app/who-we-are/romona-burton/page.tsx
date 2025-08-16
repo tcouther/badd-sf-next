@@ -41,12 +41,11 @@ export default function Events() {
               <div className="col-md-3 general-content">
                 <Image
                   src="/badd-assets/photos/bio-romona-burton.png"
-                  layout="responsive"
                   width={672}
                   height={912}
                   alt="BADD Board Member Romona Burton"
                   aria-hidden="false"
-                  className="photo-perspective"
+                  className="photo-perspective img-full-width"
                 />
               </div>
             </div>

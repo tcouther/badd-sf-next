@@ -43,12 +43,11 @@ export default function Events() {
               <div className="card">
                   <Image
                       src="/badd-assets/events/recovery-day-2025-pictures.jpg"
-                      layout="responsive"
                       width={1408} // Original image width
                       height={1056} // Original image height
                       alt=""
                       aria-hidden="true"
-                      className="card-img-top"
+                      className="card-img-top img-full-width"
                   />
                   <div className="card-body">
                     <h5 className="card-title">
@@ -66,12 +65,11 @@ export default function Events() {
               <div className="card">
                   <Image
                       src="/badd-assets/events/2025-BAACSG-ODA-Day-Flyer-small.png"
-                      layout="responsive"
                       width={582} // Original image width
                       height={366} // Original image height
                       alt=""
                       aria-hidden="true"
-                      className="card-img-top"
+                      className="card-img-top img-full-width"
                   />
                   <div className="card-body">
                     <h5 className="card-title">
@@ -92,12 +90,11 @@ export default function Events() {
               <div className="card">
                   <Image
                       src="/badd-assets/events/richard-beal-30-years.jpeg"
-                      layout="responsive"
                       width={1170} // Original image width
                       height={765} // Original image height
                       alt=""
                       aria-hidden="true"
-                      className="card-img-top"
+                      className="card-img-top img-full-width"
                   />
                   <div className="card-body">
                     <h5 className="card-title">
@@ -114,12 +111,11 @@ export default function Events() {
               <div className="card">
                   <Image
                     src="/badd-assets/events/united-playaz-001.png"
-                    layout="responsive"
                     width={1802} // Original image width
                     height={1346} // Original image height
                     alt=""
                     aria-hidden="true"
-                    className="card-img-top"
+                    className="card-img-top img-full-width"
                   />
                   <div className="card-body">
                     <h5 className="card-title">
@@ -136,12 +132,11 @@ export default function Events() {
               <div className="card">
                   <Image
                       src="/badd-assets/events/sf-city-hall-check-in-may29.jpeg"
-                      layout="responsive"
                       width={1170} // Original image width
                       height={1455} // Original image height
                       alt=""
                       aria-hidden="true"
-                      className="card-img-top"
+                      className="card-img-top img-full-width"
                   />
                   <div className="card-body">
                     <h5 className="card-title">
@@ -158,12 +153,11 @@ export default function Events() {
               <div className="card">
                   <Image
                     src="/badd-assets/events/ordinance-group.JPEG"
-                    layout="responsive"
                     width={2560} // Original image width
                     height={1920} // Original image height
                     alt=""
                     aria-hidden="true"
-                    className="card-img-top"
+                    className="card-img-top img-full-width"
                   />
                   <div className="card-body">
                     <h5 className="card-title">
@@ -180,11 +174,10 @@ export default function Events() {
               <div className="card">
                   <Image
                         src="/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.png"
-                        layout="responsive"
                         width={1022} // Original image width
                         height={798} // Original image height
                         alt="Rally For Recovery, BADD's Richard Beale, District Attorney Brooke Jenkins"
-                    className="card-img-top"
+                    className="card-img-top img-full-width"
                   />
                   <div className="card-body">
                     <h5 className="card-title">
