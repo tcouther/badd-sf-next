@@ -38,8 +38,9 @@ export default function Events() {
               <div className="col-md-8 general-content">
                 
                 <p className="fs-4">
-                  BADD is a community resource in the San Francisco Bay Area.
-                  <br/>
+                  BADD is a community resource in the San Francisco Bay Area.
+                </p>
+                <p className="fs-4">
                   Don’t hesitate 
                   to <Link href="/connect" aria-label="connect with BADD">connect with us</Link> and 
                   start a conversation. <br/>
@@ -142,7 +143,7 @@ export default function Events() {
                       height={2248}
                       alt=""
                       aria-hidden="true"
-                      className="img-full-width"
+                      className="img-full-width resource-logo"
                     />
                   </div>
                   <div className="col-sm-6 col-md-8 py-2">
@@ -186,7 +187,7 @@ export default function Events() {
                       height={1024}
                       alt=""
                       aria-hidden="true"
-                      className="img-full-width"
+                      className="img-full-width resource-logo"
                     />
                   </div>
                   <div className="col-sm-6 col-md-8 py-1">

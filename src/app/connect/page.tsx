@@ -6,7 +6,7 @@ import BaddNavbar from "../../components/BaddNavbar";
 //Footer
 import BaddFooter from "../../components/BaddFooter";
 
-//Contact
+//Newsletter
 import NewsletterForm from '../../components/NewsletterForm';
 
 //Globals

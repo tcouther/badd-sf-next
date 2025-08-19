@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../../page.module.css";
 
 //Navbar
@@ -54,6 +55,10 @@ export default function Events() {
 
                     <p className="fs-4">
                       Sponsored by District 6 Supervisor Matt Dorsey, the legislation enshrines long-term remission through recovery as San Francisco’s primary substance use disorder policy goal.
+                    </p>
+
+                    <p className="fs-4">
+                    <Link href="https://www.sf.gov/news-mayor-lurie-signs-supervisor-dorsey-recovery-first-legislation-building-on-work-to-tackle-behavioral-health-and-homelessness-crisis" target="_blank">Read the article at SF.gov</Link>
                     </p>
                   </div>
                   <div className="col-md-1"></div>

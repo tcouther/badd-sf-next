@@ -166,6 +166,9 @@ small {
 .photo-perspective {
   border: 3px solid #222;
 }
+.photo-old {
+  filter: grayscale(100%);
+}
 
 .social-button .bi {
     display: inline-block;
@@ -256,7 +259,7 @@ small {
 
 .border.bg-gradient-short,
 .border.bg-gradient-long {
-  border-color: #eeeeee !important;
+  border-color: #FFF !important;
 }
 
 .bg-gradient-short {
@@ -484,4 +487,17 @@ figure .theris-law {
 .card-columns .card {
     margin-bottom: .75rem;
     padding: 0;
+}
+
+
+#badd-newletter-modal .modal-body {
+  padding: 0;
+}
+
+#badd-newletter-modal #hubspotForm iframe {
+  margin-block-start: -25px;
+}
+
+.resource-logo {
+  max-width: 180px !important;
 }
