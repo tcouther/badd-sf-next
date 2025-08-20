@@ -44,7 +44,7 @@ export default function Events() {
                   Don’t hesitate 
                   to <Link href="/connect" aria-label="connect with BADD">connect with us</Link> and 
                   start a conversation. <br/>
-                  You can reach us by phone at <a href={`tel:${GLOBALS.GLOBAL_PHON1B}`}>{GLOBALS.GLOBAL_PHON1B}</a>.
+                  You can reach us by phone at <a href={`tel:${GLOBALS.GLOBAL_PHON1B}`} className="text-nowrap">{GLOBALS.GLOBAL_PHON1B}</a>.
                 </p>
               </div>
             </div>

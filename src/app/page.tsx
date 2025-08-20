@@ -113,7 +113,7 @@ export default function Home() {
                   <div className="general-content d-flex flex-column flex-md-row">
 
 
-                    <div className="card me-2 mb-2">
+                    <div className="card card-slim me-2 mb-2">
                       <h3 className="fs-5">
                         The Official BADD Mailing List.
                       </h3>
@@ -128,7 +128,7 @@ export default function Home() {
                     </div>
 
 
-                    <div className="card me-2 mb-2">
+                    <div className="card card-slim me-2 mb-2">
                       <h3 className="fs-5">
                         Follow us on social media.
                       </h3>
@@ -259,7 +259,8 @@ export default function Home() {
                     </div>
 
 
-                    <div className="py-2"></div>
+                    <div className="py-4"></div>
+
 
                     <div className="row">
                       <div className="col-lg-12">

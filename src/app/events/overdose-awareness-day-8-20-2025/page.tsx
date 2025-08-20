@@ -61,6 +61,15 @@ export default function Events() {
                 <div className="col-md-1"></div>
                 <div className="general-content col-md-6">
                   <p style={{ position: 'relative' }}>
+
+                    <Image
+                      src="/badd-assets/events/Overdose-Awareness-Day-8-20-2025.png"
+                      layout="responsive"
+                      width={744} // Original image width
+                      height={557} // Original image height
+                      alt="Photo of BADD booth at the BAACSG overdose awareness day in San Francisco"
+                      className="photo-perspective"
+                    />
                     <Image
                       src="/badd-assets/events/2025-BAACSG-ODA-Day-Flyer.png"
                       layout="responsive"
@@ -68,7 +77,9 @@ export default function Events() {
                       height={790} // Original image height
                       alt=""
                       aria-hidden="true"
+                      className="photo-perspective my-3"
                     />
+
                   </p>
                 </div>
               </div>

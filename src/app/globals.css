@@ -74,6 +74,10 @@ small {
   padding: 2em;
 }
 
+.card.card-slim {
+  padding: 1.2em;
+}
+
 .read-the-docs {
   color: #888;
 }
