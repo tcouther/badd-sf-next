@@ -31,10 +31,10 @@ export default function Events() {
             <div className="row">
               <div className="col-md-6 general-content fs-4">
                 <p>
-                  <strong>Serving as Secretary of BADD</strong>
+                  <strong><span className="text-nowrap">Co-founder</span> &amp; Secretary of BADD</strong>
                 </p>
                 <p>
-                  Richard Beal is author of <i>“Recovering From the Game”</i> and BADD Co-Founder. 
+                  Richard Beal is author of <i>“Recovering From the Game”</i> and BADD Co-founder. 
                   Richard Beal has over 25 years of experience working with the justice involved 
                   population. 
                 </p>

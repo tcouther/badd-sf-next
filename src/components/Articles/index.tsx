@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Image from "next/image";
     
-const ArticlesUrl = '/badd-data/articles-v0001.json';
+const ArticlesUrl = '/badd-data/articles-v0001.json?date=8-25-2025';
 
 interface IArticle {
 	id? : string;

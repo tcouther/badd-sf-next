@@ -39,27 +39,48 @@ export default function Events() {
                   </div>
                   <div className="general-content fs-4">
                     <p>
-                      You&apos;re invited! <br/>
-                      Come celebrate Richard B.&apos;s 30 years of clean time with us - 
-                      mark your calendars and save the date for a special event in person!
-                    </p>
-                    <p>
-                      <a href="https://tinyurl.com/Ambassador4Recovery" className="btn btn-warning btn-md my-2" target="_blank">RSVP to attend</a>
+                      On July 19th, 2025, we celebrated <br/>
+                      Richard B.&apos;s 30 years of clean!
                     </p>
                   </div>
                 </div>
 
                 <div className="general-content col-md-6">
-                  <p>
-                    <Image
-                      src="/badd-assets/events/richard-beal-30-years.jpeg"
-                      layout="responsive"
-                      width={1170} // Original image width
-                      height={765} // Original image height
-                      alt=""
-                      aria-hidden="true"
-                    />
-                  </p>
+                  <div className="row">
+                    <div className="col-md-12">
+                      <Image
+                        src="/badd-assets/events/richard-beal-30-years-group-photo.png"
+                        layout="responsive"
+                        width={1080} // Original image width
+                        height={804} // Original image height
+                        alt=""
+                        aria-hidden="true"
+                        className="photo-perspective"
+                      />
+                    </div>
+                    <div className="col-md-6 py-3">
+                      <Image
+                        src="/badd-assets/events/richard-beal-30-years-award-2.png"
+                        layout="responsive"
+                        width={606} // Original image width
+                        height={804} // Original image height
+                        alt=""
+                        aria-hidden="true"
+                        className="photo-perspective"
+                      />
+                    </div>
+                    <div className="col-md-6 py-3">
+                      <Image
+                        src="/badd-assets/events/richard-beal-30-years-award-1.jpeg"
+                        layout="responsive"
+                        width={1980} // Original image width
+                        height={3520} // Original image height
+                        alt=""
+                        aria-hidden="true"
+                        className="photo-perspective"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
 

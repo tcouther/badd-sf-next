@@ -121,13 +121,13 @@ export default function Events() {
                       <p className="bod-name">
                         <Link href="/who-we-are/theris-coats/">Theris L. Coats, Sr.</Link>
                       </p>
-                      <p className="bod-title">CEO</p>
+                      <p className="bod-title">CEO &amp; <span className="text-nowrap">Co-founder</span></p>
                     </div>
                     <div className="col py-3">
                       <p className="bod-name">
                         <Link href="/who-we-are/richard-beal/">Richard Beal</Link>
                       </p>
-                      <p className="bod-title">Secretary</p>
+                      <p className="bod-title">Secretary &amp; <span className="text-nowrap">Co-founder</span></p>
                     </div>
                     <div className="w-100 p-1"></div>
                     <div className="col py-3">

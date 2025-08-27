@@ -64,9 +64,9 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                      src="/badd-assets/events/2025-BAACSG-ODA-Day-Flyer-small.png"
-                      width={582} // Original image width
-                      height={366} // Original image height
+                      src="/badd-assets/events/Overdose-Awareness-Day-8-20-2025.png"
+                      width={744} // Original image width
+                      height={557} // Original image height
                       alt=""
                       aria-hidden="true"
                       className="card-img-top img-full-width"
@@ -89,9 +89,9 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                      src="/badd-assets/events/richard-beal-30-years.jpeg"
-                      width={1170} // Original image width
-                      height={765} // Original image height
+                      src="/badd-assets/events/richard-beal-30-years-group-photo.png"
+                      width={1080} // Original image width
+                      height={804} // Original image height
                       alt=""
                       aria-hidden="true"
                       className="card-img-top img-full-width"
@@ -150,6 +150,8 @@ export default function Events() {
                   </div>
               </div>
 
+              
+
               <div className="card">
                   <Image
                     src="/badd-assets/events/ordinance-group.JPEG"
@@ -190,6 +192,27 @@ export default function Events() {
                   </div>
                   <div className="card-footer">
                     <small className="text-muted">May 5th 2025</small>
+                  </div>
+              </div>
+
+              <div className="card">
+                  <Image
+                    src="/badd-assets/events/matt-dorsey-theris-in-memoriam.jpeg"
+                    width={1000} // Original image width
+                    height={800} // Original image height
+                    alt=""
+                    aria-hidden="true"
+                    className="card-img-top img-full-width"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/matt-dorsey-theris-in-memoriam-3-25-2025/" aria-label=""><strong>SF BOARD OF SUPERVISORS MEMORIAL TO Theris Lee “TC” Coats II</strong></Link> 
+                    </h5>
+                    <p className="card-text">San Francisco Supervisor Matt Dorsey’s memorial for Theris Lee “TC” Coats II at Board of Supervisors Meeting in SF City Hall</p>
+                    <Link href="/events/matt-dorsey-theris-in-memoriam-3-25-2025/" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">March 25th 2025</small>
                   </div>
               </div>
 

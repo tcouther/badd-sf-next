@@ -29,7 +29,7 @@ export default function Events() {
             <div className="row">
               <div className="col-md-8 general-content fs-4">
                 <p>
-                  <strong>Serving as CEO of BADD</strong>
+                  <strong><span className="text-nowrap">Co-founder</span> &amp; CEO of BADD</strong>
                 </p>
                 <p>
                   Theris L. Coats, Sr., born in San Francisco, is a lifelong music professional, public servant, and passionate advocate for mental health and recovery support. Raised in a large, musically gifted family, he began singing gospel music as a child and went on to perform for nearly five decades with the Coats Singers, sharing stages with renowned artists and appearing in Michael Jackson’s Cry video.

@@ -59,29 +59,48 @@ export default function Events() {
                   </ul>
                 </div>
                 <div className="col-md-1"></div>
-                <div className="general-content col-md-6">
-                  <p style={{ position: 'relative' }}>
 
-                    <Image
-                      src="/badd-assets/events/Overdose-Awareness-Day-8-20-2025.png"
+
+                <div className="general-content col-md-6">
+                  <div className="row">
+                    <div className="col-md-12">
+                      <Image
+                        src="/badd-assets/events/Overdose-Awareness-Day-8-20-2025.png"
+                        layout="responsive"
+                        width={744} // Original image width
+                        height={557} // Original image height
+                        alt="Photo of BADD booth at the BAACSG overdose awareness day in San Francisco"
+                        className="photo-perspective"
+                      />
+                    </div>
+                    <div className="col-md-6 py-3">
+                      <Image
+                      src="/badd-assets/events/2025-BAACSG-ODA-Day-photo-1.png"
                       layout="responsive"
-                      width={744} // Original image width
-                      height={557} // Original image height
-                      alt="Photo of BADD booth at the BAACSG overdose awareness day in San Francisco"
-                      className="photo-perspective"
-                    />
-                    <Image
-                      src="/badd-assets/events/2025-BAACSG-ODA-Day-Flyer.png"
-                      layout="responsive"
-                      width={610} // Original image width
-                      height={790} // Original image height
+                      width={600} // Original image width
+                      height={804} // Original image height
                       alt=""
                       aria-hidden="true"
-                      className="photo-perspective my-3"
-                    />
-
-                  </p>
+                      className="photo-perspective"
+                      />
+                    </div>
+                    <div className="col-md-6 py-3">
+                      <Image
+                        src="/badd-assets/events/2025-BAACSG-ODA-Day-badd-table-1.png"
+                        layout="responsive"
+                        width={600} // Original image width
+                        height={804} // Original image height
+                        alt=""
+                        className="photo-perspective"
+                      />
+                    </div>
+                  </div>
                 </div>
+
+
+
+
+
               </div>
 
             </div>

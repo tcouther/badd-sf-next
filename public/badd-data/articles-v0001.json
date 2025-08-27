@@ -1,5 +1,5 @@
 {
-	"date" : "8/16/2025",
+	"date" : "8/26/2025",
 	"items": [
 		{
 			"id" : "article0001",
@@ -35,7 +35,7 @@
 			"id" : "article0004",
 			"image" : "/badd-assets/articles/article-004.jpeg",
 			"alt" : "The “Recovery First” legislation signing event group photo with BADD's Richard Beal",
-			"link" : "/events/#event-recovery-first-signing-5-23-2025",
+			"link" : "/events/recovery-first-signing-5-23-2025/",
 			"description" : "Mayor Daniel Lurie today signed new “Recovery First” legislation, another step in his ",
 			"descriptionl" : "Mayor Daniel Lurie signed new “Recovery First” legislation, another step in his administration’s work to support San Franciscans in recovery and tackle the city’s behavioral health and homelessness crisis. Sponsored by District 6 Supervisor Matt Dorsey, the legislation enshrines long-term remission through recovery as San Francisco’s primary substance use disorder policy goal.",
 			"source" : "BADD",
@@ -66,8 +66,8 @@
 			"image" : "/badd-assets/articles/article-007.jpeg",
 			"alt" : "Father and Son, Theris Coats II and Theris Coats Sr.",
 			"link" : "https://www.sfchronicle.com/sf/article/jail-death-jail-theris-coats-lawsuit-20816131.php",
-			"description" : "The parents of a 33-year-old man who died from a fentanyl overdose roughly 28 hours after he was booked",
-			"descriptionl" : "The parents of a 33-year-old man who died from a fentanyl overdose roughly 28 hours after he was booked into San Francisco County jail on misdemeanor charges this spring have sued the city as they press for more answers about what happened to their son.",
+			"description" : "The parents of a 33-year-old man who died from synthetic opioid overdose roughly 28 hours after he was booked",
+			"descriptionl" : "The parents of a 33-year-old man who died from synthetic opioid overdose roughly 28 hours after he was booked into San Francisco County jail on misdemeanor charges this spring have sued the city as they press for more answers about what happened to their son.",
 			"source" : "SF Chronicle",
 			"date" : "August 14, 2025"
 		}
