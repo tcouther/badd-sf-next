@@ -47,7 +47,7 @@ export default function Home() {
                 <div className="p-2">
                   <h1 className="display-4 font-italic logo-color-text" style={{display: 'none'}}>Brothers Against Drug Deaths</h1>
                   
-                  <p className="lead my-3 font-weight-bold fs-3">
+                  <p className="lead my-4 font-weight-bold fs-3">
                     <b>
                       Recovery advocacy, mental health support, and justice, for those battling addiction and mental illness, 
                       particularly within Black and underserved communities. 
@@ -56,7 +56,7 @@ export default function Home() {
 
                   <hr/>
 
-                  <p className="lead my-3 fs-5">
+                  <p className="lead my-4 fs-5">
                     <Link href="/theris-law" className="btn btn-primary btn-lg">
                     &nbsp;
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-folder2-open" viewBox="0 0 16 16">

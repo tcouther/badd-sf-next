@@ -446,11 +446,12 @@ figure .theris-law {
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 }
 .events-deck .card {
   padding: 0;
   text-align: left;
-  margin: 10px 0px 45px;
+  margin: 10px 0px;
   max-width: 48%;
 }
 .events-deck .card-img-top {
