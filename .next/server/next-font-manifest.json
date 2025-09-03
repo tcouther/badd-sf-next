@@ -1,10 +1,14 @@
 {
   "app": {
-    "[project]/src/app/_not-found/page": [
+    "[project]/src/app/connect/page": [
       "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
       "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
     ],
-    "[project]/src/app/connect/page": [
+    "[project]/src/app/events/international-overdose-awareness-day-8-31-2025/page": [
+      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
+      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
+    ],
+    "[project]/src/app/events/overdose-awareness-day-8-20-2025/page": [
       "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
       "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
     ],
@@ -13,14 +17,6 @@
       "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
     ],
     "[project]/src/app/page": [
-      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
-      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
-    ],
-    "[project]/src/app/resources/page": [
-      "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
-      "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
-    ],
-    "[project]/src/app/who-we-are/page": [
       "static/media/b0a57561b6cb5495-s.p.da1ebef7.woff2",
       "static/media/8ee3a1ba4ed5baee-s.p.be19f591.woff2"
     ]

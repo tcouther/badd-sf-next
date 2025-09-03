@@ -177,7 +177,7 @@ export default function Home() {
             </div>
             <div className="row">
 
-              <div className="col-md-7 col-lg-8 general-content fs-4">
+              <div className="col-md-7 col-lg-6 general-content fs-4">
                 <p>
                   “BADD is a ministry born out of the pain of losing my son, 
                   TC, to addiction while he was in custody. 
@@ -203,14 +203,25 @@ export default function Home() {
 
               <div className="col-md-1 py-4"></div>
 
+              <div className="col-sm-9 col-md-4 col-lg-5">
+                {/*
+                  <Image
+                  src="/badd-assets/graphics/badd-stands-for.jpg"
+                  width={1005}
+                  height={1501}
+                  className="rounded-3 img-full-width"
+                  alt="This is a crisis, we need treatment, not punishment."
+                  />
+                */}
 
-              <div className="col-sm-9 col-md-4 col-lg-3">
                 <Image
-                src="/badd-assets/graphics/badd-stands-for.jpg"
-                width={1005}
-                height={1501}
-                className="rounded-3 img-full-width"
-                alt="This is a crisis, we need treatment, not punishment."
+                  src="/badd-assets/events/2025-international-overdose-awareness-day-photo-3.jpeg"
+                  layout="responsive"
+                  width={3024} // Original image width
+                  height={4032} // Original image height
+                  alt="Photo of BADD CEO and Co-Founder Theris L. Coats Sr. and Mayor Daniel Lurie together at San Francisco City Hall for international overdose awareness day"
+                  aria-hidden="true"
+                  className="rounded-3 img-full-width"
                 />
               </div>
 
@@ -238,7 +249,7 @@ export default function Home() {
                   <div className="col-md-11">
 
                     <div className="row">
-                      <div className="col-sm-11 col-md-4 col-lg-3">
+                      <div className="col-sm-9 col-md-4 col-lg-3">
                         <Image
                           src="/badd-assets/graphics/treatment-not-punishment.png"
                           width={1024}

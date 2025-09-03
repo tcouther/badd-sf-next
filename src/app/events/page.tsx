@@ -61,6 +61,31 @@ export default function Events() {
                   </div>
               </div>
 
+              <div className="card">
+                  <Image
+                      src="/badd-assets/events/2025-international-overdose-awareness-day-photo-2.jpeg"
+                      width={3015} // Original image width
+                      height={2212} // Original image height
+                      alt="Photo of BADD CEO and Co-Founder Theris L. Coats Sr. and Mayor Daniel Lurie together at San Francisco City Hall for international overdose awareness day"
+                      aria-hidden="true"
+                      className="card-img-top img-full-width"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/international-overdose-awareness-day-8-31-2025" aria-label="">
+                        <strong>International Overdose <span className="text-nowrap">Awareness Day:</span> 1000 Lights for 1000 Lives</strong>
+                      </Link>
+                    </h5>
+                    <p className="card-text">
+                      Brothers Against Drug Deaths (BADD) was honored to stand alongside Mothers Against Drug Addiction & Deaths (MADAAD) at a powerful rally in San Francisco. 
+                    </p>
+                    <Link href="/events/international-overdose-awareness-day-8-31-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">August 31, 2025</small>
+                  </div>
+              </div>
+
 
               <div className="card">
                   <Image
