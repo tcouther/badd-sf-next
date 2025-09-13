@@ -23,12 +23,19 @@ export default function Events() {
         <section className="ourwork bg-body">
 
           <div className="section-content">
-            <div className="headline-content">
-              <h2 className="fs-1">BADD Events</h2>
-            </div>
+            
 
-            <div className="general-content col-md-7 fs-4">
-              Join us for our next BADD event, showing up goes a long way toward supporting our community.
+
+            <div className="row">
+              <div className="general-content col-lg-7 col-md-8 col-sm-10 fs-4">
+                <div className="headline-content">
+                  <h2 className="fs-1">BADD Events</h2>
+                </div>
+                <p>
+                  Join us for our next BADD event, showing up goes a long way toward supporting our community.
+                </p>
+                <div className="py-3"></div>
+              </div>
             </div>
 
             <div className="py-5">
@@ -42,7 +49,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                      src="/badd-assets/events/recovery-day-2025-pictures.jpg"
+                      src="/badd-assets/events/recovery-day-2025-pics-01.jpeg"
                       width={1408} // Original image width
                       height={1056} // Original image height
                       alt=""
