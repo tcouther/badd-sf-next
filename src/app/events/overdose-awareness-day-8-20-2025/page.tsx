@@ -65,7 +65,7 @@ export default function Events() {
                   <div className="row">
                     <div className="col-md-12">
                       <Image
-                        src="/badd-assets/events/Overdose-Awareness-Day-8-20-2025.png"
+                        src="/badd-assets/events/Overdose-Awareness-Day-8-20-2025.jpeg"
                         layout="responsive"
                         width={744} // Original image width
                         height={557} // Original image height
@@ -75,7 +75,7 @@ export default function Events() {
                     </div>
                     <div className="col-md-6 py-3">
                       <Image
-                      src="/badd-assets/events/2025-BAACSG-ODA-Day-photo-1.png"
+                      src="/badd-assets/events/2025-BAACSG-ODA-Day-photo-1.jpeg"
                       layout="responsive"
                       width={600} // Original image width
                       height={804} // Original image height
@@ -86,7 +86,7 @@ export default function Events() {
                     </div>
                     <div className="col-md-6 py-3">
                       <Image
-                        src="/badd-assets/events/2025-BAACSG-ODA-Day-badd-table-1.png"
+                        src="/badd-assets/events/2025-BAACSG-ODA-Day-badd-table-1.jpeg"
                         layout="responsive"
                         width={600} // Original image width
                         height={804} // Original image height

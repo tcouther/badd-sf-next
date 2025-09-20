@@ -49,7 +49,7 @@ export default function Events() {
                   <div className="row">
                     <div className="col-md-12">
                       <Image
-                        src="/badd-assets/events/richard-beal-30-years-group-photo.png"
+                        src="/badd-assets/events/richard-beal-30-years-group-photo.jpeg"
                         layout="responsive"
                         width={1080} // Original image width
                         height={804} // Original image height
@@ -60,7 +60,7 @@ export default function Events() {
                     </div>
                     <div className="col-md-6 py-3">
                       <Image
-                        src="/badd-assets/events/richard-beal-30-years-award-2.png"
+                        src="/badd-assets/events/richard-beal-30-years-award-2.jpeg"
                         layout="responsive"
                         width={606} // Original image width
                         height={804} // Original image height

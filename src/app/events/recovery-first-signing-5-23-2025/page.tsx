@@ -77,7 +77,7 @@ export default function Events() {
                           <div className="general-content col-md-12">
                             <p>
                               <Image
-                                src="/badd-assets/events/ordinance-group.JPEG"
+                                src="/badd-assets/events/ordinance-group.jpeg"
                                 layout="responsive"
                                 width={2560} // Original image width
                                 height={1920} // Original image height

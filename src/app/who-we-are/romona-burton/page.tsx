@@ -40,7 +40,7 @@ export default function Events() {
               <div className="col-md-1"></div>
               <div className="col-md-3 general-content">
                 <Image
-                  src="/badd-assets/photos/bio-romona-burton.png"
+                  src="/badd-assets/photos/bio-romona-burton.jpeg"
                   width={672}
                   height={912}
                   alt="BADD Board Member Romona Burton"

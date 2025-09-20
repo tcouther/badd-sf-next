@@ -49,7 +49,7 @@ export default function Events() {
 
                   <p>
                     <Image
-                        src="/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.png"
+                        src="/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.jpeg"
                         layout="responsive"
                         width={1022} // Original image width
                         height={798} // Original image height
@@ -70,7 +70,7 @@ export default function Events() {
 
                   <p>
                     <Image
-                        src="/badd-assets/events/rally-for-recovery-matt-dorsey-steve-adami.png"
+                        src="/badd-assets/events/rally-for-recovery-matt-dorsey-steve-adami.jpeg"
                         layout="responsive"
                         width={1826} // Original image width
                         height={1150} // Original image height

@@ -44,7 +44,7 @@ export default function Events() {
               <div className="col-md-1"></div>
               <div className="col-md-3 general-content">
                 <Image
-                  src="/badd-assets/photos/bio-mosi-williams.png"
+                  src="/badd-assets/photos/bio-mosi-williams.jpeg"
                   width={1168}
                   height={1116}
                   alt="BADD Board Member Mosi Williams, Psy.D."

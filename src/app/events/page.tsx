@@ -96,7 +96,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                      src="/badd-assets/events/Overdose-Awareness-Day-8-20-2025.png"
+                      src="/badd-assets/events/Overdose-Awareness-Day-8-20-2025.jpeg"
                       width={744} // Original image width
                       height={557} // Original image height
                       alt=""
@@ -121,7 +121,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                      src="/badd-assets/events/richard-beal-30-years-group-photo.png"
+                      src="/badd-assets/events/richard-beal-30-years-group-photo.jpeg"
                       width={1080} // Original image width
                       height={804} // Original image height
                       alt=""
@@ -142,7 +142,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                    src="/badd-assets/events/united-playaz-001.png"
+                    src="/badd-assets/events/united-playaz-001.jpeg"
                     width={1802} // Original image width
                     height={1346} // Original image height
                     alt=""
@@ -186,7 +186,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                    src="/badd-assets/events/ordinance-group.JPEG"
+                    src="/badd-assets/events/ordinance-group.jpeg"
                     width={2560} // Original image width
                     height={1920} // Original image height
                     alt=""
@@ -207,7 +207,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                        src="/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.png"
+                        src="/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.jpeg"
                         width={1022} // Original image width
                         height={798} // Original image height
                         alt="Rally For Recovery, BADD's Richard Beale, District Attorney Brooke Jenkins"

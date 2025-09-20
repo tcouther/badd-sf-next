@@ -46,7 +46,7 @@ export default function Events() {
                 <div className="col-md-5">
                   <center>
                   <Image
-                    src="/badd-assets/graphics/breaking-the-cycle-message.png"
+                    src="/badd-assets/graphics/breaking-the-cycle-message.jpeg"
                     width={712}
                     height={1074}
                     alt="Breaking the cycle graphic"
