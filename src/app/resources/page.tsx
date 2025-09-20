@@ -108,7 +108,7 @@ export default function Events() {
               <div className="col-md-1"></div>
               <div className="col-md-5 general-content">
                 <Image
-                  src="/badd-assets/graphics/numbers.png"
+                  src="/badd-assets/graphics/numbers.jpeg"
                   width={1024}
                   height={1536}
                   alt=""

@@ -23,12 +23,19 @@ export default function Events() {
         <section className="ourwork bg-body">
 
           <div className="section-content">
-            <div className="headline-content">
-              <h2 className="fs-1">BADD Events</h2>
-            </div>
+            
 
-            <div className="general-content col-md-7 fs-4">
-              Join us for our next BADD event, showing up goes a long way toward supporting our community.
+
+            <div className="row">
+              <div className="general-content col-lg-7 col-md-8 col-sm-10 fs-4">
+                <div className="headline-content">
+                  <h2 className="fs-1">BADD Events</h2>
+                </div>
+                <p>
+                  Join us for our next BADD event, showing up goes a long way toward supporting our community.
+                </p>
+                <div className="py-3"></div>
+              </div>
             </div>
 
             <div className="py-5">
@@ -42,7 +49,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                      src="/badd-assets/events/recovery-day-2025-pictures.jpg"
+                      src="/badd-assets/events/recovery-day-2025-pics-01.jpeg"
                       width={1408} // Original image width
                       height={1056} // Original image height
                       alt=""
@@ -89,7 +96,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                      src="/badd-assets/events/Overdose-Awareness-Day-8-20-2025.png"
+                      src="/badd-assets/events/Overdose-Awareness-Day-8-20-2025.jpeg"
                       width={744} // Original image width
                       height={557} // Original image height
                       alt=""
@@ -114,7 +121,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                      src="/badd-assets/events/richard-beal-30-years-group-photo.png"
+                      src="/badd-assets/events/richard-beal-30-years-group-photo.jpeg"
                       width={1080} // Original image width
                       height={804} // Original image height
                       alt=""
@@ -135,7 +142,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                    src="/badd-assets/events/united-playaz-001.png"
+                    src="/badd-assets/events/united-playaz-001.jpeg"
                     width={1802} // Original image width
                     height={1346} // Original image height
                     alt=""
@@ -179,7 +186,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                    src="/badd-assets/events/ordinance-group.JPEG"
+                    src="/badd-assets/events/ordinance-group.jpeg"
                     width={2560} // Original image width
                     height={1920} // Original image height
                     alt=""
@@ -200,7 +207,7 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                        src="/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.png"
+                        src="/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.jpeg"
                         width={1022} // Original image width
                         height={798} // Original image height
                         alt="Rally For Recovery, BADD's Richard Beale, District Attorney Brooke Jenkins"

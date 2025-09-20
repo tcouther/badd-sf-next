@@ -57,7 +57,7 @@ export default function Events() {
               <div className="col-md-1"></div>
               <div className="col-md-5 general-content">
                 <Image
-                  src="/badd-assets/photos/bio-richard.jpg"
+                  src="/badd-assets/photos/bio-richard.jpeg"
                   width={3024}
                   height={4032}
                   alt="BADD Secretary Richard Beal"

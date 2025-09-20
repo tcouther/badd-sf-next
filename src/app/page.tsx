@@ -206,7 +206,7 @@ export default function Home() {
               <div className="col-sm-9 col-md-4 col-lg-5">
                 {/*
                   <Image
-                  src="/badd-assets/graphics/badd-stands-for.jpg"
+                  src="/badd-assets/graphics/badd-stands-for.jpeg"
                   width={1005}
                   height={1501}
                   className="rounded-3 img-full-width"
@@ -223,6 +223,18 @@ export default function Home() {
                   aria-hidden="true"
                   className="rounded-3 img-full-width"
                 />
+
+                {/*
+                <iframe 
+                  src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02LQGQWuv9TBhf315AhrS9LojFAFbFpCLGRBQRDUcvxNNg4yKCcgGM4GwKKfTtC1Dl%26id%3D61575812852358&width=500&show_text=true&height=704&appId" 
+                  width="500" 
+                  height="704" 
+                  style={{border:'none', overflow:'hidden'}} 
+                  scrolling="no" 
+                  frameBorder="0" 
+                  allowFullScreen={true} 
+                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                */}
               </div>
 
             </div>
@@ -251,7 +263,7 @@ export default function Home() {
                     <div className="row">
                       <div className="col-sm-9 col-md-4 col-lg-3">
                         <Image
-                          src="/badd-assets/graphics/treatment-not-punishment.png"
+                          src="/badd-assets/graphics/treatment-not-punishment.jpeg"
                           width={1024}
                           height={1536}
                           className="rounded-3 img-full-width"
@@ -372,7 +384,7 @@ export default function Home() {
               
               <div className="col-md-4 col-sm-10">
                 <Image
-                  src="/badd-assets/graphics/pano-girl-funeral.JPG"
+                  src="/badd-assets/graphics/pano-girl-funeral.jpeg"
                   width={1920}
                   height={1280}
                   className="rounded-3 img-full-width photo-old"

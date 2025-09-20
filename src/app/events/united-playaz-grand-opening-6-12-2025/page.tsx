@@ -61,7 +61,7 @@ export default function Events() {
                       <div className="row">
                         <div className="col-md-12 pb-3">
                           <Image
-                            src="/badd-assets/events/united-playaz-003.jpg"
+                            src="/badd-assets/events/united-playaz-003.jpeg"
                             layout="responsive"
                             width={1170} // Original image width
                             height={730} // Original image height
@@ -73,7 +73,7 @@ export default function Events() {
                       <div className="row">
                         <div className="col-md-12 pb-3">
                           <Image
-                            src="/badd-assets/events/united-playaz-001.png"
+                            src="/badd-assets/events/united-playaz-001.jpeg"
                             layout="responsive"
                             width={1802} // Original image width
                             height={1346} // Original image height
@@ -85,7 +85,7 @@ export default function Events() {
                       <div className="row">
                         <div className="col-md-12 pb-3">
                           <Image
-                            src="/badd-assets/events/united-playaz-004.jpg"
+                            src="/badd-assets/events/united-playaz-004.jpeg"
                             layout="responsive"
                             width={1170} // Original image width
                             height={673} // Original image height
@@ -97,7 +97,7 @@ export default function Events() {
                     </div>
                     <div className="col-md-6">
                       <Image
-                        src="/badd-assets/events/united-playaz-002.png"
+                        src="/badd-assets/events/united-playaz-002.jpeg"
                         layout="responsive"
                         width={1022} // Original image width
                         height={1366} // Original image height
