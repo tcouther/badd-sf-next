@@ -45,7 +45,29 @@ export default function Events() {
 
             <div className="card-deck events-deck">
 
-
+              <div className="card">
+                  <Image
+                      src="/badd-assets/events/both-sides-conversation-podcast-9-23-2025.jpeg"
+                      width={1408} // Original image width
+                      height={1056} // Original image height
+                      alt=""
+                      aria-hidden="true"
+                      className="card-img-top img-full-width"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/both-sides-conversation-podcast-9-23-2025" aria-label=""><strong>Both Sides of the Conversation <span className="text-nowrap">Hidden Gems Podcast</span></strong></Link> 
+                    </h5>
+                    <p className="card-text">
+                      This is a powerful platform dedicated to educating, uplifting, and empowering our communities. 
+                      We’ll come together for meaningful conversations that truly make an impact.
+                    </p>
+                    <Link href="/events/both-sides-conversation-podcast-9-23-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">September 23, 2025</small>
+                  </div>
+              </div>
 
               <div className="card">
                   <Image
