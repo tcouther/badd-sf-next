@@ -39,8 +39,16 @@ export default function Events() {
                   </div>
                   <div className="general-content fs-4">
                     <p>
-                      Join us at Father Alfred E. Boeddeker Park.<br/>
+                      At Father Alfred E. Boeddeker Park.<br/>
                       Speakers, Food, Resources, Live Entertainment!
+                    </p>
+                    <p>
+                      Over 400 participants received food, 
+                      150 recovery books were given out, 
+                      cases of narcan and fentanyl test strips were distributed, 
+                      information on reentry, treatment, 
+                      and other recovery resources from over 20 organizations! 
+                      Recovery Day was fire🔥!
                     </p>
                     <ul>
                       <li>Honorable Mayor Daniel Lurie</li>

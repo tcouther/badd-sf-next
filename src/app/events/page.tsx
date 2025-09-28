@@ -82,7 +82,13 @@ export default function Events() {
                     <h5 className="card-title">
                       <Link href="/events/recovery-day-9-12-2025" aria-label=""><strong>5TH ANNUAL RECOVERY DAY</strong></Link> 
                     </h5>
-                    <p className="card-text">Join us at Father Alfred E. Boeddeker Park. <br/>Speakers, Food, Resources, Live Entertainment!</p>
+                    <p className="card-text">
+                      Over 400 participants received food, 
+                      150 recovery books given, 
+                      cases of narcan and fentanyl test strips were distributed, 
+                      information on reentry, treatment, 
+                      and other recovery resources from over 20 organizations!
+                    </p>
                     <Link href="/events/recovery-day-9-12-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
                   </div>
                   <div className="card-footer">
