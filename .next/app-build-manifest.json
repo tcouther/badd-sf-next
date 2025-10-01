@@ -16,44 +16,14 @@
       "static/css/a4dd653d54fe636c.css",
       "static/chunks/app/layout-9af78b7739b89c96.js"
     ],
-    "/connect/page": [
+    "/connect/newsletter-thank-you/page": [
       "static/chunks/webpack-e767457a2a2e7ffb.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-38db4bd4892fef52.js",
       "static/chunks/main-app-a52286c4ae2b78d0.js",
       "static/css/ba09cd9c73c3d917.css",
       "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/app/connect/page-be5322fbe238f95f.js"
-    ],
-    "/events/both-sides-conversation-podcast-9-23-2025/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/events/both-sides-conversation-podcast-9-23-2025/page-ceab0402c601dfe7.js"
-    ],
-    "/events/beyond-my-familys-reach-play-2025-11-22-2025/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/events/beyond-my-familys-reach-play-2025-11-22-2025/page-ceab0402c601dfe7.js"
-    ],
-    "/events/city-hall-checkin-5-29-2025/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/events/city-hall-checkin-5-29-2025/page-ac7fece7eb1fe953.js"
+      "static/chunks/app/connect/newsletter-thank-you/page-10cb4823f2f8d50b.js"
     ],
     "/page": [
       "static/chunks/webpack-e767457a2a2e7ffb.js",
@@ -65,7 +35,7 @@
       "static/chunks/63-fecfad2d93c0603e.js",
       "static/chunks/app/page-a7c621fe13ef2def.js"
     ],
-    "/events/overdose-awareness-day-8-20-2025/page": [
+    "/events/city-hall-checkin-5-29-2025/page": [
       "static/chunks/webpack-e767457a2a2e7ffb.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-38db4bd4892fef52.js",
@@ -73,7 +43,7 @@
       "static/css/ba09cd9c73c3d917.css",
       "static/chunks/535-c9e7db89eefcab77.js",
       "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/events/overdose-awareness-day-8-20-2025/page-ac7fece7eb1fe953.js"
+      "static/chunks/app/events/city-hall-checkin-5-29-2025/page-ac7fece7eb1fe953.js"
     ],
     "/events/international-overdose-awareness-day-8-31-2025/page": [
       "static/chunks/webpack-e767457a2a2e7ffb.js",
@@ -85,6 +55,16 @@
       "static/chunks/63-fecfad2d93c0603e.js",
       "static/chunks/app/events/international-overdose-awareness-day-8-31-2025/page-ac7fece7eb1fe953.js"
     ],
+    "/events/overdose-awareness-day-8-20-2025/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/events/overdose-awareness-day-8-20-2025/page-ac7fece7eb1fe953.js"
+    ],
     "/events/rally-for-recovery-5-5-2025/page": [
       "static/chunks/webpack-e767457a2a2e7ffb.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
@@ -95,7 +75,7 @@
       "static/chunks/63-fecfad2d93c0603e.js",
       "static/chunks/app/events/rally-for-recovery-5-5-2025/page-ac7fece7eb1fe953.js"
     ],
-    "/events/recovery-day-9-12-2025/page": [
+    "/events/both-sides-conversation-podcast-9-23-2025/page": [
       "static/chunks/webpack-e767457a2a2e7ffb.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-38db4bd4892fef52.js",
@@ -103,26 +83,7 @@
       "static/css/ba09cd9c73c3d917.css",
       "static/chunks/535-c9e7db89eefcab77.js",
       "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/events/recovery-day-9-12-2025/page-ac7fece7eb1fe953.js"
-    ],
-    "/events/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/events/page-ceab0402c601dfe7.js"
-    ],
-    "/events/matt-dorsey-theris-in-memoriam-3-25-2025/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/app/events/matt-dorsey-theris-in-memoriam-3-25-2025/page-10cb4823f2f8d50b.js"
+      "static/chunks/app/events/both-sides-conversation-podcast-9-23-2025/page-ceab0402c601dfe7.js"
     ],
     "/events/richard-beal-30-years-clean-7-19-2025/page": [
       "static/chunks/webpack-e767457a2a2e7ffb.js",
@@ -134,6 +95,35 @@
       "static/chunks/63-fecfad2d93c0603e.js",
       "static/chunks/app/events/richard-beal-30-years-clean-7-19-2025/page-ac7fece7eb1fe953.js"
     ],
+    "/events/matt-dorsey-theris-in-memoriam-3-25-2025/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/app/events/matt-dorsey-theris-in-memoriam-3-25-2025/page-10cb4823f2f8d50b.js"
+    ],
+    "/events/united-playaz-grand-opening-6-12-2025/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/events/united-playaz-grand-opening-6-12-2025/page-ac7fece7eb1fe953.js"
+    ],
+    "/events/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/events/page-ceab0402c601dfe7.js"
+    ],
     "/give/page": [
       "static/chunks/webpack-e767457a2a2e7ffb.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
@@ -143,7 +133,7 @@
       "static/chunks/535-c9e7db89eefcab77.js",
       "static/chunks/app/give/page-10cb4823f2f8d50b.js"
     ],
-    "/theris-law/page": [
+    "/events/recovery-day-9-12-2025/page": [
       "static/chunks/webpack-e767457a2a2e7ffb.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-38db4bd4892fef52.js",
@@ -151,106 +141,7 @@
       "static/css/ba09cd9c73c3d917.css",
       "static/chunks/535-c9e7db89eefcab77.js",
       "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/theris-law/page-ceab0402c601dfe7.js"
-    ],
-    "/resources/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/resources/page-dc88b2f69212ddc1.js"
-    ],
-    "/who-we-are/john-jeffrey/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/who-we-are/john-jeffrey/page-ac7fece7eb1fe953.js"
-    ],
-    "/who-we-are/mosi-williams/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/who-we-are/mosi-williams/page-ac7fece7eb1fe953.js"
-    ],
-    "/who-we-are/pamela-brown/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/who-we-are/pamela-brown/page-ac7fece7eb1fe953.js"
-    ],
-    "/who-we-are/richard-beal/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/who-we-are/richard-beal/page-ac7fece7eb1fe953.js"
-    ],
-    "/who-we-are/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/who-we-are/page-ceab0402c601dfe7.js"
-    ],
-    "/who-we-are/romona-burton/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/who-we-are/romona-burton/page-ac7fece7eb1fe953.js"
-    ],
-    "/who-we-are/theris-coats/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/who-we-are/theris-coats/page-ceab0402c601dfe7.js"
-    ],
-    "/who-we-are/tara-kugler/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/who-we-are/tara-kugler/page-ac7fece7eb1fe953.js"
-    ],
-    "/connect/newsletter-thank-you/page": [
-      "static/chunks/webpack-e767457a2a2e7ffb.js",
-      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
-      "static/chunks/964-38db4bd4892fef52.js",
-      "static/chunks/main-app-a52286c4ae2b78d0.js",
-      "static/css/ba09cd9c73c3d917.css",
-      "static/chunks/535-c9e7db89eefcab77.js",
-      "static/chunks/app/connect/newsletter-thank-you/page-10cb4823f2f8d50b.js"
+      "static/chunks/app/events/recovery-day-9-12-2025/page-ac7fece7eb1fe953.js"
     ],
     "/events/recovery-first-signing-5-23-2025/page": [
       "static/chunks/webpack-e767457a2a2e7ffb.js",
@@ -262,7 +153,7 @@
       "static/chunks/63-fecfad2d93c0603e.js",
       "static/chunks/app/events/recovery-first-signing-5-23-2025/page-ceab0402c601dfe7.js"
     ],
-    "/events/united-playaz-grand-opening-6-12-2025/page": [
+    "/who-we-are/richard-beal/page": [
       "static/chunks/webpack-e767457a2a2e7ffb.js",
       "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
       "static/chunks/964-38db4bd4892fef52.js",
@@ -270,7 +161,116 @@
       "static/css/ba09cd9c73c3d917.css",
       "static/chunks/535-c9e7db89eefcab77.js",
       "static/chunks/63-fecfad2d93c0603e.js",
-      "static/chunks/app/events/united-playaz-grand-opening-6-12-2025/page-ac7fece7eb1fe953.js"
+      "static/chunks/app/who-we-are/richard-beal/page-ac7fece7eb1fe953.js"
+    ],
+    "/who-we-are/pamela-brown/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/who-we-are/pamela-brown/page-ac7fece7eb1fe953.js"
+    ],
+    "/resources/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/resources/page-dc88b2f69212ddc1.js"
+    ],
+    "/who-we-are/romona-burton/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/who-we-are/romona-burton/page-ac7fece7eb1fe953.js"
+    ],
+    "/who-we-are/tara-kugler/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/who-we-are/tara-kugler/page-ac7fece7eb1fe953.js"
+    ],
+    "/who-we-are/mosi-williams/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/who-we-are/mosi-williams/page-ac7fece7eb1fe953.js"
+    ],
+    "/who-we-are/theris-coats/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/who-we-are/theris-coats/page-ceab0402c601dfe7.js"
+    ],
+    "/theris-law/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/theris-law/page-ceab0402c601dfe7.js"
+    ],
+    "/who-we-are/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/who-we-are/page-ceab0402c601dfe7.js"
+    ],
+    "/events/beyond-my-familys-reach-play-2025-11-22-2025/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/events/beyond-my-familys-reach-play-2025-11-22-2025/page-ceab0402c601dfe7.js"
+    ],
+    "/connect/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/app/connect/page-be5322fbe238f95f.js"
+    ],
+    "/who-we-are/john-jeffrey/page": [
+      "static/chunks/webpack-e767457a2a2e7ffb.js",
+      "static/chunks/4bd1b696-cf72ae8a39fa05aa.js",
+      "static/chunks/964-38db4bd4892fef52.js",
+      "static/chunks/main-app-a52286c4ae2b78d0.js",
+      "static/css/ba09cd9c73c3d917.css",
+      "static/chunks/535-c9e7db89eefcab77.js",
+      "static/chunks/63-fecfad2d93c0603e.js",
+      "static/chunks/app/who-we-are/john-jeffrey/page-ac7fece7eb1fe953.js"
     ]
   }
 }

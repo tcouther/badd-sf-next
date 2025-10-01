@@ -97,8 +97,8 @@ export default function Home() {
                   this emotionally charged play. Get Tickets Now!
                 </p>
                 <p className="pt-3">
-                  <Link href="https://tinyurl.com/BeyondMyFamilysReach" className="btn btn-warning btn-lg">2:00 PM Show</Link>
-                  <Link href="https://tinyurl.com/BeyondMyFamilysReach7" className="btn btn-warning btn-lg mx-2">7:00 PM Show</Link>
+                  <Link href="https://tinyurl.com/BeyondMyFamilysReach" className="btn btn-warning btn-md">2:00 PM Show</Link>
+                  <Link href="https://tinyurl.com/BeyondMyFamilysReach7" className="btn btn-warning btn-md mx-2">7:00 PM Show</Link>
                 </p>
                 <p className="pt-3">
                   Through raw dialogue, soul-stirring scenes, and a compassionate lens, 
@@ -117,7 +117,7 @@ export default function Home() {
                 <div className="col-lg-10 col-md-8 col-sm-8">
                   <div className="row">
                     <div className="col-md-12 p-3">
-                      Made possible by...
+                      <small>Made possible by...</small>
                     </div>
                   </div>
                   <div className="row d-flex align-items-center">

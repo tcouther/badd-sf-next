@@ -52,9 +52,9 @@ export default function Events() {
                   </p>
 
                   <p className="fs-4 me-3">
-                    <strong>Get Free Tickets Now!</strong><br/>
-                    <Link href="https://tinyurl.com/BeyondMyFamilysReach" target="_blank" className="btn btn-warning btn-lg">2:00 PM Show</Link>
-                    <Link href="https://tinyurl.com/BeyondMyFamilysReach7" target="_blank" className="btn btn-warning btn-lg mx-2">7:00 PM Show</Link>
+                    <strong className="highlight">Get Free Tickets Now!</strong><br/>
+                    <Link href="https://tinyurl.com/BeyondMyFamilysReach" target="_blank" className="btn btn-warning btn-md">2:00pm Show</Link>
+                    <Link href="https://tinyurl.com/BeyondMyFamilysReach7" target="_blank" className="btn btn-warning btn-md mx-2">7:00pm Show</Link>
                   </p>
 
                   <br/>
