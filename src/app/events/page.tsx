@@ -45,6 +45,32 @@ export default function Events() {
 
             <div className="card-deck events-deck">
 
+
+              <div className="card">
+                  <Image
+                      src="/badd-assets/events/2025-play-beyond-my-familys-reach-wide.jpeg"
+                      width={1408} // Original image width
+                      height={1056} // Original image height
+                      alt=""
+                      aria-hidden="true"
+                      className="card-img-top img-full-width"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/beyond-my-familys-reach-play-2025-11-22-2025" aria-label=""><strong>Beyond My Family’s Reach</strong></Link> 
+                    </h5>
+                    <p className="card-text">
+                      Join BADD for the theatrical premier of 
+                      this emotionally charged play. Get Tickets Now!
+                    </p>
+                    <Link href="/events/beyond-my-familys-reach-play-2025-11-22-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">November 22, 2025</small>
+                  </div>
+              </div>
+
+
               <div className="card">
                   <Image
                       src="/badd-assets/events/both-sides-conversation-podcast-9-23-2025.jpeg"
