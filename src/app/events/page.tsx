@@ -46,6 +46,54 @@ export default function Events() {
             <div className="card-deck events-deck">
 
 
+              <div className="card">
+                  <Image
+                    src="/badd-assets/events/2025-play-beyond-my-familys-reach-wide.jpeg"
+                    width={1408} // Original image width
+                    height={1056} // Original image height
+                    alt=""
+                    aria-hidden="true"
+                    className="card-img-top img-full-width"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/beyond-my-familys-reach-play-2025-11-22-2025" aria-label=""><strong>Beyond My Family’s Reach</strong></Link> 
+                    </h5>
+                    <p className="card-text">
+                      Join Brothers Against Drug Deaths in San Francisco for the theatrical premier of 
+                      this emotionally charged play. Get Tickets Now!
+                    </p>
+                    <Link href="/events/beyond-my-familys-reach-play-2025-11-22-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">November 22, 2025</small>
+                  </div>
+              </div>
+
+
+              <div className="card">
+                  <Image
+                      src="/badd-assets/events/both-sides-conversation-podcast-9-23-2025.jpeg"
+                      width={1408} // Original image width
+                      height={1056} // Original image height
+                      alt=""
+                      aria-hidden="true"
+                      className="card-img-top img-full-width"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/both-sides-conversation-podcast-9-23-2025" aria-label=""><strong>Both Sides of the Conversation <span className="text-nowrap">Hidden Gems Podcast</span></strong></Link> 
+                    </h5>
+                    <p className="card-text">
+                      This is a powerful platform dedicated to educating, uplifting, and empowering our communities. 
+                      We’ll come together for meaningful conversations that truly make an impact.
+                    </p>
+                    <Link href="/events/both-sides-conversation-podcast-9-23-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">September 23, 2025</small>
+                  </div>
+              </div>
 
               <div className="card">
                   <Image
@@ -60,7 +108,13 @@ export default function Events() {
                     <h5 className="card-title">
                       <Link href="/events/recovery-day-9-12-2025" aria-label=""><strong>5TH ANNUAL RECOVERY DAY</strong></Link> 
                     </h5>
-                    <p className="card-text">Join us at Father Alfred E. Boeddeker Park. <br/>Speakers, Food, Resources, Live Entertainment!</p>
+                    <p className="card-text">
+                      Over 400 participants received food, 
+                      150 recovery books given, 
+                      cases of narcan and fentanyl test strips were distributed, 
+                      information on reentry, treatment, 
+                      and other recovery resources from over 20 organizations!
+                    </p>
                     <Link href="/events/recovery-day-9-12-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
                   </div>
                   <div className="card-footer">
