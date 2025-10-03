@@ -97,9 +97,22 @@ export default function Home() {
                   this emotionally charged play. Get Tickets Now!
                 </p>
                 <p className="pt-3">
-                  <Link href="https://tinyurl.com/BeyondMyFamilysReach" className="btn btn-warning btn-md">2:00 PM Show</Link>
-                  <Link href="https://tinyurl.com/BeyondMyFamilysReach7" className="btn btn-warning btn-md mx-2">7:00 PM Show</Link>
+                  <Link href="https://tinyurl.com/BeyondMyFamilysReach" className="btn btn-warning btn-md me-2 mb-1">2:00pm Show</Link>
+                  <Link href="https://tinyurl.com/BeyondMyFamilysReach7" className="btn btn-warning btn-md mb-1">7:00pm Show</Link>
                 </p>
+
+                <div className="py-4 d-block d-sm-none">
+                  <Image
+                  src="/badd-assets/events/2025-play-beyond-my-familys-reach-wide.jpeg"
+                  layout="responsive"
+                  width={1024} // Original image width
+                  height={1536} // Original image height
+                  alt="Promotional Photo Beyond My Family’s Reach Play"
+                  aria-hidden="true"
+                  className="rounded-3 img-full-width"
+                />
+                </div>
+                
                 <p className="pt-3">
                   Through raw dialogue, soul-stirring scenes, and a compassionate lens, 
                   Beyond My Family’s Reach calls us to witness the strength it takes to heal-and the power of family, 
@@ -122,7 +135,7 @@ export default function Home() {
                   </div>
                   <div className="row d-flex align-items-center">
 
-                    <div className="col-4 px-3 py-2">
+                    <div className="col-4 px-3 py-2 brightness-3">
                       <Link href="https://www.neighborsbettersf.com/" target="_blank">
                       <Image
                         src="/badd-assets/logos/neighbors-logo.svg"
@@ -173,7 +186,7 @@ export default function Home() {
                   layout="responsive"
                   width={1024} // Original image width
                   height={1536} // Original image height
-                  alt="Photo of BADD CEO and Co-Founder Theris L. Coats Sr. and Mayor Daniel Lurie together at San Francisco City Hall for international overdose awareness day"
+                  alt="Promotional Photo Beyond My Family’s Reach Play"
                   aria-hidden="true"
                   className="rounded-3 img-full-width"
                 />

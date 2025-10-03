@@ -19,6 +19,12 @@ footer {
 small {
   font-size: 0.8em;
 }
+.brightness-3 {
+  filter: brightness(3);
+}
+.brightness-2 {
+  filter: brightness(2);
+}
 .highlight {
   color: #e35e13;
 }
