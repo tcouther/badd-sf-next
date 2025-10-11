@@ -256,8 +256,20 @@ small {
   color: #111111;
   background-color: #e35e13;
   max-width: 200px;
+  position: relative;
 }
 
+.navbar-nav .nav-link-attention::after {
+  content: "";
+  right: -18px;
+    border-bottom: 40px solid rgba(0, 0, 0, 0);
+    border-left: 18px solid #e35e13;
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
 
 .jumbotron {
   background-image: url('/badd-assets/graphics/jumbotron-bg-1.jpeg');

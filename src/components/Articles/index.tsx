@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react';
 import Image from "next/image";
     
-const ArticlesUrl = '/badd-data/articles-v0001.json?date=9-20-2025';
+// Important: article updates must change date for caching
+const ArticlesUrl = '/badd-data/articles-v0001.json?date=10-06-2025';
 
 interface IArticle {
 	id? : string;
@@ -32,7 +33,7 @@ const emptyArticle = {
 	date : "string"
 };
 
-const pageSize = 6;
+const pageSize = 9;
 
 
 const Articles = () => {
@@ -85,6 +86,10 @@ const Articles = () => {
 				setLoading(false);
 
 				setPaginatedData(1,json);
+
+				if ( json.items.length <= pageSize ) {
+					setShowMoreButton(false);
+				}
 			} catch (e) {
 				console.warn(e);
 				setLoading(false);

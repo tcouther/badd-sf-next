@@ -94,7 +94,7 @@ export default function Home() {
 
                 <p className="pt-4">
                   Join BADD for the theatrical world premier of 
-                  this emotionally charged play. Get Tickets Now!
+                  this emotionally charged play. Get Free Tickets Now!
                 </p>
                 <p className="pt-3">
                   <Link href="https://tinyurl.com/BeyondMyFamilysReach" className="btn btn-warning btn-md me-2 mb-1">2:00pm Show</Link>

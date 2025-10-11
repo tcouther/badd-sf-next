@@ -41,8 +41,13 @@ export default function Connect() {
                     (<>
 
                       <p className="lead fs-4">
-                        No gift is too small. With your help, we can save lives, support families, 
+                        <strong>No gift is too small.</strong><br/>
+                        With your help, we can save lives, support families, 
                         and transform our communities for the better.
+                      </p>
+
+                      <p className="lead">
+                        <a href={GLOBALS.GLOBAL_PAYPAL} className="btn btn-warning btn-lg my-2" target="_blank" aria-label="donate to BADD with Pay Pal">Donate with PayPal Today</a>
                       </p>
 
                       <p>
@@ -51,9 +56,7 @@ export default function Connect() {
                         <small>BADD’s Federal Tax ID #{GLOBALS.GLOBAL_FEDEIN}</small>
                       </p>
 
-                      <p className="lead">
-                        <a href={GLOBALS.GLOBAL_PAYPAL} className="btn btn-warning btn-lg my-2" target="_blank" aria-label="donate to BADD with Pay Pal">Donate with PayPal Today</a>
-                      </p>
+                      
 
 
 

@@ -1,5 +1,5 @@
 {
-	"date" : "8/26/2025",
+	"date" : "9/09/2025",
 	"items": [
 		{
 			"id" : "article0001",
@@ -70,6 +70,16 @@
 			"descriptionl" : "The parents of a 33-year-old man who died from synthetic opioid overdose roughly 28 hours after he was booked into San Francisco County jail on misdemeanor charges this spring have sued the city as they press for more answers about what happened to their son.",
 			"source" : "SF Chronicle",
 			"date" : "August 14, 2025"
+		},
+		{
+			"id" : "article0008",
+			"image" : "/badd-assets/articles/article-008.jpeg",
+			"alt" : "Richard Beal, author",
+			"link" : "https://beyondchron.org/no-safe-use-end-the-distribution-of-smoking-paraphernalia-and-expand-drug-free-environments/",
+			"description" : "No Safe Use: End Distribution of Smoking Paraphernalia, Expand Drug-Free Environments",
+			"descriptionl" : "No Safe Use: End Distribution of Smoking Paraphernalia, Expand Drug-Free Environments. In communities across San Francisco and the nation, we are facing a devastating truth: fentanyl has changed everything. For decades, public health strategies included harm reduction methods such as distributing pipes, foil, or other paraphernalia in the name of reducing transmission of disease. But the fentanyl crisis demands a new conversation.",
+			"source" : "BeyondChron",
+			"date" : "October 6, 2025"
 		}
 	]
 }
