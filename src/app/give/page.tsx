@@ -2,6 +2,8 @@ import styles from "../page.module.css";
 
 import Link from "next/link";
 
+import Image from "next/image";
+
 //Navbar
 import BaddNavbar from "../../components/BaddNavbar";
 
@@ -32,7 +34,7 @@ export default function Connect() {
                   <div className="headline-content">
                     <h2 className="fs-1">
                       Give<br/>
-                      <span className="fs-3">Support the Fight Against Drug Deaths</span>
+                      <span className="fs-3">Support the Fight Against Drug Deaths</span>
                     </h2>
                   </div>
 
@@ -41,13 +43,24 @@ export default function Connect() {
                     (<>
 
                       <p className="lead fs-4">
-                        <strong>No gift is too small.</strong><br/>
-                        With your help, we can save lives, support families, 
-                        and transform our communities for the better.
+                        <strong>No gift is too small.</strong>
                       </p>
 
                       <p className="lead">
-                        <a href={GLOBALS.GLOBAL_PAYPAL} className="btn btn-warning btn-lg my-2" target="_blank" aria-label="donate to BADD with Pay Pal">Donate with PayPal Today</a>
+                        <a href={GLOBALS.GLOBAL_PAYPAL} className="btn btn-warning btn-lg my-2" target="_blank" aria-label="support BADD with Pay Pal"><Image
+                          src="/badd-assets/logos/pp-button-logo.svg"
+                          width={20}
+                          height={20}
+                          alt=""
+                          aria-hidden="true"
+                          className="me-2"
+                        />Support BADD with PayPal</a>
+                      </p>
+
+
+                      <p className="lead fs-4">
+                        With your help, we can save lives, support families, 
+                        and transform our communities for the better.
                       </p>
 
                       <p>

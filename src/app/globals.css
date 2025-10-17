@@ -259,11 +259,29 @@ small {
   position: relative;
 }
 
+.navbar-nav .nav-link-attention {
+  font-weight: 500;
+  border-radius: 3px;
+  overflow: hidden;
+  color: #FFF;
+}
+
 .navbar-nav .nav-link-attention::after {
   content: "";
-  right: -18px;
+  right: 0px;
+    border-bottom: 40px solid #ff6813;
+    border-left: 18px solid rgba(0, 0, 0, 0);
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+.navbar-nav .nav-link-attention::before {
+  content: "";
+  left: 0px;
     border-bottom: 40px solid rgba(0, 0, 0, 0);
-    border-left: 18px solid #e35e13;
+    border-left: 18px solid #ff6813;
     width: 0;
     height: 0;
     display: block;

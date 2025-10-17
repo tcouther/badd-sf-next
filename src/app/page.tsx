@@ -62,9 +62,20 @@ export default function Home() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-folder2-open" viewBox="0 0 16 16">
                       <path d="M1 3.5A1.5 1.5 0 0 1 2.5 2h2.764c.958 0 1.76.56 2.311 1.184C7.985 3.648 8.48 4 9 4h4.5A1.5 1.5 0 0 1 15 5.5v.64c.57.265.94.876.856 1.546l-.64 5.124A2.5 2.5 0 0 1 12.733 15H3.266a2.5 2.5 0 0 1-2.481-2.19l-.64-5.124A1.5 1.5 0 0 1 1 6.14zM2 6h12v-.5a.5.5 0 0 0-.5-.5H9c-.964 0-1.71-.629-2.174-1.154C6.374 3.334 5.82 3 5.264 3H2.5a.5.5 0 0 0-.5.5zm-.367 1a.5.5 0 0 0-.496.562l.64 5.124A1.5 1.5 0 0 0 3.266 14h9.468a1.5 1.5 0 0 0 1.489-1.314l.64-5.124A.5.5 0 0 0 14.367 7z"/>
                     </svg>
-                    <span>&nbsp; Learn About Theris’ Law &nbsp;</span>
+                    <span>&nbsp;&nbsp; Learn About Theris’ Law &nbsp;</span>
                     &nbsp;
                     </Link>
+                  </p>
+
+                  <p className="lead my-4 fs-5">
+                    <Link href={GLOBALS.GLOBAL_PAYPAL} className="btn btn-lg btn-warning btn my-1" target="_blank" aria-label="support BADD with Pay Pal"><Image
+                      src="/badd-assets/logos/pp-button-logo.svg"
+                      width={17}
+                      height={17}
+                      alt=""
+                      aria-hidden="true"
+                      className="me-2"
+                    />Support BADD with PayPal</Link>
                   </p>
 
                   
@@ -223,7 +234,7 @@ export default function Home() {
                   <div className="general-content d-flex flex-column flex-md-row">
 
 
-                    <div className="card card-slim me-2 mb-2">
+                    <div className="card card-slim me-2 mb-2 sm-w-100 w-40">
                       <h3 className="fs-5">
                         The Official BADD Mailing List.
                       </h3>
@@ -237,19 +248,18 @@ export default function Home() {
                       </BaddModal>
                     </div>
 
-
-                    <div className="card card-slim me-2 mb-2">
+                    <div className="card card-slim me-2 mb-2 sm-w-100 w-40">
                       <h3 className="fs-5">
-                        Follow us on social media.
+                        Follow us on social media and stay connected.
                       </h3>
                       <div>
-                        <a aria-label="BADD on facebook" href={GLOBALS.SOCIAL_MEDIA.FACEBOOK} className="btn btn-primary social-button my-1" target="_blank">
+                        <a aria-label="BADD on facebook" href={GLOBALS.SOCIAL_MEDIA.FACEBOOK} className="btn btn-primary social-button my-1 me-2" target="_blank">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
                           <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
                           </svg> <span aria-hidden="true">Facebook</span>
                         </a>
                         {' '}
-                        <a aria-label="BADD on youtube" href={GLOBALS.SOCIAL_MEDIA.YOUTUBE} className="btn btn-danger social-button my-1" target="_blank">
+                        <a aria-label="BADD on youtube" href={GLOBALS.SOCIAL_MEDIA.YOUTUBE} className="btn btn-danger social-button my-1 me-2" target="_blank">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-youtube" viewBox="0 0 16 16">
                           <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
                           </svg> <span aria-hidden="true">Youtube</span>
@@ -262,6 +272,8 @@ export default function Home() {
                         </a>
                       </div>
                     </div>
+
+                    
 
                   </div>
                 </div>
