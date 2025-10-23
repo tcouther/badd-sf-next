@@ -131,7 +131,9 @@ export default function Events() {
                     </div>
                     <div className="w-100 p-1"></div>
                     <div className="col py-3">
-                      <p className="bod-name">Chris St James</p>
+                      <p className="bod-name">
+                        <Link href="/who-we-are/chris-st-james/">Chris St James</Link>
+                      </p>
                       <p className="bod-title">Treasurer</p>
                     </div>
                     <div className="col py-3">

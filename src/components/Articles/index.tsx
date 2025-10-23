@@ -98,7 +98,7 @@ const Articles = () => {
 
 		fetchData();
 
-	},[]);
+	},[setPaginatedData, setData, setDataDate, setLoading, setShowMoreButton]);
 
 	if (loading) {
 		return <p>Loading...</p>;

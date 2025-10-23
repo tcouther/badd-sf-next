@@ -32,7 +32,7 @@ export default function Events() {
                   <h2 className="fs-1">BADD Events</h2>
                 </div>
                 <p>
-                  Join us for our next BADD event, showing up goes a long way toward supporting our community.
+                  Join us for our next BADD event. Showing up goes a long way toward supporting our community.
                 </p>
                 <div className="py-3"></div>
               </div>

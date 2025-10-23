@@ -208,6 +208,14 @@ small {
   border-color: #ff9b00;
 }
 
+.btn.btn-brown {
+  background-color: #b76517;
+  color: #FFF;
+}
+.btn.btn-brown:hover {
+  background-color: #c7a953;
+}
+
 .navbar-brand {
   position: relative;
 }
@@ -338,6 +346,11 @@ small {
 
 .theris-law-bg-image {
   background-image: url('/badd-assets/graphics/theris-law-background.jpeg');
+  background-size: cover;
+}
+
+.sees-bg {
+  background-image: url('/badd-assets/graphics/sees-bg.jpeg');
   background-size: cover;
 }
 
