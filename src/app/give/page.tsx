@@ -73,7 +73,7 @@ export default function Connect() {
                               />
 
                             <p className="lead">
-                              <Link href={GLOBALS.GLOBAL_FUNDME} className="btn btn-success btn-lg my-2" target="_blank" aria-label="support BADD with Go Fund Me">Support BADD with GoFundMe</Link>
+                              <Link href={GLOBALS.GLOBAL_FUNDME} className="btn btn-success btn-lg my-2" target="_blank" aria-label="support BADD with out official Go Fund Me campaign">BADD’s Official Gofundme</Link>
                             </p>
 
                             <p className="fs-4">Our very first fundraiser. With your help, we can reach our goal, save lives, support families, and transform our communities for the better.</p>

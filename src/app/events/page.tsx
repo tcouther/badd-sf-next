@@ -34,17 +34,41 @@ export default function Events() {
                 <p>
                   Join us for our next BADD event. Showing up goes a long way toward supporting our community.
                 </p>
-                <div className="py-3"></div>
+                <div className="py-1"></div>
               </div>
             </div>
 
-            <div className="py-5">
+            <div className="py-4">
               <hr/>
             </div>
 
 
             <div className="card-deck events-deck">
 
+
+              <div className="card">
+                  <Image
+                    src="/badd-assets/events/2025-play-beyond-my-familys-reach-wide.jpeg"
+                    width={1408} // Original image width
+                    height={1056} // Original image height
+                    alt=""
+                    aria-hidden="true"
+                    className="card-img-top img-full-width"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">
+                      <Link href="/events/beyond-my-familys-reach-play-2025-11-22-2025" aria-label=""><strong>Beyond My Family’s Reach</strong></Link> 
+                    </h5>
+                    <p className="card-text">
+                      Join Brothers Against Drug Deaths in San Francisco for the theatrical premier of 
+                      this emotionally charged play. Get Tickets Now!
+                    </p>
+                    <Link href="/events/beyond-my-familys-reach-play-2025-11-22-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
+                  </div>
+                  <div className="card-footer">
+                    <small className="text-muted">November 22, 2025</small>
+                  </div>
+              </div>
 
               <div className="card">
                   <Image
@@ -261,23 +285,21 @@ export default function Events() {
 
               <div className="card">
                   <Image
-                        src="/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.jpeg"
-                        width={1022} // Original image width
-                        height={798} // Original image height
-                        alt="Rally For Recovery, BADD's Richard Beale, District Attorney Brooke Jenkins"
+                    src="/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.jpeg"
+                    width={1000} // Original image width
+                    height={800} // Original image height
+                    alt="Rally For Recovery, BADD's Richard Beale, District Attorney Brooke Jenkins"
                     className="card-img-top img-full-width"
                   />
                   <div className="card-body">
                     <h5 className="card-title">
                       <Link href="/events/rally-for-recovery-5-5-2025" aria-label=""><strong>RALLY FOR RECOVERY</strong></Link> 
                     </h5>
-                    <p className="card-text">
-                      Thank You from the Founders of BADD – Brothers Against Drug Deaths
-                    </p>
+                    <p className="card-text">Thank You from the Founders of BADD – Brothers Against Drug Deaths</p>
                     <Link href="/events/rally-for-recovery-5-5-2025" aria-label="" className="btn btn-secondary btn-sm">Read and Learn More</Link> 
                   </div>
                   <div className="card-footer">
-                    <small className="text-muted">May 5th 2025</small>
+                    <small className="text-muted">March 25th 2025</small>
                   </div>
               </div>
 

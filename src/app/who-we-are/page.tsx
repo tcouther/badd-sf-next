@@ -37,8 +37,12 @@ export default function Events() {
               <h3>Our Mission</h3>
 
               <p>
-                At BADD (Brothers Against Drug Deaths), our mission is to advocate for those 
-                battling addiction and mental illness, particularly within Black and underserved communities. 
+                Brothers Against Drug Deaths (BADD) is a grassroots nonprofit dedicated 
+                to preventing overdose deaths, reducing stigma around addiction and mental illness, 
+                and empowering Black men and other underserved individuals to access recovery resources. 
+                We also utilize the performing arts as a therapeutic and educational tool, 
+                helping people affected by mental health and substance use disorders find hope, 
+                connection, and healing.
               </p>
               <br/>
 

@@ -112,7 +112,7 @@ export default function Home() {
                   <Link href="https://tinyurl.com/BeyondMyFamilysReach7" className="btn btn-warning btn-md mb-1">7:00pm Show</Link>
                 </p>
 
-                <div className="py-4 d-block d-sm-none">
+                <div className="py-4 d-block d-lg-none">
                   <Image
                   src="/badd-assets/events/2025-play-beyond-my-familys-reach-wide.jpeg"
                   layout="responsive"
@@ -199,7 +199,7 @@ export default function Home() {
                   height={1536} // Original image height
                   alt="Promotional Photo Beyond My Family’s Reach Play"
                   aria-hidden="true"
-                  className="rounded-3 img-full-width"
+                  className="rounded-3 img-full-width d-none d-lg-block"
                 />
               </div>
             </div>
