@@ -45,6 +45,7 @@ small {
   box-sizing: border-box;
   width: 80%;
   font-size: 0px;
+  background-color: #111;
 }
 .logo-frame img {
   width: 100%;

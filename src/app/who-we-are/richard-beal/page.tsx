@@ -34,6 +34,12 @@ export default function Events() {
                   <strong><span className="text-nowrap">Co-founder</span> &amp; Secretary of BADD</strong>
                 </p>
                 <p>
+                  Richard Beal is a Masters Level Registered Addiction Specialist, 
+                  Certified Alcohol and Drug Counselor II, Forensic Addiction Counselor, 
+                  Clinical Supervisor Credential, Co-Occurring Disorder Specialist, 
+                  and Advanced Relapse Prevention Specialist. He has spoken and facilitated workshops throughout the country.
+                </p>
+                <p>
                   Richard Beal is author of <i>“Recovering From the Game”</i> and BADD Co-founder. 
                   Richard Beal has over 25 years of experience working with the justice involved 
                   population. 
