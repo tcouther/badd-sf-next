@@ -138,7 +138,7 @@ export default function Home() {
 
 
 
-                <div className="col-lg-10 col-md-8 col-sm-8">
+                <div className="col-12">
                   <div className="row">
                     <div className="col-md-12 p-3">
                       <small>Made possible by...</small>
@@ -146,7 +146,19 @@ export default function Home() {
                   </div>
                   <div className="row d-flex align-items-center">
 
-                    <div className="col-4 px-3 py-2 brightness-3">
+                    <div className="col-4 col-sm-4 col-md-3 px-4 py-2">
+                      <Link href="https://www.stlrentertainment.com/" target="_blank">
+                      <Image
+                        src="/badd-assets/logos/stlr-logo-brand-vert-web.png"
+                        layout="responsive"
+                        width={100} // Original image width
+                        height={100} // Original image height
+                        alt="STLR Entertainment, We Book Premier Talent"
+                      />
+                      </Link>
+                    </div>
+
+                    <div className="col-4 col-sm-4 col-md-3 px-2 py-2 brightness-3">
                       <Link href="https://www.neighborsbettersf.com/" target="_blank">
                       <Image
                         src="/badd-assets/logos/neighbors-logo.svg"
@@ -158,19 +170,7 @@ export default function Home() {
                       </Link>
                     </div>
                     
-                    <div className="col-4 px-5 py-2">
-                      <Link href="https://www.stlrentertainment.com/" target="_blank">
-                      <Image
-                        src="/badd-assets/logos/stlr-logo-brand-vert-web.png"
-                        layout="responsive"
-                        width={100} // Original image width
-                        height={100} // Original image height
-                        alt="STLR Entertainment, We Book Premier Talent"
-                      />
-                      </Link>
-                    </div>
-                    
-                    <div className="col-4 px-5 py-2">
+                    <div className="col-4 col-sm-4 col-md-3 px-4 py-2">
                       <Link href="https://www.avenuegreenlightsf.org/" target="_blank">
                       <Image
                         src="/badd-assets/logos/logo-aveenue-greenlight.png"
@@ -181,6 +181,20 @@ export default function Home() {
                       />
                       </Link>
                     </div>
+
+
+                    <div className="col-7 col-sm-7 col-md-5 col-lg-5 px-2 py-2">
+                      <Link href="https://www.oldskoolcafe.org/" target="_blank">
+                      <Image
+                        src="/badd-assets/logos/old-skool-cafe-logo.jpg"
+                        layout="responsive"
+                        width={100} // Original image width
+                        height={100} // Original image height
+                        alt="Old Skool Cafe, youth run supper club"
+                      />
+                      </Link>
+                    </div>
+
                   </div>
                 </div>
 
