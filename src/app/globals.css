@@ -19,6 +19,9 @@ footer {
 small {
   font-size: 0.8em;
 }
+.dark-red-text {
+  color: #470303;
+}
 .brightness-3 {
   filter: brightness(3);
 }
@@ -31,6 +34,19 @@ small {
 .img-full-width {
   width: 100%;
   height: auto;
+}
+a.cta {
+  text-decoration: none;
+}
+a.cta:hover {
+  text-decoration: underline;
+}
+
+.crop-image-y-15 {
+  overflow-y: hidden;
+}
+.crop-image-y-15 * {
+  margin-block: -15%;
 }
 
 .logo {
@@ -175,6 +191,10 @@ small {
   font-size: 1.1em;
 }
 
+.wtborder {
+  border: 5px solid #FFF;
+  border-radius: 5px;
+}
 .photo-perspective {
   border: 3px solid #222;
 }
@@ -188,6 +208,9 @@ small {
     fill: currentcolor;
 }
 
+.btn .bi-folder2-open {
+  vertical-align: -.02em;
+}
 
 .article-row {
   list-style: none;
@@ -216,6 +239,13 @@ small {
 }
 .btn.btn-brown:hover {
   background-color: #c7a953;
+}
+.btn-outline-danger.brown {
+  color: #b76517;
+  border-color: #b76517;
+}
+.btn-outline-danger.brown:hover {
+  background-color: #b76517;
 }
 
 .navbar-brand {
@@ -314,12 +344,12 @@ small {
 
 .bg-gradient-short {
   background: #FFF;
-  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 46%, rgba(255, 148, 0, 1) 100%);
+  background: linear-gradient(0deg,rgba(255, 148, 0, 1) 46%, rgba(255, 255, 255, 1) 100%);
 }
 
 .bg-gradient-long {
   background: #FFF;
-  background: linear-gradient(0deg,rgba(255, 255, 255, 1) 7%, rgba(255, 148, 0, 1) 100%);
+  background: linear-gradient(0deg,rgba(255, 148, 0, 1) 7%, rgba(255, 255, 255, 1) 100%);
 }
 
 

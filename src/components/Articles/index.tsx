@@ -1,10 +1,10 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Image from "next/image";
     
 // Important: article updates must change date for caching
-const ArticlesUrl = '/badd-data/articles-v0001.json?date=10-18-2025';
+const ArticlesUrl = '/badd-data/articles.json?date=10-31-2025';
 
 interface IArticle {
 	id? : string;
@@ -45,6 +45,31 @@ const Articles = () => {
 	const [showMoreButton, setShowMoreButton] = useState(true);
 	const [loading, setLoading] = useState(true);
 	
+	const fetchData = useCallback(async ()=>{
+		try {
+			const response = await fetch(ArticlesUrl);
+
+			if (!response.ok) {
+				throw new Error(`HTTP error! status: ${response.status}`);
+			}
+			const json = await response.json();
+			json.items.reverse();
+
+			setData(json);
+			setDataDate(json.date);
+			setLoading(false);
+
+			setPaginatedData(1,json);
+
+			if ( json.items.length <= pageSize ) {
+				setShowMoreButton(false);
+			}
+		} catch (e) {
+			console.warn(e);
+			setLoading(false);
+		}
+	},[]);
+
 	const setPaginatedData = (requestedPage:number, dataset:IData)=>{
 		const startIndex = 0;
 		const endIndex = startIndex + (pageSize * requestedPage);
@@ -70,35 +95,10 @@ const Articles = () => {
 	};
 
 	useEffect(() => {
-	
-		const fetchData = async () => {
-			try {
-				const response = await fetch(ArticlesUrl);
-
-				if (!response.ok) {
-					throw new Error(`HTTP error! status: ${response.status}`);
-				}
-				const json = await response.json();
-				json.items.reverse();
-
-				setData(json);
-				setDataDate(json.date);
-				setLoading(false);
-
-				setPaginatedData(1,json);
-
-				if ( json.items.length <= pageSize ) {
-					setShowMoreButton(false);
-				}
-			} catch (e) {
-				console.warn(e);
-				setLoading(false);
-			}
-		};
 
 		fetchData();
 
-	},[setPaginatedData, setData, setDataDate, setLoading, setShowMoreButton]);
+	},[fetchData]);
 
 	if (loading) {
 		return <p>Loading...</p>;
@@ -123,7 +123,7 @@ const Articles = () => {
 						</div>
 						<div className="card-body">
 							<div className="card-text-frame card-text">
-								<p>
+								<p className="fs-6">
 									{article.description}
 									<span className="d-sm-none d-md-inline">...</span>
 									<span> </span>
@@ -142,7 +142,7 @@ const Articles = () => {
 								<small className="card-date text-muted">
 									<span aria-label={`article source: ${article.source}`}>{article.source}</span>
 									<br/>
-									<span aria-label={`article date: ${article.source}`}>{article.date}</span>
+									<span aria-label={`article date: ${article.date}`}>{article.date}</span>
 								</small>
 							</div>
 						</div>
