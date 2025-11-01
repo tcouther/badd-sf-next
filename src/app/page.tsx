@@ -83,14 +83,14 @@ export default function Home() {
               With your help, we can save lives, support families, and transform our communities for the better.
             </p>
             <div className="row justify-content-center my-3">
-              <div className="col-9 col-md-5 col-lg-4 text-center">
+              <div className="col-9 col-md-3 col-lg-2 text-center">
                 <Link href={GLOBALS.GLOBAL_FUNDME} 
                   className="btn btn-outline-success btn-lg my-2 w-100" 
                   target="_blank" 
                   aria-label="support BADD with out official Go Fund Me campaign"
-                >Give with Gofundme</Link>
+                >Gofundme</Link>
               </div>
-              <div className="col-9 col-md-4 col-lg-4 text-center">
+              <div className="col-9 col-md-3 col-lg-2 text-center">
                 <Link href={GLOBALS.GLOBAL_PAYPAL} 
                   className="btn btn-lg btn-outline-primary btn my-2 w-100" 
                   target="_blank" 
@@ -101,9 +101,9 @@ export default function Home() {
                   alt=""
                   aria-hidden="true"
                   className="me-2"
-                />Give with PayPal</Link>
+                />PayPal</Link>
               </div>
-              <div className="col-9 col-md-5 col-lg-5 text-center">
+              <div className="col-9 col-md-5 col-lg-4 text-center">
                 <Link href={GLOBALS.GLOBAL_SEESCANDIES} 
                   className="btn btn-outline-danger brown btn-lg  my-2 w-100" 
                   target="_blank" 

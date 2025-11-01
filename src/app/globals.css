@@ -246,6 +246,7 @@ a.cta:hover {
 }
 .btn-outline-danger.brown:hover {
   background-color: #b76517;
+  border-color: #b76517;
 }
 
 .navbar-brand {
