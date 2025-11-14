@@ -18,5 +18,9 @@
     "LINE1" : "233 Eddy Street",
     "LINE2" : "San Francisco, CA 94102"
   },
-  "COPYRIGHT" : "Copyright 2025 BADD-SF.org, Brothers Against Drug Deaths."
+  "COPYRIGHT" : "Copyright 2025 BADD-SF.org, Brothers Against Drug Deaths.",
+  "ENDPOINTS" : {
+    "ARTICLES" : "/badd-data/articles.json",
+    "EVENTS" : "/badd-data/events.json"
+  }
 }

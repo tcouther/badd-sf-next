@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import Image from "next/image";
     
 // Important: article updates must change date for caching
-const ArticlesUrl = '/badd-data/articles.json?date=10-31-2025';
+const ArticlesUrl = '/badd-data/articles.json?date=11-13-2025';
 
 interface IArticle {
 	id? : string;
@@ -44,31 +44,6 @@ const Articles = () => {
 	const [currentPage, setCurrentPage] = useState(1);
 	const [showMoreButton, setShowMoreButton] = useState(true);
 	const [loading, setLoading] = useState(true);
-	
-	const fetchData = useCallback(async ()=>{
-		try {
-			const response = await fetch(ArticlesUrl);
-
-			if (!response.ok) {
-				throw new Error(`HTTP error! status: ${response.status}`);
-			}
-			const json = await response.json();
-			json.items.reverse();
-
-			setData(json);
-			setDataDate(json.date);
-			setLoading(false);
-
-			setPaginatedData(1,json);
-
-			if ( json.items.length <= pageSize ) {
-				setShowMoreButton(false);
-			}
-		} catch (e) {
-			console.warn(e);
-			setLoading(false);
-		}
-	},[]);
 
 	const setPaginatedData = (requestedPage:number, dataset:IData)=>{
 		const startIndex = 0;
@@ -93,6 +68,35 @@ const Articles = () => {
 		const requestedPage = currentPage + 1;
 		setPaginatedData(requestedPage, data);
 	};
+
+	const initiatePagination = useCallback((json:IData)=>{
+		setPaginatedData(1,json);
+	},[]);
+
+	const fetchData = useCallback(async ()=>{
+		try {
+			const response = await fetch(ArticlesUrl);
+
+			if (!response.ok) {
+				throw new Error(`HTTP error! status: ${response.status}`);
+			}
+			const json = await response.json();
+			json.items.reverse();
+
+			setData(json);
+			setDataDate(json.date);
+			setLoading(false);
+
+			initiatePagination(json);
+
+			if ( json.items.length <= pageSize ) {
+				setShowMoreButton(false);
+			}
+		} catch (e) {
+			console.warn(e);
+			setLoading(false);
+		}
+	},[initiatePagination]);
 
 	useEffect(() => {
 
