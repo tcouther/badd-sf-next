@@ -71,7 +71,7 @@ const Articles = () => {
 
 	const initiatePagination = useCallback((json:IData)=>{
 		setPaginatedData(1,json);
-	},[]);
+	},[setPaginatedData]);
 
 	const fetchData = useCallback(async ()=>{
 		try {

@@ -19,6 +19,17 @@ footer {
 small {
   font-size: 0.8em;
 }
+
+section.section-hr,
+section.section-hr .section-content {
+  padding-block: 0px;
+}
+
+section.section-hr .section-content {
+  margin: -25px 50px -20px;
+  opacity: 0.6;
+}
+
 .dark-red-text {
   color: #470303;
 }
@@ -216,6 +227,10 @@ a.cta:hover {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.article-row .card {
+  height: 95%;
 }
 
 
