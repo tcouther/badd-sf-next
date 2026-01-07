@@ -1,5 +1,5 @@
 {
-	"date" : "10/31/2025",
+	"date" : "1/7/2026",
 	"items": [
 		{
 			"id" : "event0001",
@@ -110,6 +110,16 @@
 			"title" : "Beyond My Family’s Reach",
 			"location" : "San Francisco",
 			"date" : "November 22, 2025"
+		},
+		{
+			"id" : "event0012",
+			"image" : "/badd-assets/events/talented-thursday-1-15-2026.jpeg",
+			"alt" : "",
+			"link" : "/events/talented-thursday-1-15-2026",
+			"description" : "Join us for a powerful Talented Thursday featuring Theris Coats, Sr. and Richard Beal — cofounders of BADD | Brothers Against Drug Deaths. This conversation centers on truth, loss, recovery, advocacy, and the urgent work needed to save lives impacted by addiction, mental illness, and incarceration.",
+			"title" : "Talented Thursday",
+			"location" : "Youtube",
+			"date" : "January 15, 2026"
 		}
 	]
 }
