@@ -34,21 +34,16 @@ export default function Events() {
                 <div className="row">
                   <div className="general-content col-md-4">
 
-                    <p className="fs-4">
-                      <Link href="https://www.youtube.com/@talentedtelevisionwithkimberly" target="_blank" className="btn btn-primary btn-lg">Watch Live</Link>
-                    </p>
+                    
                     <div id="event-recovery-first-signing-5-23-2025" className="general-content col-md-9">
                       <h3 className="py-3"><strong>Kimberly Eichelle’s Talented Thursdays</strong></h3>
                       <p>Thursday, January 15, 2026
                       <br/>7:00pm EST</p>
                     </div>
 
+                    
                     <p className="fs-4">
-                      Join us for a powerful Talented Thursday featuring Theris Coats, Sr. and Richard Beal — cofounders of BADD | Brothers Against Drug Deaths. 
-                    </p>
-                    <p className="fs-4">
-                      This conversation centers on truth, loss, recovery, advocacy, and the urgent work needed to save lives impacted by addiction, mental illness, 
-                      and incarceration. 🎙️
+                      <Link href="https://www.youtube.com/live/tIm1MXPKl3k?si=khxE2eITCBls7Tvp" target="_blank" className="btn btn-primary btn-lg">Watch Now</Link>
                     </p>
 
                     
@@ -60,21 +55,13 @@ export default function Events() {
                         <div className="row">
                           <div className="general-content col-md-12">
                             <p>
-                              <Link href="https://www.youtube.com/@talentedtelevisionwithkimberly" target="_blank">
-                              <Image
-                                src="/badd-assets/events/talented-thursday-tall-1-15-2026.jpeg"
-                                layout="responsive"
-                                width={1170} // Original image width
-                                height={1931} // Original image height
-                                alt=""
-                                aria-hidden="true"
-                              />
-                              </Link>
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/tIm1MXPKl3k?si=gtQp-5_JZICrDoZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </p>
                           </div>
                         </div>
                       </div>
                       <br/>
+
 
                     </div>
                   </div>
