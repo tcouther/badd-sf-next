@@ -35,12 +35,12 @@ export default function Events() {
                 </p>
                 <p>
                   Richard Beal, is a Master – Registered Addiction Specialist, Certified Supervisor Credential, Certified Co-Occurring Disorder Specialist, Forensic Addiction Counselor, 
-                  California Alcohol and Drug Counselor II, Advanced Certified Relapse Prevention Specialist and Author of “Recovering From the GAME”. 
+                  California Alcohol and Drug Counselor II, Advanced Certified Relapse Prevention Specialist and Author of &ldquo;Recovering From the GAME&rdquo;. 
                   He is a seasoned and compassionate leader with 30 years of experience working with reentry, recovery, and homeless populations. 
                 </p>
                 <p>
                   He currently serves as the Director of Recovery Services for Tenderloin Housing Clinic in San Francisco, Ca. 
-                  He is co-founder of BADD-Brothers Against Drug Deaths. He is a transformational leader, advocate, and living testimony who "crosses all bridges"—from streets to systems, 
+                  He is co-founder of BADD-Brothers Against Drug Deaths. He is a transformational leader, advocate, and living testimony who &ldquo;crosses all bridges&rdquo;—from streets to systems, 
                   from suffering to solutions, from addiction to advocacy. 
                 </p>
                 <p>

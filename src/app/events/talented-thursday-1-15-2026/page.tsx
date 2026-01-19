@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import styles from "../../page.module.css";
 
@@ -33,38 +32,39 @@ export default function Events() {
 
                 <div className="row">
                   <div className="general-content col-md-4">
-
-                    
                     <div id="event-recovery-first-signing-5-23-2025" className="general-content col-md-9">
                       <h3 className="py-3"><strong>Kimberly Eichelle’s Talented Thursdays</strong></h3>
                       <p>Thursday, January 15, 2026
                       <br/>7:00pm EST</p>
                     </div>
-
-                    
-                    <p className="fs-4">
-                      <Link href="https://www.youtube.com/live/tIm1MXPKl3k?si=khxE2eITCBls7Tvp" target="_blank" className="btn btn-primary btn-lg">Watch Now</Link>
-                    </p>
-
-                    
                   </div>
-                  <div className="col-md-1"></div>
-                  <div className="col-md-7">
+                  <div className="col-md-6">
                     <div className="row">
                       <div className="general-content col-md-12">
                         <div className="row">
                           <div className="general-content col-md-12">
-                            <p>
-                              <iframe width="560" height="315" src="https://www.youtube.com/embed/tIm1MXPKl3k?si=gtQp-5_JZICrDoZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </p>
+                            <div className="video-container">
+                              <iframe src="https://www.youtube.com/embed/tIm1MXPKl3k?si=gtQp-5_JZICrDoZR" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                            </div>
                           </div>
                         </div>
                       </div>
                       <br/>
-
-
                     </div>
                   </div>
+                </div>
+
+
+
+                <div className="row my-5">
+                  <div className="general-content col-md-11">
+                    <p className="fs-4">
+                      Join us for a powerful Talented Thursday featuring Theris Coats, Sr. and Richard Beal — cofounders of BADD | Brothers Against Drug Deaths. This conversation centers on truth, loss, recovery, advocacy, and the urgent work needed to save lives impacted by addiction, mental illness, and incarceration.
+                    </p>
+                    <p className="fs-4">
+                      <Link href="https://www.youtube.com/live/tIm1MXPKl3k?si=khxE2eITCBls7Tvp" target="_blank" className="btn btn-danger btn-lg">Watch Now on Youtube</Link>
+                    </p>
+                  </div>                    
                 </div>
 
               </div>
