@@ -30,7 +30,7 @@ export default function Home() {
       <main className={styles.main}>
         
 
-        <section className="jumbotron p-3 p-md-5 bg-body">
+        <section className="jumbotron jumbotron-home p-3 p-md-5 bg-body">
           <div className="section-content">
             <div className="row align-items-center justify-content-center">
               <div className="col-md-5">

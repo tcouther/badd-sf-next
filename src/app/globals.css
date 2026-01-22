@@ -30,6 +30,12 @@ section.section-hr .section-content {
   opacity: 0.6;
 }
 
+.glow-button {
+  box-shadow: 0 1px 14px rgba(255, 255, 255, 0.4);
+  border: 3px solid rgba(255, 255, 255, 0.4) !important;
+  color: #FFFFFF !important;
+}
+
 .dark-red-text {
   color: #470303;
 }
@@ -345,11 +351,14 @@ a.cta:hover {
     bottom: 0;
 }
 
-.jumbotron {
+.jumbotron-home {
   background-image: url('/badd-assets/graphics/jumbotron-bg-1.jpeg');
   background-size: cover;
 }
-
+.jumbotron-give {
+  background-image: url('/badd-assets/graphics/jumbotron-bg-give.jpeg');
+  background-size: cover;
+}
 
 
 

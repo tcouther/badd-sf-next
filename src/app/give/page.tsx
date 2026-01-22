@@ -26,30 +26,46 @@ export default function Connect() {
       <BaddNavbar />
       <main className={styles.main}>
 
-        <section className="contact-us bg-body">
 
-          <div className="section-content">
-            <div className="row">
-              <div className="general-content col-md-12">
+        <section className="jumbotron jumbotron-give p-3 p-md-5 bg-body">
+          <div className="row">
+            <div className="general-content col-md-8">
+              <div className="headline-content">
 
-                  <div className="headline-content">
                     <h2 className="fs-1">
-                      Give<br/>
-                      <span className="fs-3">Support the Fight Against Drug Deaths</span>
+                      Give and Fund the Fight<br/>
                     </h2>
+                    <p className="fs-3">
+                      Join Brother Against Drug Deaths 
+                      in fighting for healing over punishment 
+                      and turning grief into purpose.
+                    </p>
                     <p className="lead fs-4">
-                        <Link href={GLOBALS.GLOBAL_PAYPAL} className="btn btn-warning btn-lg my-2" target="_blank" aria-label="support BADD with Pay Pal"><Image
-                          src="/badd-assets/logos/pp-button-logo.svg"
-                          width={20}
-                          height={20}
-                          alt=""
-                          aria-hidden="true"
-                          className="me-2"
-                        />Support BADD with PayPal</Link>
+                      <Link href={GLOBALS.GLOBAL_PAYPAL} className="glow-button btn btn-warning btn-lg my-2" target="_blank" aria-label="support BADD with Pay Pal"><Image
+                        src="/badd-assets/logos/pp-button-logo.svg"
+                        width={20}
+                        height={20}
+                        alt=""
+                        aria-hidden="true"
+                        className="me-2"
+                      />Help save lives with PayPal</Link>
                     </p>
                     <div className="py-3"/>
-                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
+
+        <section className="give bg-body">
+
+          <div className="section-content">
+
+
+
+            <div className="row">
+              <div className="general-content col-md-12">
+                  
 
                   <div className="row">
                     <div className="col-12">
@@ -57,9 +73,6 @@ export default function Connect() {
                       <h3>Fundraising Campaigns</h3>
                       <div className="general-content d-flex flex-column flex-md-row">
                       
-
-                        
-
                         <div className="card card-slim me-2 mb-2 sm-w-100 w-40">
                           <div>
 
@@ -84,14 +97,14 @@ export default function Connect() {
                         <div className="card card-slim me-2 mb-2 sm-w-100 w-40 sees-bg">
                           <div>
 
-                              <Image
-                                src="/badd-assets/logos/sees-logo.png"
-                                width={180}
-                                height={100}
-                                alt=""
-                                aria-hidden="true"
-                                className="mb-2"
-                              />
+                            <Image
+                              src="/badd-assets/logos/sees-logo-2.png"
+                              width={180}
+                              height={100}
+                              alt=""
+                              aria-hidden="true"
+                              className="mb-2"
+                            />
 
 
                             <p className="lead">
