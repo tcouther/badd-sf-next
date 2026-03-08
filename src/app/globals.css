@@ -329,7 +329,10 @@ a.cta:hover {
 .navbar-nav .nav-link {
   color: #ff7a59;
   padding-inline: 20px !important;
+  text-align: left;
 }
+
+
 
 .navbar-nav .nav-link-highlight {
   color: #111111;
