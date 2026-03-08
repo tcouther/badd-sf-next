@@ -274,11 +274,6 @@ a.cta:hover {
   padding-block: 0;
 }
 
-.navbar {
-  background-image: url('/badd-assets/graphics/navbar-bg.png');
-  background-size: cover;
-}
-
 .navbar-brand {
   position: relative;
   padding-left: 10px;
