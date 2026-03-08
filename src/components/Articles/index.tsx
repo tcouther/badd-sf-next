@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Image from "next/image";
     
 // Important: article updates must change date value for caching
-const ArticlesUrl = '/badd-data/articles.json?date=01-19-2026';
+const ArticlesUrl = '/badd-data/articles.json?date=03-08-2026';
 
 interface IArticle {
 	id?: string;

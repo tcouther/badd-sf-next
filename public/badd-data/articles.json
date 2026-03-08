@@ -1,5 +1,5 @@
 {
-	"date" : "10/31/2025",
+	"date" : "3/8/2026",
 	"items": [
 		{
 			"id" : "article0001",
@@ -90,6 +90,16 @@
 			"descriptionl" : "After Theris Coats II, (TC to those who knew him), died of a drug overdose in a San Francisco jail in March of this year, his family sought ways to move forward. ",
 			"source" : "Mission Local",
 			"date" : "November 13, 2025"
+		},
+		{
+			"id" : "article0010",
+			"image" : "/badd-assets/articles/article-010.jpeg",
+			"alt" : "Richard Beal, author",
+			"link" : "https://beyondchron.org/completing-the-bridge-from-reentry-to-permanent-recovery-housing/",
+			"description" : "Completing the Bridge: From Reentry to Permanent Recovery Housing ",
+			"descriptionl" : "When I walk through the doors of the Drake Hotel at 235 Eddy Street, I see what many people thought was impossible—men and women rebuilding their lives after incarceration, addiction, and years of instability. In 2015, the Tenderloin Housing Clinic launched the New Horizons Transitional Housing Program with support from the San Francisco Adult Probation Department. Our mission was clear: provide a structured transitional housing program that combines accountability, recovery services, and housing stability.",
+			"source" : "BeyondChron",
+			"date" : "February 23, 2026"
 		}
 	]
 }

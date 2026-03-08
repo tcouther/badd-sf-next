@@ -270,8 +270,30 @@ a.cta:hover {
   border-color: #b76517;
 }
 
+.navbar .section-content {
+  padding-block: 0;
+}
+
+.navbar {
+  background-image: url('/badd-assets/graphics/navbar-bg.png');
+  background-size: cover;
+}
+
 .navbar-brand {
   position: relative;
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 780px) {
+  .navbar-brand {
+    padding-left: 35px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .navbar-brand {
+    padding-left: 35px;
+  }
 }
 
 .navbar-brand-background {
