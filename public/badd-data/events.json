@@ -120,6 +120,16 @@
 			"title" : "Talented Thursday",
 			"location" : "Youtube",
 			"date" : "January 15, 2026"
+		},
+		{
+			"id" : "event0013",
+			"image" : "/badd-assets/events/first-anniversary-office-grand-opening-medium.jpeg",
+			"alt" : "",
+			"link" : "/events/badd-sf-grand-opening-first-anniversay-4-23-2026",
+			"description" : "BADD — Brothers Against Drug Deaths — is proud to celebrate our 1st Anniversary and Official Grand Opening on April 23, 2026. Join us as we celebrate our new home in San Francisco, serving education, outreach, advocacy, and healing in our communities.",
+			"title" : "First Anniversary and Grand Opening Celebration",
+			"location" : "San Francisco",
+			"date" : "April 23, 2026"
 		}
 	]
 }

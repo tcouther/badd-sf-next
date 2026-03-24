@@ -177,6 +177,20 @@ export default function Events() {
                       </p>
                       <p className="bod-title">Board Member</p>
                     </div>
+                    <div className="col py-3">
+                      <p className="bod-name">
+                        <Link href="/who-we-are/bruce-beland/">Bruce J. Beland</Link>
+                      </p>
+                      <p className="bod-title">Board Member</p>
+                    </div>
+                    <div className="w-100 p-1"></div>
+                    <div className="col py-3">
+                      <p className="bod-name">
+                        <Link href="/who-we-are/michael-pasley/">Dr. Michael Pasley</Link>
+                      </p>
+                      <p className="bod-title">Board Member</p>
+                    </div>
+                    
                   </div>
                 </div>
               </div>

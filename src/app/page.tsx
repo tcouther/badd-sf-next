@@ -77,6 +77,35 @@ export default function Home() {
         <section className="section-give bg-body">
           <div className="section-content">
             <h2 className="fs-1">
+               First Anniversary 
+               <br/>and Grand Opening Celebration
+            </h2>
+
+            <div className="row">
+              <div className="col-md-12">
+                <p className="fs-4 sm-w-100 w-75 m-auto my-4">
+                  Join us April 23, 2026 as we celebrate our new home in San Francisco, serving education, 
+                  outreach, advocacy, and healing in our communities.
+                </p>
+              </div>
+            </div>            
+
+            <br/>
+            <Link className="fs-4" href="/events/badd-sf-grand-opening-first-anniversay-4-23-2026">Click here for more.</Link>
+          </div>
+        </section>
+
+
+        <section className="section-hr bg-body">
+          <div className="section-content">
+            <hr/>
+          </div>
+        </section>
+
+
+        <section className="section-give bg-body">
+          <div className="section-content">
+            <h2 className="fs-1">
                Support BADD Fundraisers
             </h2>
             <p className="fs-4 sm-w-100 w-75 m-auto my-4">
