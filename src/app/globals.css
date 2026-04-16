@@ -592,9 +592,17 @@ figure .theris-law {
   text-decoration: none;
 }
 
+.tl-btn {
+  width: 90%;
+  max-width: 350px;
+}
+
 @media only screen and (min-width: 780px) {
   .events-deck .card {
     max-width: 48%;
+  }
+  .tl-btn {
+    width: auto;
   }
 }
 
