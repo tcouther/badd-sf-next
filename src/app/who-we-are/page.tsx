@@ -161,29 +161,22 @@ export default function Events() {
                     </div>
                     <div className="w-100 p-1"></div>
                     <div className="col py-3">
-                      <p className="bod-name">
-                        <Link href="/who-we-are/romona-burton/">Romona Burton</Link>
-                      </p>
-                      <p className="bod-title">Board Member</p>
-                    </div>
-                    <div className="col py-3">
                       <p className="bod-name">Stanley Winters Jr.</p>
                       <p className="bod-title">Board Member</p>
                     </div>
-                    <div className="w-100 p-1"></div>
                     <div className="col py-3">
                       <p className="bod-name">
                         <Link href="/who-we-are/tara-kugler/">Tara Kugler</Link>
                       </p>
                       <p className="bod-title">Board Member</p>
                     </div>
+                    <div className="w-100 p-1"></div>
                     <div className="col py-3">
                       <p className="bod-name">
                         <Link href="/who-we-are/bruce-beland/">Bruce J. Beland</Link>
                       </p>
                       <p className="bod-title">Board Member</p>
                     </div>
-                    <div className="w-100 p-1"></div>
                     <div className="col py-3">
                       <p className="bod-name">
                         <Link href="/who-we-are/michael-pasley/">Dr. Michael Pasley</Link>
