@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import Image from "next/image";
     
 // Important: event updates must change date for caching
-const EventsDataUrl = '/badd-data/events.json?date=3-14-2026';
+const EventsDataUrl = '/badd-data/events.json?date=04-24-2026';
 
 interface IEvent {
 	id?: string;

@@ -1,11 +1,11 @@
 {
-	"date" : "1/7/2026",
+	"date" : "4/24/2026",
 	"items": [
 		{
 			"id" : "event0001",
 			"image" : "/badd-assets/events/matt-dorsey-theris-in-memoriam.jpeg",
 			"alt" : "",
-			"link" : "/events/beyond-my-familys-reach-play-2025-11-22-2025",
+			"link" : "/events/matt-dorsey-theris-in-memoriam-3-25-2025/",
 			"description" : "Join Brothers Against Drug Deaths in San Francisco for the theatrical premier of this emotionally charged play. Get Tickets Now!",
 			"title" : "Beyond My Family’s Reach",
 			"location" : "San Francisco",
@@ -15,7 +15,7 @@
 			"id" : "event0002",
 			"image" : "/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.jpeg",
 			"alt" : "",
-			"link" : "/events/matt-dorsey-theris-in-memoriam-3-25-2025/",
+			"link" : "/events/rally-for-recovery-5-5-2025/",
 			"description" : "San Francisco Supervisor Matt Dorsey’s memorial for Theris Lee “TC” Coats II at Board of Supervisors Meeting in SF City Hall.",
 			"title" : "SF BOARD OF SUPERVISORS MEMORIAL TO Theris Lee “TC” Coats II",
 			"location" : "San Francisco",

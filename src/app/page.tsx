@@ -77,15 +77,20 @@ export default function Home() {
         <section className="section-give bg-body">
           <div className="section-content">
             <h2 className="fs-1">
-               First Anniversary 
+               A Successful First Anniversary 
                <br/>and Grand Opening Celebration
             </h2>
 
             <div className="row">
               <div className="col-md-12">
                 <p className="fs-4 sm-w-100 w-75 m-auto my-4">
-                  Join us April 23, 2026 as we celebrate our new home in San Francisco, serving education, 
-                  outreach, advocacy, and healing in our communities.
+                  Dear Community Members, Friends, and Supporters,
+                </p>
+                <p className="fs-4 sm-w-100 w-75 m-auto my-4">
+                  On behalf of everyone at BADD Brothers Against Drug Deaths, 
+                  we extend our deepest gratitude to each of you who joined us on April 23, 2026, 
+                  for our Grand Opening and 1st Anniversary celebration at our new home on 
+                  Eddy Street in San Francisco.
                 </p>
               </div>
             </div>            
