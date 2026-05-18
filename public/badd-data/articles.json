@@ -1,5 +1,5 @@
 {
-	"date" : "3/8/2026",
+	"date" : "5/7/2026",
 	"items": [
 		{
 			"id" : "article0001",
@@ -110,6 +110,26 @@
 			"descriptionl" : "The San Francisco Adult Probation Department launched a mobile unit this week that will travel to “high-poverty and high-crime communities” across the city to reach people on probation in the streets.",
 			"source" : "Mission Local",
 			"date" : "February 28, 2026"
+		},
+		{
+			"id" : "article0012",
+			"image" : "/badd-assets/articles/article-012.jpeg",
+			"alt" : "Brothers Against Drug Deaths board member John Jeffrey, co-founder Theris Coats Sr., and co-founder Richard Beal. Photos by Laura Wenus.",
+			"link" : "https://www.tlvoice.org/year-loss-san-francisco-tenderloin-leaders-addiction-services/?ref=the-tenderloin-voice-newsletter",
+			"description" : "They lost family to drugs. Now they work to save lives. ",
+			"descriptionl" : "Theris Coats Sr. and Richard Beal like to say they’re turning “pain into purpose” — and both men have experienced pain in profound excess. But on a sunny late April afternoon in the Tenderloin, they were celebrating. It was the one-year anniversary party for their organization, Brothers Against Drug Deaths, formed to support people battling addiction. They were also marking the grand opening of their small ground-floor office on Eddy Street, which was filled with proud, grinning allies, many of them high-ranking city officials. ",
+			"source" : "TL Voice",
+			"date" : "May 7, 2026"
+		},
+		{
+			"id" : "article0013",
+			"image" : "/badd-assets/articles/article-013.jpeg",
+			"alt" : "Sidewalk drug users. Harm Reduction Fails San Francisco",
+			"link" : "https://beyondchron.org/harm-reduction-fails-san-francisco/",
+			"description" : "Harm Reduction Fails San Francisco A Tale of Two San Francisco’s.  ",
+			"descriptionl" : "Sidewalk drug users do more than hurt San Francisco’s image—they also undermine the city’s remaining low-income and working-class neighborhoods. Communities our elected officials continually vow to protect. ",
+			"source" : "BeyondChron",
+			"date" : "May 11, 2026"
 		}
 	]
 }

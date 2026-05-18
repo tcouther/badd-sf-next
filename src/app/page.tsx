@@ -40,6 +40,7 @@ export default function Home() {
                     width={1000}
                     height={1300}
                     alt="BADD Brother Against Drug Deaths Logo"
+                    unoptimized={true}
                   />
                 </a>
               </div>
@@ -135,6 +136,7 @@ export default function Home() {
                   alt=""
                   aria-hidden="true"
                   className="me-2"
+                  unoptimized={true}
                 />PayPal</Link>
               </div>
               <div className="col-9 col-md-5 col-lg-4 text-center">
@@ -277,6 +279,7 @@ export default function Home() {
                   alt="Photo of BADD CEO and Co-Founder Theris L. Coats Sr. and Mayor Daniel Lurie together at San Francisco City Hall for international overdose awareness day"
                   aria-hidden="true"
                   className="rounded-3 img-full-width"
+                  unoptimized={true}
                 />
               </div>
 
@@ -309,6 +312,7 @@ export default function Home() {
                           height={1536}
                           className="rounded-3 img-full-width"
                           alt="This is a crisis, we need treatment, not punishment."
+                          unoptimized={true}
                         />
                         </div>
                         <div className="py-4"></div>
@@ -432,6 +436,7 @@ export default function Home() {
                     height={1280}
                     className="img-full-width photo-old"
                     alt="Drug overdose deaths memorials"
+                    unoptimized={true}
                   />
                 </div>
                 <div className="py-3"></div>
@@ -452,6 +457,7 @@ export default function Home() {
                     height={1280}
                     className="img-full-width photo-old"
                     alt="Drug overdose deaths memorials"
+                    unoptimized={true}
                   />
                 </div>
               </div>

@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Image from "next/image";
+import {normalizeImageUrl} from "../../utils/urlUtils"
     
-// Important: article updates must change date value for caching
-const ArticlesUrl = '/badd-data/articles.json?date=04-24-2026';
+//Globals
+import GLOBALS from "../../app/globals.json";
 
 interface IArticle {
 	id?: string;
@@ -24,6 +25,11 @@ interface IData {
 
 const pageSize = 9;
 
+/*
+	Data is controlled via Bluehost / Wordpress Admin / Articles Admin
+	This admin plugin allows authorized users (CRUD) ADD/EDIT/DELETE articles
+	The plugin maintains a JSON File accessible through a php based API:
+*/
 const Articles = () => {
 	const [loading, setLoading] = useState(true);
 	const [data, setData] = useState<IData>({ date: '', items: [] });
@@ -34,7 +40,7 @@ const Articles = () => {
 	useEffect(() => {
 		const initiatePagination = async () => {
 			try {
-				const response = await fetch(ArticlesUrl);
+				const response = await fetch(GLOBALS.API.ARTICLES);
 
 				if (!response.ok) {
 					throw new Error(`HTTP error! status: ${response.status}`);
@@ -96,12 +102,13 @@ const Articles = () => {
 							<div className="card-image-frame">
 								{article.image && (
 									<Image
-										src={article.image}
+										src={normalizeImageUrl(article.image)}
 										width={1000}
 										height={800}
 										alt=""
 										aria-hidden={true}
-										className="card-img-top article-image" 
+										className="card-img-top article-image"
+										unoptimized={true}
 									/>
 								)}
 							</div>
