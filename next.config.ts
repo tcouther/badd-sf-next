@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  /*
   async headers() {
     return [
       {
@@ -15,6 +16,8 @@ const nextConfig: NextConfig = {
       }
     ]
   },
+  */
+
   images: {
     loader: "custom",
     loaderFile: "./ImageLoader.js",
@@ -26,12 +29,11 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+
   /* Uncomment the section below, then "npm run build" a prod static to "/out" folder */
-  /*
   distDir: "out",
   output: "export",
   trailingSlash: true,
-  */
 };
 
 export default nextConfig;

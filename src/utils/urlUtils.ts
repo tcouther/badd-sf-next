@@ -1,17 +1,56 @@
-export const normalizeImageUrl = (input) : string => {
+export const normalizeImageUrl = (input:string) : string => {
 
-	const url = safeImageUrl(input);
+  const url = input.trim();
 
-	const urlObj : URL = new URL(url);
+  if (!url.includes('http')) {
+    return safeImageUrl(url,true) as string;
+  }
+
+	const urlObj : URL = new URL(input);
 
 	if (urlObj && urlObj.hasOwnProperty('path')) {
-		return 'https://badd-sf.org' + urlObj.path as string;
+		return safeImageUrl('https://badd-sf.org' + urlObj.pathname, false) as string;
 	} else {
-		return url as string;
+		return safeImageUrl(url, false) as string;
 	}
 };
 
-export const safeImageUrl = (input) : string => {
+export const safeUrl = (input:string) : string => { 
+
+  const DEFAULT_URL = 'https://badd-sf.org';
+
+  const ALLOWED_HOSTS = new Set([
+    "cub.dpx.mybluehost.me",
+    "www.badd-sf.org",
+  ]);
+
+  const trimmed = input.trim();
+
+  // Reject obviously dangerous schemes before parsing
+  if (/^(javascript|data|vbscript|file|blob):/i.test(trimmed)) {
+    return DEFAULT_URL;
+  }
+
+  try {
+    const url = new URL(trimmed);
+
+    // Only allow http/https
+    if (!["http:", "https:"].includes(url.protocol)) {
+      return DEFAULT_URL;
+    }
+
+    // Only allow trusted domains
+    if (!ALLOWED_HOSTS.has(url.hostname)) {
+      return DEFAULT_URL;
+    }
+
+    return url.href;
+  } catch {
+    return DEFAULT_URL;
+  }
+};
+
+export const safeImageUrl = (input:string, isRelative:boolean) : string => {
   const ALLOWED_HOSTS = new Set([
     "cub.dpx.mybluehost.me",
     "www.badd-sf.org",
@@ -26,6 +65,13 @@ export const safeImageUrl = (input) : string => {
   // Reject obviously dangerous schemes before parsing
   if (/^(javascript|data|vbscript|file|blob):/i.test(trimmed)) {
     return DEFAULT_IMAGE;
+  }
+
+  if (isRelative) {
+    if (!/\.(jpe?g|png|webp|gif|avif|svg)$/i.test(trimmed)) {
+      return DEFAULT_IMAGE;
+    }
+    return trimmed;
   }
 
   try {
