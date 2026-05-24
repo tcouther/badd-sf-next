@@ -24,6 +24,7 @@
     "EVENTS" : "/badd-data/events.json"
   },
   "API" : {
-    "ARTICLES" : "https://badd-sf.org/wp-json/badd/v1/articles"
+    "ARTICLES" : "https://badd-sf.org/wp-json/badd/v1/articles",
+    "EVENTS" : "https://badd-sf.org/wp-json/badd/v1/events"
   }
 }
