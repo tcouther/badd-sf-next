@@ -32,7 +32,7 @@ const nextConfig: NextConfig = {
 
   /* Uncomment the section below, then "npm run build" a prod static to "/out" folder */
   distDir: "out",
-  output: "export",
+  //output: "export",
   trailingSlash: true,
 };
 

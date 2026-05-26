@@ -1,0 +1,1 @@
+{"version":4,"routes":{"/news/hello-world":{}},"dynamicRoutes":{"/news/[slug]":{"fallback":null}},"notFoundRoutes":[],"preview":{"previewModeId":"feeaea04e34fb54c699dad23ec855ddd","previewModeSigningKey":"01fcf723b8f6d1c79513139ff678b7acbaec7778874804974a7ed90bbc65384c","previewModeEncryptionKey":"802d3c0b6134f3479f192440bdc7314ea94b8665ca0e4eb9023abbde19f894f0"}}

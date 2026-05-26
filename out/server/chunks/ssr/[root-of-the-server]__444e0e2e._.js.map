@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/tcouther/development/badd/badd-sf-next/src/app/lifeline-sf/page.tsx"],"sourcesContent":["export default function Page() {\n  return (\n    <iframe\n      src=\"/lifeline/index.html\"\n      style={{\n        width: '100%',\n        height: '100vh',\n        border: 'none'\n      }}\n    />\n  );\n}\n"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QACC,KAAI;QACJ,OAAO;YACL,OAAO;YACP,QAAQ;YACR,QAAQ;QACV;;;;;;AAGN","debugId":null}}]
+}
