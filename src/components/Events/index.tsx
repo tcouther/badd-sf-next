@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from 'react';
 import Image from "next/image";
-    
-// Important: event updates must change date for caching
-const EventsDataUrl = '/badd-data/events.json?date=04-24-2026';
+import {normalizeImageUrl} from "../../utils/urlUtils";
+
+//Globals
+import GLOBALS from "../../app/globals.json";
 
 interface IEvent {
 	id?: string;
@@ -34,7 +35,7 @@ const Events = () => {
 	useEffect(() => {
 		const fetchData = async () => {
 			try {
-				const response = await fetch(EventsDataUrl);
+				const response = await fetch(GLOBALS.API.EVENTS);
 				if (!response.ok) {
 					throw new Error(`HTTP error! status: ${response.status}`);
 				}
@@ -94,12 +95,14 @@ const Events = () => {
 						<div className="card-image-frame">
 							{event.image && (
 								<Image
-									src={event.image}
+									src={normalizeImageUrl(event.image)}
 									width={1000}
 									height={800}
 									alt=""
 									aria-hidden={true}
-									className="card-img-top article-image" 
+									className="card-img-top article-image"
+									unoptimized={true}
+									priority={true}
 								/>
 							)}
 						</div>

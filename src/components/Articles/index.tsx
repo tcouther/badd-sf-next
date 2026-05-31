@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from "next/image";
-import {normalizeImageUrl} from "../../utils/urlUtils"
+import {normalizeImageUrl} from "../../utils/urlUtils";
     
 //Globals
 import GLOBALS from "../../app/globals.json";
@@ -109,6 +109,7 @@ const Articles = () => {
 										aria-hidden={true}
 										className="card-img-top article-image"
 										unoptimized={true}
+										priority={true}
 									/>
 								)}
 							</div>

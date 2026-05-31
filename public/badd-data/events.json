@@ -130,6 +130,16 @@
 			"title" : "First Anniversary and Grand Opening Celebration",
 			"location" : "San Francisco",
 			"date" : "April 23, 2026"
+		},
+		{
+			"id" : "event0014",
+			"image" : "/badd-assets/events/rally-for-recovery-5-27-2026-1.jpeg",
+			"alt" : "",
+			"link" : "https://www.mobilize.us/mahanforcalifornia/event/954777/",
+			"description" : "San Francisco - join me for a Recovery Rally in San Francisco on Wednesday, May 27. With the California primary taking place on June 2nd, this will be a key moment to come together, in community, celebrate the progress we've made in San Jose, and rally our neighbors together to vote.",
+			"title" : "Rally for Recovery with Matt Mahan and Supervisor Matt Dorsey | San Francisco",
+			"location" : "Private address.",
+			"date" : "May 27, 2026"
 		}
 	]
 }
