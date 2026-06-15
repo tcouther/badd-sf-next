@@ -10,7 +10,8 @@ import { Metadata } from 'next';
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: 'Who We Are : Richard Beal'
+  title: 'Who We Are : Richard Beal',
+  description: "Meet Richard Beal, recovery advocate and community leader whose lived experience helps inspire hope and long-term recovery."
 };
 
 export default function Events() {

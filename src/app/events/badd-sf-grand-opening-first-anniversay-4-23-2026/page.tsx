@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events : Celebrate BADD’s 1st Anniversary and Grand Opening, Thursday, April 23rd, 2026'
+  title: 'Events : Celebrate BADD’s 1st Anniversary and Grand Opening, Thursday, April 23rd, 2026',
+  description: "Celebrate BADD's first anniversary and official grand opening as we honor lives impacted by addiction and strengthen community support for recovery."
 };
 
 export default function Events() {

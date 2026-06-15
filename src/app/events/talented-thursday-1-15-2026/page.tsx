@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events: Kimberly Eichelle’s Talented Thursdays, January 15, 2026'
+  title: 'Events: Kimberly Eichelle’s Talented Thursdays, January 15, 2026',
+  description: "Experience Kimberly Eichelle's Talented Thursdays, showcasing local talent, creativity, and community engagement."
 };
 
 export default function Events() {

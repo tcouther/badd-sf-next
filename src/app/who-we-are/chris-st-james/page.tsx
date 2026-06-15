@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Who We Are : Chris St James'
+  title: 'Who We Are : Chris St James',
+  description: "Learn about Chris St. James and his contributions to advocacy, recovery support, and community engagement through BADD."
 };
 
 export default function Events() {

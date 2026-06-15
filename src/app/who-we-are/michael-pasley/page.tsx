@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Who We Are : Dr. Michael Pasley'
+  title: 'Who We Are : Dr. Michael Pasley',
+  description: "Meet Dr. Michael Pasley, advisor to Brothers Against Drug Deaths, bringing expertise in behavioral health, education, and community wellness."
 };
 
 export default function Events() {

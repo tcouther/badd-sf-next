@@ -17,7 +17,8 @@ import GLOBALS from "../globals.json";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Give'
+  title: 'Give',
+  description: "Support Brothers Against Drug Deaths through your donation and help expand advocacy, family support services, recovery programs, and community outreach."
 };
 
 export default function Connect() {

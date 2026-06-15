@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Who We Are : John Jeffrey'
+  title: 'Who We Are : John Jeffrey',
+  description: "Meet John Jeffrey and learn about his role supporting the mission and community outreach efforts of Brothers Against Drug Deaths."
 };
 
 export default function Events() {

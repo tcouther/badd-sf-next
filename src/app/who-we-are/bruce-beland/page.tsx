@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Who We Are : Bruce J. Beland'
+  title: 'Who We Are : Bruce J. Beland',
+  description: "Learn about Bruce J. Beland and his contributions to recovery advocacy, public service, and community engagement with BADD."
 };
 
 export default function Events() {

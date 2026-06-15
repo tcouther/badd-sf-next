@@ -17,7 +17,8 @@ import GLOBALS from "../globals.json";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Resources'
+  title: 'Resources',
+  description: "Explore recovery resources, harm reduction information, family support services, treatment options, and community programs recommended by Brothers Against Drug Deaths."
 };
 
 export default function Events() {

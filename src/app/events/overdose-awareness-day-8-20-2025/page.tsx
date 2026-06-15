@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events : OVERDOSE AWARENESS DAY, Wednesday, August 20th, 2025'
+  title: 'Events : OVERDOSE AWARENESS DAY, Wednesday, August 20th, 2025',
+  description: "Join BADD for Overdose Awareness Day as we honor lives lost, support families, and promote education, prevention, and recovery."
 };
 
 export default function Events() {

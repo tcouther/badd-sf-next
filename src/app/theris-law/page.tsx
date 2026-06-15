@@ -11,7 +11,8 @@ import BaddFooter from "../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Theris’ Law'
+  title: 'Theris’ Law',
+  description: "Learn about Theris' Law, BADD's advocacy efforts, and policy initiatives designed to improve treatment access, accountability, and support for individuals affected by substance use disorders."
 };
 
 export default function TherisLawPage() {

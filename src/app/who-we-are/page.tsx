@@ -11,7 +11,8 @@ import BaddFooter from "../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Who We Are'
+  title: 'Who We Are',
+  description: "Meet the leadership, advisors, and community advocates behind Brothers Against Drug Deaths and learn about our mission to transform pain into purpose."
 };
 
 export default function Events() {

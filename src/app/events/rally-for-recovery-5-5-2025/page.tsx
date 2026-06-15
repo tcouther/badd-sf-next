@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events: RALLY FOR RECOVERY, Monday, May 5th, 2025'
+  title: 'Events: RALLY FOR RECOVERY, Monday, May 5th, 2025',
+  description: "Stand with recovery advocates, families, and community leaders at Rally for Recovery as we promote hope, healing, and access to care."
 };
 
 export default function Events() {

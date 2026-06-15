@@ -12,7 +12,8 @@ import BaddFooter from "../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events'
+  title: 'Events',
+  description: "Stay informed about upcoming BADD events, community gatherings, recovery celebrations, educational programs, and advocacy initiatives throughout the San Francisco Bay Area."
 };
 
 export default function Events() {

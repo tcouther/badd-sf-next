@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Who We Are : Mosi Williams, Psy.D.'
+  title: 'Who We Are : Mosi Williams, Psy.D.',
+  description: "Meet Dr. Mosi Williams, psychologist and advisor supporting BADD's mission through mental health expertise and community advocacy."
 };
 
 export default function Events() {
