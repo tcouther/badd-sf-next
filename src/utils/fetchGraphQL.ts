@@ -2,6 +2,7 @@ export default async function fetchGraphQL(query: string, variables = {}) {
   const endpoint = process.env.WORDPRESS_GRAPHQL_ENDPOINT;
 
   if (!endpoint) {
+    console.error(variables,query);
     throw new Error("Missing WORDPRESS_GRAPHQL_ENDPOINT in .env.local");
   }
 
@@ -39,5 +40,5 @@ export default async function fetchGraphQL(query: string, variables = {}) {
   }
   */
 
-  return "<div>Feature coming soon</div>";
+  return "<div>Feature coming</div>";
 }
