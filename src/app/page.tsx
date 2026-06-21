@@ -77,29 +77,51 @@ export default function Home() {
 
         <section className="section-give bg-body">
           <div className="section-content">
-            <h2 className="fs-1">
-               A Successful First Anniversary 
-               <br/>and Grand Opening Celebration
-            </h2>
 
-            <div className="row">
-              <div className="col-md-12">
-                <p className="fs-4 sm-w-100 w-75 m-auto my-4">
-                  Dear Community Members, Friends, and Supporters,
-                </p>
-                <p className="fs-4 sm-w-100 w-75 m-auto my-4">
-                  On behalf of everyone at BADD Brothers Against Drug Deaths, 
-                  we extend our deepest gratitude to each of you who joined us on April 23, 2026, 
-                  for our Grand Opening and 1st Anniversary celebration at our new home on 
-                  Eddy Street in San Francisco.
-                </p>
+            <div className="row justify-content-center col-12 col-md-10 col-lg-9 m-auto">
+              <div className="col-md-12 text-start">
+                
+                <span className="text-primary fw-bold text-uppercase">
+                  Voices Unmuted
+                </span>
+                <h2 className="display-5 fw-bold mb-4"> Support Group</h2> 
+
               </div>
-            </div>            
+            </div>
 
-            <br/>
-            <Link className="fs-4" href="/events/badd-sf-grand-opening-first-anniversay-4-23-2026">Click here for more.</Link>
+            <div className="row justify-content-center col-12 col-md-10 col-lg-9 m-auto">
+              <div className="col-md-6 text-start">
+                <p className="fs-4"> 
+                  On July 20th, BADD is launching Voices Unmuted. 
+                  A new virtual support group built specifically for young men 
+                  between the ages of 18 to 36 dealing with mental health and substance abuse. 
+                </p>
+                <div className="card card-slim mb-4 mt-4 sm-w-100 w-40 fs-4">
+                    Register Today <strong>
+                      <a href="tel:1-833-292-2233" className="text-nowrap">1-833-292-2233</a>
+                    </strong>
+                </div>
+                <p className="fs-4"> 
+                  If you’re dealing with mental health struggles or substance use, or you just 
+                  need a judgment-free space to heal with brothers who actually get it, this is your circle. 
+                </p>
+                <br/><br/>
+              </div> 
+              <div className="col-md-6"> 
+                <div className="portrait-video rounded overflow-hidden shadow-lg">
+                  <iframe
+                    src="https://www.youtube.com/embed/ZLejsh_vRFk"
+                    title="Voices Unmuted"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div> 
+              </div>
+            </div>
           </div>
         </section>
+
+
 
 
         <section className="section-hr bg-body">
