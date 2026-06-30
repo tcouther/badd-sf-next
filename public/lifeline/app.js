@@ -32,7 +32,6 @@ function intake(){ if(state.submitted) return `<main class="intake-success"><div
 function render(){ app.innerHTML = route().startsWith('/intake') ? intake() : home(); }
 function formatPhone(value){ const digits=value.replace(/\D/g,''); if(digits.length<=3) return digits; if(digits.length<=6) return `(${digits.slice(0,3)}) ${digits.slice(3)}`; return `(${digits.slice(0,3)}) ${digits.slice(3,6)}-${digits.slice(6,10)}`; }
 async function submitIntake(){
-  alert('submitting test intake form');
   state.submitting = true;
   state.error = '';
   render();
