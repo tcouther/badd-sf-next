@@ -50,8 +50,9 @@ export default function Home() {
                   
                   <p className="lead my-4 font-weight-bold fs-3">
                     <b>
-                      Recovery advocacy, mental health support, and justice, for those battling addiction and mental illness, 
-                      particularly within Black and underserved communities. 
+                      Recovery advocacy, mental health support, and justice for people battling addiction and mental illness,
+                      with support for families of addicts and underserved communities searching for drug use help, recovery resources,
+                      and a path toward healing.
                     </b>
                   </p>
 
@@ -126,7 +127,7 @@ export default function Home() {
 
         <section className="section-hr bg-body">
           <div className="section-content">
-            <hr/>
+            <hr className="m-auto"/>
           </div>
         </section>
 
@@ -199,10 +200,14 @@ export default function Home() {
               Connect with Us
             </h2>
             <div className="row justify-content-center">
-              <div className="col-11 col-lg-7">
+              <div className="col-11 col-lg-8">
                 <p className="fs-4 my-4">
-                  Reach out and connect with us 
-                  or get involved at our next <Link href="/events">community event</Link>.
+                  Reach out for family addiction support, drug use help, recovery resources, or support groups for family members of addicts.
+                  You can also get involved at our next <Link href="/events" className="text-nowrap">community event</Link>.
+                </p>
+                <p className="fs-4 my-4">
+                  Call BADD-SF at <a href={`tel:${GLOBALS.GLOBAL_PHON1A}`} className="text-nowrap">{GLOBALS.GLOBAL_PHON1B}</a>
+                  {' '}(<a href={`tel:${GLOBALS.GLOBAL_PHON1A}`} className="text-nowrap">{GLOBALS.GLOBAL_PHON1A}</a>) to start a conversation.
                 </p>
               </div>
             </div>
