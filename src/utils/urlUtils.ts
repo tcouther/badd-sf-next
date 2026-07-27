@@ -2,17 +2,19 @@ export const normalizeImageUrl = (input:string) : string => {
 
   const url = input.trim();
 
-  if (!url.includes('http')) {
+  if (!/^https?:\/\//i.test(url)) {
     return safeImageUrl(url,true) as string;
   }
 
-	const urlObj : URL = new URL(input);
+	return safeImageUrl(url, false) as string;
+};
 
-	if (urlObj && urlObj.hasOwnProperty('path')) {
-		return safeImageUrl('https://badd-sf.org' + urlObj.pathname, false) as string;
-	} else {
-		return safeImageUrl(url, false) as string;
-	}
+const upgradeTrustedHttpUrl = (url: URL): URL => {
+  if (url.protocol === "http:") {
+    url.protocol = "https:";
+  }
+
+  return url;
 };
 
 export const safeUrl = (input:string) : string => { 
@@ -20,6 +22,7 @@ export const safeUrl = (input:string) : string => {
   const DEFAULT_URL = 'https://badd-sf.org';
 
   const ALLOWED_HOSTS = new Set([
+    "badd-sf.org",
     "cub.dpx.mybluehost.me",
     "www.badd-sf.org",
   ]);
@@ -44,7 +47,7 @@ export const safeUrl = (input:string) : string => {
       return DEFAULT_URL;
     }
 
-    return url.href;
+    return upgradeTrustedHttpUrl(url).href;
   } catch {
     return DEFAULT_URL;
   }
@@ -52,6 +55,7 @@ export const safeUrl = (input:string) : string => {
 
 export const safeImageUrl = (input:string, isRelative:boolean) : string => {
   const ALLOWED_HOSTS = new Set([
+    "badd-sf.org",
     "cub.dpx.mybluehost.me",
     "www.badd-sf.org",
   ]);
@@ -92,7 +96,7 @@ export const safeImageUrl = (input:string, isRelative:boolean) : string => {
       return DEFAULT_IMAGE;
     }
 
-    return url.href;
+    return upgradeTrustedHttpUrl(url).href;
   } catch {
     return DEFAULT_IMAGE;
   }

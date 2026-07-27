@@ -17,6 +17,10 @@ export default function ImageLoader({ src }) {
 
   if ( src === "" ) {
     return "";
+  } else if ( src.startsWith("http://") ) {
+    return src.replace("http://", "https://");
+  } else if ( src.startsWith("https://") ) {
+    return src;
   } else {
     return ( startsWithSlash(src) ) ? `${domain}${src}` : `${domain}/${src}`;
   }

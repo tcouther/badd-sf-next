@@ -48,7 +48,7 @@ export default function Events() {
                       “The Ambassador for Recovery“!
                     </p>
                     <p>
-                      <a href="http://cub.dpx.mybluehost.me/wp-content/uploads/2026/07/annual-recovery-day-2026.jpeg" className="btn btn-secondary btn-md my-2" target="_blank">Download Flyer</a>
+                      <a href="https://cub.dpx.mybluehost.me/wp-content/uploads/2026/07/annual-recovery-day-2026.jpeg" className="btn btn-secondary btn-md my-2" target="_blank" rel="noopener noreferrer">Download Flyer</a>
                     </p>
                   </div>
                 </div>
@@ -57,7 +57,8 @@ export default function Events() {
                   <p>
                     <img
                       width="100%"
-                      src="http://cub.dpx.mybluehost.me/wp-content/uploads/2026/07/annual-recovery-day-2026.jpeg"
+                      alt="6th Annual Recovery Day flyer"
+                      src="https://cub.dpx.mybluehost.me/wp-content/uploads/2026/07/annual-recovery-day-2026.jpeg"
                     />
                   </p>
                 </div>
