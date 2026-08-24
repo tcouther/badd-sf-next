@@ -11,6 +11,9 @@ import BaddFooter from "../../components/BaddFooter";
 //Navbar
 import ReadMore from "../../components/ReadMore";
 
+//Findhelp Search
+import FindHelpSearch from '../../components/FindHelpSearch';
+
 //Globals
 import GLOBALS from "../globals.json";
 
@@ -36,8 +39,7 @@ export default function Events() {
 
             <div className="row">
 
-              <div className="col-md-8 general-content">
-                
+              <div className="col-9 col-md-8 col-lg-10 general-content">
                 <p className="fs-4">
                   BADD is a community resource in the San Francisco Bay Area.
                 </p>
@@ -49,12 +51,54 @@ export default function Events() {
                 </p>
               </div>
             </div>
+
+
+            <div className="py-5"><hr/></div>
+
+            <div className="row">
+
+              <div className="col-11 col-md-5 col-md-4 general-content">
+                <h3 className="fs-3 mb-2">
+                  <span className="highlight">Find Help in Your Community</span>
+                </h3><div className="py-1"></div>
+                <p className="fs-4 mb-4">
+                  BADD is on findhelp.
+                  Search mental health, recovery, housing, food, healthcare, employment, and other support resources near you.
+                </p>
+                <p className="findhelp-search-notice">
+                    Search results are provided by <Link href="https://www.findhelp.org/" target="_blank">findhelp.org</Link> and open in a new browser tab.
+                    For emergencies, call 911. For crisis support, call or text 988.
+                </p>
+              </div>
+              <div className="col-1"></div>
+              <div className="col-md-6 col-md-6 general-content">
+                <div className="card card-slim mb-4 card-fit">
+                  <div className="pb-2 w-25">
+                    <Image
+                      src="/badd-assets/logos/findhelp-logo.png"
+                      width={300}
+                      height={90}
+                      alt=""
+                      aria-hidden="true"
+                      className="img-full-width resource-logo"
+                    />
+                  </div>
+                  <FindHelpSearch width="600" />
+                  
+                </div>
+              </div>
+            </div>
+
           </div>
+
+
+
         </section>
 
 
         <section className="section-resources-emergency bg-light">
           <div className="section-content pb-0 mb-0">
+
             <div className="headline-content">
               <h3 className="fs-1 highlight">Essential Support Lines & Community Resources</h3>
             </div>

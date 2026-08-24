@@ -20,6 +20,9 @@ import BaddModal from '../components/BaddModal';
 //Newsletter
 import NewsletterForm from '../components/NewsletterForm';
 
+//Findhelp Search
+import FindHelpSearch from '../components/FindHelpSearch';
+
 
 export default function Home() {
 
@@ -76,7 +79,36 @@ export default function Home() {
         </section>
 
 
-        <section className="section-give bg-body">
+
+
+        <section className="findhelp-section" aria-labelledby="findhelp-title">
+          <div className="section-content">
+            <h2 className="fs-1" id="findhelp-title">Find Help in Your Community</h2>
+
+            <div className="col-12 col-md-10 col-lg-9 m-auto">
+              <p className="fs-4 my-4">
+                Search mental health, recovery, housing, food, healthcare, and 
+                employment support near you.
+              </p>
+            </div>
+
+            <div className="py-3"></div>
+
+            <div className="findhelp-responsive">
+              <FindHelpSearch width="100%" />
+            </div>
+
+            <p className="findhelp-search-notice">
+              Search results are provided by <Link href="https://www.findhelp.org/" target="_blank">findhelp.org</Link> and open in a new browser tab.
+              <br/>For emergencies, call 911. For crisis support, call or text 988.
+            </p>
+
+          </div>
+        </section>
+
+
+
+        <section className="section-support-group bg-light">
           <div className="section-content">
 
             <div className="row justify-content-center col-12 col-md-10 col-lg-9 m-auto">
@@ -93,25 +125,24 @@ export default function Home() {
             <div className="row justify-content-center col-12 col-md-10 col-lg-9 m-auto">
               <div className="col-md-6 text-start">
                 <p className="fs-4"> 
-                  On July 20th, BADD is launching Voices Unmuted. 
-                  A new virtual support group built specifically for young men 
+                  Voices Unmuted is a virtual support group built specifically for young men 
                   between the ages of 18 to 36 dealing with mental health and substance abuse. 
                 </p>
                 <div className="card card-slim mb-4 mt-4 sm-w-100 w-40 fs-4">
-                    Register Today <strong>
+                    Register for our next session. Tuesday, August 25th 2026.
+                    <strong>
                       <a href="tel:1-833-292-2233" className="text-nowrap">1-833-292-2233</a>
                     </strong>
                 </div>
                 <p className="fs-4"> 
-                  If you’re dealing with mental health struggles or substance use, or you just 
-                  need a judgment-free space to heal with brothers who actually get it, this is your circle. 
+                  If you need a judgment-free space to heal with brothers who actually get it, this is your circle.
                 </p>
                 <br/><br/>
               </div> 
               <div className="col-md-6"> 
                 <div className="portrait-video rounded overflow-hidden shadow-lg">
                   <iframe
-                    src="https://www.youtube.com/embed/ZLejsh_vRFk"
+                    src="https://www.youtube.com/embed/-jxdRvgzG7g"
                     title="Voices Unmuted"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -123,13 +154,77 @@ export default function Home() {
         </section>
 
 
-
-
         <section className="section-hr bg-body">
           <div className="section-content">
             <hr className="m-auto"/>
           </div>
         </section>
+
+
+        <section className={`section-give bg-body ${styles.lifelineFeatureSection}`}>
+          <div className="section-content">
+            <div className="row justify-content-center col-12 col-md-10 col-lg-9 m-auto">
+              <div className="col-md-12 text-start">
+                <span className="text-primary fw-bold text-uppercase">
+                  Featured Resource
+                </span>
+                <h2 className="display-5 fw-bold mb-4">Lifeline SF</h2>
+              </div>
+            </div>
+
+            <div className="row justify-content-center col-12 col-md-10 col-lg-9 m-auto align-items-start">
+              <div className="col-md-12 text-start">
+                <p className="fs-4 mb-3 mb-lg-4">
+                  Lifeline SF gives families a confidential way to connect with BADD, 
+                  navigate the system and advocate for a loved one’s recovery.
+                </p>
+              </div>
+
+              <div className="col-md-7 text-start">
+
+                <div className="col-md-10 text-start">
+                  <p className="fs-4">
+                    Share the details that matter, organize urgent information, and help our team respond with
+                    care, clarity, and a plan.
+                  </p>
+                </div>
+
+                <div className="d-flex flex-wrap gap-3 my-4">
+                  <Link href="/lifeline-sf" className="btn btn-primary btn-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-heart-fill me-2 mb-1" viewBox="0 0 16 16" aria-hidden="true">
+                      <path fillRule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15C-7.534 4.736 3.562-3.248 8 1.314"/>
+                    </svg>
+                    Explore Lifeline SF
+                  </Link>
+                  <Link href="/connect" className="btn btn-outline-primary btn-lg">
+                    Talk to BADD
+                  </Link>
+                </div>
+
+                <p className="small text-muted mb-0">
+                  Lifeline SF is a supportive advocacy resource, not a substitute for emergency care.
+                  If someone is in immediate danger, call or text 988, or call 911.
+                </p>
+                <br/>
+              </div>
+
+              <div className="col-md-5">
+                <div className="border rounded-3 shadow-sm p-4 bg-body text-start">
+                  <h3 className="fs-5 fw-bold">How Lifeline helps</h3>
+                  <ul className="fs-5 mb-0 ps-4">
+                    <li className="mb-2">Starting a secure intake</li>
+                    <li className="mb-2">Organizing urgent family details</li>
+                    <li className="mb-2">Connecting with BADD support</li>
+                    <li>Moving from crisis toward a recovery plan</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
 
 
         <section className="section-give bg-body">

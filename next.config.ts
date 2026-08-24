@@ -23,7 +23,7 @@ const nextConfig: NextConfig = {
     loaderFile: "./ImageLoader.js",
     remotePatterns: [
       {
-        protocol: 'https',
+        protocol: 'http',
         hostname: 'cub.dpx.mybluehost.me',
         pathname: '/wp-content/uploads/**',
       },
