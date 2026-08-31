@@ -11,13 +11,17 @@ import BaddFooter from "../../components/BaddFooter";
 //Navbar
 import ReadMore from "../../components/ReadMore";
 
+//Findhelp Search
+import FindHelpSearch from '../../components/FindHelpSearch';
+
 //Globals
 import GLOBALS from "../globals.json";
 
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Resources'
+  title: 'Resources',
+  description: "Explore recovery resources, harm reduction information, family support services, treatment options, and community programs recommended by Brothers Against Drug Deaths."
 };
 
 export default function Events() {
@@ -35,8 +39,7 @@ export default function Events() {
 
             <div className="row">
 
-              <div className="col-md-8 general-content">
-                
+              <div className="col-9 col-md-8 col-lg-10 general-content">
                 <p className="fs-4">
                   BADD is a community resource in the San Francisco Bay Area.
                 </p>
@@ -48,67 +51,149 @@ export default function Events() {
                 </p>
               </div>
             </div>
+
+
+            <div className="py-5"><hr/></div>
+
+            <div className="row">
+
+              <div className="col-11 col-md-5 col-md-4 general-content">
+                <h3 className="fs-3 mb-2">
+                  <span className="highlight">Find Help in Your Community</span>
+                </h3><div className="py-1"></div>
+                <p className="fs-4 mb-4">
+                  BADD is on findhelp.
+                  Search mental health, recovery, housing, food, healthcare, employment, and other support resources near you.
+                </p>
+                <p className="findhelp-search-notice">
+                    Search results are provided by <Link href="https://www.findhelp.org/" target="_blank">findhelp.org</Link> and open in a new browser tab.
+                    For emergencies, call 911. For crisis support, call or text 988.
+                </p>
+              </div>
+              <div className="col-1"></div>
+              <div className="col-md-6 col-md-6 general-content">
+                <div className="card card-slim mb-4 card-fit">
+                  <div className="pb-2 w-25">
+                    <Image
+                      src="/badd-assets/logos/findhelp-logo.png"
+                      width={300}
+                      height={90}
+                      alt=""
+                      aria-hidden="true"
+                      className="img-full-width resource-logo"
+                    />
+                  </div>
+                  <FindHelpSearch width="600" />
+                  
+                </div>
+              </div>
+            </div>
+
           </div>
+
+
+
         </section>
 
 
         <section className="section-resources-emergency bg-light">
           <div className="section-content pb-0 mb-0">
+
             <div className="headline-content">
-              <h3 className="fs-1 highlight">Emergency Resources</h3>
+              <h3 className="fs-1 highlight">Essential Support Lines & Community Resources</h3>
             </div>
 
             <div className="row">
 
-              <div className="col-md-8 general-content">
+              <div className="col-md-11 general-content">
                 
                 <p className="fs-4">
-                  <strong>For immediate help, understanding these numbers can save lives and ensure timely assistance.</strong>
+                  If you or a loved one are facing a crisis, navigating recovery, or just trying to keep your head above water,
+                  these four numbers connect you to the right help right away.
+                  These services are free to call. Crisis support lines are confidential and available 24/7.
                 </p>
 
               </div>
             </div>
 
-            <div className="py-3"></div>
+            <div className="py-3">
+              <br />
+            </div>
 
             <div className="row">
 
               <div className="col-md-6 general-content">
 
-                <h3 className="fs-2">Emergency</h3>
-                <p className="fs-4">
-                  <b className="fs-3 highlight">Call: 9-1-1</b><br/>
-                  For emergencies requiring <strong>police</strong>, <strong>fire</strong>, or <strong>medical</strong> responses.
-                  The universal emergency number in the United States and Canada.
-                </p>
+                <div className="mb-5">
+                  <h4 className="fs-2 mb-4 p-4 bg-danger text-white">Emergency & Crisis Support</h4>
 
-                <div className="py-4"></div>
+                  <br />
 
-                <h3 className="fs-2">Mental Health Emergency</h3>
-                <p className="fs-4">
-                  <b className="fs-3 highlight">Call: 9-8-8</b><br/>
-                  For <strong>mental health crisis</strong>, <strong>substance use</strong>, or <strong>emotional distress</strong>.
-                  A 24 hour hotline providing free and confidential support for people in distress.
-                </p>
+                  <div className="mb-4">
+                    <h5 className="fs-3 mb-2">
+                      <span className="highlight fw-bold">Call or Text 988</span> <br/>Suicide & Crisis Lifeline
+                    </h5>
+                    <p className="fs-5 mb-0">
+                      <strong>When to use:</strong> If you are experiencing a mental health crisis, overwhelming stress,
+                      thoughts of suicide, or a substance use emergency. You will be connected to a trained counselor
+                      who can support you through the moment.
+                    </p>
+                  </div>
 
-                <div className="py-4"></div>
+                  <div>
+                    <h5 className="fs-3 mb-2">
+                      <span className="highlight fw-bold">Call 911</span> <br/>Immediate Medical or Safety Emergencies
+                    </h5>
+                    <p className="fs-5 mb-0">
+                      <strong>When to use:</strong> For life-threatening situations, medical emergencies like an overdose,
+                      or immediate safety threats.
+                    </p>
+                  </div>
+                </div>
 
-                <h3 className="fs-2">Non-Emergency</h3>
-                <p className="fs-4">
-                  <b className="fs-3 highlight">Call: 3-1-1</b><br/>
-                  For <strong>non-emergency</strong> municipal services.
-                  In San Francisco, 311 serves as the primary point of contact for non-emergency city services.
-                  Outside of San Francisco, call 415.701.2311. 
-                </p>
-                <br/>
+                <br/><br/>
+
+                <div className="mb-4">
+                  <h4 className="fs-2 mb-4 p-4 bg-warning">Daily Living & Community Support</h4>
+
+                  <br />
 
 
+                  <div className="mb-4">
+                    <h5 className="fs-3 mb-2">
+                      <span className="highlight fw-bold">Call or Text 211</span> <br/>Essential Human Services
+                    </h5>
+                    <p className="fs-5">
+                      <strong>When to use:</strong> For finding the local resources you need to stay stable. 211 connects
+                      you to housing assistance, emergency shelters, food banks, utility bill support, health clinics,
+                      and local recovery groups.
+                    </p>
+                    <p className="fs-5 mb-0">
+                      <strong>Why we list it:</strong> True recovery requires a stable foundation. 211 helps relieve
+                      everyday stressors, like food or housing insecurity, that can trigger a crisis.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h5 className="fs-3 mb-2">
+                      <span className="highlight fw-bold">Call 311</span> <br/>Local City & Municipal Services
+                    </h5>
+                    <p className="fs-5 mb-0">
+                      <strong>When to use:</strong> To report local, non-emergency neighborhood issues like street light
+                      outages, missed trash pickups, graffiti, or potholes.
+                    </p>
+                  </div>
+
+                  <br/>
+                  <br/>
+                  <br/>
+                </div>
 
               </div>
               <div className="col-md-1"></div>
               <div className="col-md-5 general-content">
                 <Image
-                  src="/badd-assets/graphics/numbers.jpeg"
+                  src="/badd-assets/graphics/numbers2026.jpeg"
                   width={1024}
                   height={1536}
                   alt=""

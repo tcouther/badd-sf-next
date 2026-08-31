@@ -1,4 +1,5 @@
 .DS_Store
 .htaccess
+.env.local
 .next/
 node_modules/

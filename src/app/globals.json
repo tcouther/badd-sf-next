@@ -1,8 +1,10 @@
 {
-  "GLOBAL_CALEIN" : "33-4680804",
-  "GLOBAL_FEDEIN" : "",
-  "GLOBAL_FUNDME" : "https://gofund.me/ecd49de5",
+  "GLOBAL_CALEIN" : "CT0300759",
+  "GLOBAL_FEDEIN" : "33-4680804",
+  "GLOBAL_FUNDME" : "https://gofund.me/2b4090702",
+  "GLOBAL_FUNDME_ORIGINAL" : "https://gofund.me/ecd49de5",
   "GLOBAL_PAYPAL" : "https://www.paypal.com/donate/?hosted_button_id=23P92NHESYZV2",
+  "GLOBAL_SEESCANDIES" : "https://www.yumraising.com/store/all-year-2026-badd-brothers-against-drug-deaths-fundraiser-5e4f/TheCoa96923",
   "GLOBAL_PHON1A" : "1-833-292-2233",
   "GLOBAL_PHON1B" : "1-833-292-BADD",
   "PUBLISHEDDATE" : "July 18, 2025",
@@ -10,12 +12,21 @@
     "FACEBOOK" : "https://www.facebook.com/people/BADD-Brothers-Against-Drug-Deaths/61575812852358/",
     "YOUTUBE" : "https://www.youtube.com/@BADD-SF",
     "YOUTUBE_AFR" : "https://www.youtube.com/@AmbassadorForRecovery",
-    "TWITTER" : "https://x.com/drug_deaths?s=11&t=lEEHicAXMsoPKQUJ_ZcVOw"
+    "TWITTER" : "https://x.com/drug_deaths?s=11&t=lEEHicAXMsoPKQUJ_ZcVOw",
+    "LINKEDIN": "https://www.linkedin.com/company/badd-brothers-against-drug-deaths/posts/?feedView=all"
   },
   "ADDRESS": {
     "NAME" : "BADD Brothers Against Drug Deaths",
-    "LINE1" : "77 Van Ness Avenue, Suite #101",
+    "LINE1" : "233 Eddy Street",
     "LINE2" : "San Francisco, CA 94102"
   },
-  "COPYRIGHT" : "Copyright 2025 BADD-SF.org, Brothers Against Drug Deaths."
+  "COPYRIGHT" : "Copyright 2025 BADD-SF.org, Brothers Against Drug Deaths.",
+  "ENDPOINTS" : {
+    "ARTICLES" : "/badd-data/articles.json",
+    "EVENTS" : "/badd-data/events.json"
+  },
+  "API" : {
+    "ARTICLES" : "https://badd-sf.org/wp-json/badd/v1/articles",
+    "EVENTS" : "https://badd-sf.org/wp-json/badd/v1/events"
+  }
 }

@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events: UNITED PLAYAZ’s GRAND OPENING CEREMONY, Saturday, June 12, 2025'
+  title: 'Events: UNITED PLAYAZ’s GRAND OPENING CEREMONY, Saturday, June 12, 2025',
+  description: "Attend the United Playaz Grand Opening Ceremony and celebrate community leadership, youth development, and violence prevention initiatives."
 };
 
 export default function Events() {

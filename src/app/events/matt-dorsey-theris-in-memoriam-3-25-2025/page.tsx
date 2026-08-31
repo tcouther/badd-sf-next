@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events : San Francisco Supervisor Matt Dorsey memorial to Theris Lee “TC” Coats II, Tuesday, March 25th, 2025'
+  title: 'Events : San Francisco Supervisor Matt Dorsey memorial to Theris Lee “TC” Coats II, Tuesday, March 25th, 2025',
+  description: "Watch Supervisor Matt Dorsey's memorial tribute honoring Theris Lee 'TC' Coats II and highlighting the challenges facing families affected by addiction."
 };
 
 export default function Events() {

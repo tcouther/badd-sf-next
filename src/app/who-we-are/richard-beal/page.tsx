@@ -10,7 +10,8 @@ import { Metadata } from 'next';
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: 'Who We Are : Richard Beal'
+  title: 'Who We Are : Richard Beal',
+  description: "Meet Richard Beal, recovery advocate and community leader whose lived experience helps inspire hope and long-term recovery."
 };
 
 export default function Events() {
@@ -34,24 +35,22 @@ export default function Events() {
                   <strong><span className="text-nowrap">Co-founder</span> &amp; Secretary of BADD</strong>
                 </p>
                 <p>
-                  Richard Beal is author of <i>“Recovering From the Game”</i> and BADD Co-founder. 
-                  Richard Beal has over 25 years of experience working with the justice involved 
-                  population. 
+                  Richard Beal, is a Master – Registered Addiction Specialist, Certified Supervisor Credential, Certified Co-Occurring Disorder Specialist, Forensic Addiction Counselor, 
+                  California Alcohol and Drug Counselor II, Advanced Certified Relapse Prevention Specialist and Author of &ldquo;Recovering From the GAME&rdquo;. 
+                  He is a seasoned and compassionate leader with 30 years of experience working with reentry, recovery, and homeless populations. 
                 </p>
                 <p>
-                  He is currently the Director of Recovery Services for Tenderloin 
-                  Housing Clinic. He has managed several residential programs in the 
-                  San Francisco Bay Area including Western Addition Recovery House, 
-                  (San Francisco, Ca.) Center for Recovery (San Francisco, Ca.) 
-                  and in-custody program Roads to Recovery in San Francisco County Jail. 
+                  He currently serves as the Director of Recovery Services for Tenderloin Housing Clinic in San Francisco, Ca. 
+                  He is co-founder of BADD-Brothers Against Drug Deaths. He is a transformational leader, advocate, and living testimony who &ldquo;crosses all bridges&rdquo;—from streets to systems, 
+                  from suffering to solutions, from addiction to advocacy. 
                 </p>
                 <p>
-                  Richard Beal has the unique blend of working with diverse populations, 
-                  clinical knowledge, living experience, and comprehensive understanding 
-                  of the complex dynamics underlying addiction, reentry, mental illness and recovery. 
+                  Richard Beal represents a unique and unwavering commitment to connecting recovery communities with public institutions, 
+                  bringing together the unheard voices of the unhoused, justice-involved, and addicted with the halls of policy, healthcare, and housing. 
                 </p>
                 <p>
-                  He is widely known in the recovery community as “The Ambassador for Recovery”.
+                  As the Ambassador for Recovery, he is a bridge-builder who walks with those still struggling while engaging those in power to create change. 
+                  His journey—marked by lived experience, clinical insight, and unwavering compassion—embodies what it means to recover loudly so others don’t die silently.
                 </p>
               </div>
               <div className="col-md-1"></div>

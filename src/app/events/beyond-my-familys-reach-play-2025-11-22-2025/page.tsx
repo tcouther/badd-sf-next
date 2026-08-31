@@ -24,121 +24,121 @@ export default function Events() {
 
         <section className="section-connect bg-black">
           <div className="section-content">
-            <div className="row">
-              <div className="col-lg-6 general-content text-white fs-4">
+            <div className="row justify-content-center">
+
+              <div className="col-lg-12 general-content text-white fs-4">
                 <p>Brother’s Against Drug Deaths Presents...</p>
                 <h2 className="fs-1">Beyond My Family’s Reach</h2>
 
                 <p className="pt-4">
-                  Join BADD for the theatrical world premier of 
-                  this emotionally charged play. <strong className="highlight text-nowrap">Get Free Tickets Now!</strong>
+                  The Play Was A Tremendous Success! 
+                  Saturday, November 22, 2025, at 
+                  the <span className="text-nowrap">Ruth Williams Bayview Opera House</span> with a sold out premier.
                 </p>
-                <p className="pt-3">
-                  <Link href="https://tinyurl.com/BeyondMyFamilysReach" className="btn btn-warning btn-md me-2 mb-1">2:00pm Show</Link>
-                  <Link href="https://tinyurl.com/BeyondMyFamilysReach7" className="btn btn-warning btn-md mb-1">7:00pm Show</Link>
-                </p>
+                <br/>
 
+              </div>
 
-                <div className="py-4 d-block d-sm-none">
+              <div className="col-lg-6 general-content text-white fs-4">
+
+                <div className="row">
+                <div className="col-md-8 col-lg-8">
                   <Image
-                  src="/badd-assets/events/2025-play-beyond-my-familys-reach-wide.jpeg"
-                  layout="responsive"
-                  width={1024} // Original image width
-                  height={1536} // Original image height
-                  alt="Promotional Photo Beyond My Family’s Reach Play"
-                  aria-hidden="true"
-                  className="rounded-3 img-full-width"
-                />
+                    src="/badd-assets/events/beyond-play-photo.jpeg"
+                    layout="responsive"
+                    width={1116} // Original image width
+                    height={970} // Original image height
+                    alt="Event Photo Beyond My Family’s Reach Play"
+                    aria-hidden="true"
+                    className="rounded-3 img-full-width"
+                  />
+                </div>
                 </div>
 
                 <p className="pt-4">
-                  This emotionally charged play shines a spotlight on the impact of systemic barriers like HIPAA laws, the silence surrounding mental health in Black communities, and the heartbreak of watching someone slip through your fingers.
+                  The stage play “Beyond My Family’s Reach” was a tremendous success, 
+                  with both performances selling out and being enthusiastically received by the community. 
+                  This powerful production, presented by BADD (Brothers Against Drug Deaths), 
+                  brought audiences together to confront the realities of addiction, 
+                  mental illness, and the impact these challenges have on families.​  
                 </p>
+              </div>
+              <div className="col-lg-6 general-content text-white fs-4">
                 <p>
-                  Through raw dialogue, soul-stirring scenes, and a compassionate lens, 
-                  Beyond My Family’s Reach calls us to witness the strength it takes to heal-and the power of family, 
-                  love, and community to try.
+                  BADD extends heartfelt gratitude to the talented writers, directors, cast members, 
+                  and the many dedicated volunteers whose hard work ensured that every aspect of the show 
+                  ran smoothly. Special thanks go to Avenue Greenlight, Neighbors for a Better 
+                  San Francisco, and STLR Entertainment for their generous financial support, 
+                  which helped make this premiere possible.​
                 </p>
-
-                <p className="pt-4">Saturday, November 22, 2025
-                    <br/><Link href="https://rwoh.org/upcoming-events/" target="_blank">Ruth Williams Bayview Opera House</Link>
-                    <br/>4705 3rd Street
-                    <br/>San Francisco, CA 94124
-                    <br/>2:00pm and 7:00pm
+                <p className="pt-4">
+                  The organization also wishes to recognize the many behind-the-scenes contributors 
+                  whose efforts often go unseen but are essential to the success of productions like this. 
+                  Cofounders Richard Beal and Theris Coats, along with Chris St. James, 
+                  played key roles in guiding this project and advancing BADD’s mission to honor 
+                  lives lost to drug-related deaths and support healthier, safer communities.
                 </p>
+              </div>
 
-                
-
-
-
-
-                <div className="col-lg-10 col-md-8 col-sm-8">
-                  <div className="row">
-                    <div className="col-md-12 p-3">
-                      <small>Made possible by...</small>
-                    </div>
-                  </div>
-                  <div className="row d-flex align-items-center">
-
-                    <div className="col-4 px-3 py-2 brightness-3">
-                      <Link href="https://www.neighborsbettersf.com/" target="_blank">
-                      <Image
-                        src="/badd-assets/logos/neighbors-logo.svg"
-                        layout="responsive"
-                        width={100} // Original image width
-                        height={100} // Original image height
-                        alt="Neighbors for a Better San Francisco is an organization of dedicated San Franciscans committed to public safety, serious solutions to homelessness"
-                      />
-                      </Link>
-                    </div>
-                    
-                    <div className="col-4 px-5 py-2">
-                      <Link href="https://www.stlrentertainment.com/" target="_blank">
-                      <Image
-                        src="/badd-assets/logos/stlr-logo-brand-vert-web.png"
-                        layout="responsive"
-                        width={100} // Original image width
-                        height={100} // Original image height
-                        alt="STLR Entertainment, We Book Premier Talent"
-                      />
-                      </Link>
-                    </div>
-                    
-                    <div className="col-4 px-5 py-2">
-                      <Link href="https://www.avenuegreenlightsf.org/" target="_blank">
-                      <Image
-                        src="/badd-assets/logos/logo-aveenue-greenlight.png"
-                        layout="responsive"
-                        width={100} // Original image width
-                        height={100} // Original image height
-                        alt="Avenue Greenlight, provides funding through grants to merchant organizations and other community groups"
-                      />
-                      </Link>
-                    </div>
+              <div className="col-12 col-md-8 col-lg-8 px-2 py-2">
+                <div className="row">
+                  <div className="col-md-12 p-3 text-white">
+                    <small>Made possible by...</small>
                   </div>
                 </div>
+                <div className="row d-flex align-items-center">
 
+                  <div className="col-3 col-sm-4 col-md-3 px-4 py-2">
+                    <Link href="https://www.stlrentertainment.com/" target="_blank">
+                    <Image
+                      src="/badd-assets/logos/stlr-logo-brand-vert-web.png"
+                      layout="responsive"
+                      width={100} // Original image width
+                      height={100} // Original image height
+                      alt="STLR Entertainment, We Book Premier Talent"
+                    />
+                    </Link>
+                  </div>
 
+                  <div className="col-3 col-sm-4 col-md-3 px-2 py-2 brightness-3">
+                    <Link href="https://www.neighborsbettersf.com/" target="_blank">
+                    <Image
+                      src="/badd-assets/logos/neighbors-logo.svg"
+                      layout="responsive"
+                      width={100} // Original image width
+                      height={100} // Original image height
+                      alt="Neighbors for a Better San Francisco is an organization of dedicated San Franciscans committed to public safety, serious solutions to homelessness"
+                    />
+                    </Link>
+                  </div>
+                  
+                  <div className="col-3 col-sm-4 col-md-3 px-4 py-2">
+                    <Link href="https://www.avenuegreenlightsf.org/" target="_blank">
+                    <Image
+                      src="/badd-assets/logos/logo-aveenue-greenlight.png"
+                      layout="responsive"
+                      width={100} // Original image width
+                      height={100} // Original image height
+                      alt="Avenue Greenlight, provides funding through grants to merchant organizations and other community groups"
+                    />
+                    </Link>
+                  </div>
 
+                  <div className="col-3 col-sm-7 col-md-3 col-lg-3 px-2 py-2">
+                    <Link href="https://www.oldskoolcafe.org/" target="_blank">
+                    <Image
+                      src="/badd-assets/logos/old-skool-cafe-logo.jpg"
+                      layout="responsive"
+                      width={100} // Original image width
+                      height={100} // Original image height
+                      alt="Old Skool Cafe, youth run supper club"
+                    />
+                    </Link>
+                  </div>
 
+                </div>
               </div>
-              <div className="col-lg-1">
-              </div>
 
-              <div className="col-lg-5 col-sm-9">
-                <Image
-                  src="/badd-assets/events/2025-play-beyond-my-familys-reach-pic.jpeg"
-                  layout="responsive"
-                  width={1024} // Original image width
-                  height={1536} // Original image height
-                  alt="Promotional Photo Beyond My Family’s Reach Play"
-                  aria-hidden="true"
-                  className="rounded-3 img-full-width"
-                />
-                <p>
-                    <Link href="/badd-assets/events/2025-play-beyond-my-familys-reach.jpeg">Click here to download a flyer.</Link>
-                </p>
-              </div>
             </div>
           </div>
         </section>

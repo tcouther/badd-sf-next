@@ -11,7 +11,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events: Both Sides of the Conversation Hidden Gems Podcast, Tuesday, September 23, 2025'
+  title: 'Events: Both Sides of the Conversation Hidden Gems Podcast, Tuesday, September 23, 2025',
+  description: "Join the Both Sides of the Conversation Hidden Gems Podcast for meaningful discussions about recovery, healing, and community solutions."
 };
 
 export default function Events() {

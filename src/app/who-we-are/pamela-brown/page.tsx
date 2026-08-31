@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Who We Are : Pamela Brown, M.A.'
+  title: 'Who We Are : Pamela Brown, M.A.',
+  description: "Learn about Pamela Brown, M.A., and her work supporting families, recovery initiatives, and community empowerment through BADD."
 };
 
 export default function Events() {
