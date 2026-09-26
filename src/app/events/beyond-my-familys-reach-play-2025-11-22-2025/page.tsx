@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../../page.module.css";
 
+//Globals
+import GLOBALS from "../../globals.json";
+
 //Navbar
 import BaddNavbar from "../../../components/BaddNavbar";
 
@@ -11,7 +14,7 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events : Beyond My Family’s Reach, Theatrical debut, Saturday, November 22, 2025'
+  title: 'Events : Beyond My Family’s Reach, Theatrical production by BADD (Brothers Against Drug Deaths)',
 };
 
 export default function Events() {
@@ -35,24 +38,32 @@ export default function Events() {
                   Saturday, November 22, 2025, at 
                   the <span className="text-nowrap">Ruth Williams Bayview Opera House</span> with a sold out premier.
                 </p>
-                <br/>
+
+                <p className="pt-3">
+                  To Schedule a Screening, call <a href={`tel:${GLOBALS.GLOBAL_PHON1A}`} className="text-nowrap">{GLOBALS.GLOBAL_PHON1A}</a>, or email <a href={`mailto:${GLOBALS.GLOBAL_CONTACT_EMAIL}`} className="text-nowrap">{GLOBALS.GLOBAL_CONTACT_EMAIL}</a>.
+                  <br/>
+                </p>
+
+
+
 
               </div>
 
               <div className="col-lg-6 general-content text-white fs-4">
 
                 <div className="row">
-                <div className="col-md-8 col-lg-8">
-                  <Image
-                    src="/badd-assets/events/beyond-play-photo.jpeg"
-                    layout="responsive"
-                    width={1116} // Original image width
-                    height={970} // Original image height
-                    alt="Event Photo Beyond My Family’s Reach Play"
-                    aria-hidden="true"
-                    className="rounded-3 img-full-width"
-                  />
-                </div>
+                  <div className="mb-3 mt-3 col-md-10 col-lg-10">
+
+                    <div style={{padding:"56.25% 0 0 0", position:"relative"}}>
+                      <iframe 
+                      src="https://player.vimeo.com/video/1230550332?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
+                      referrerPolicy="strict-origin-when-cross-origin" 
+                      style={{position:"absolute", top:0, left:0, width:"100%", height:"100%"}} title="Beyond My Family's Reach : Official Trailer"></iframe>
+                    </div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+
+                  </div>
                 </div>
 
                 <p className="pt-4">
@@ -62,6 +73,21 @@ export default function Events() {
                   brought audiences together to confront the realities of addiction, 
                   mental illness, and the impact these challenges have on families.​  
                 </p>
+
+                <div className="row">
+                  <div className="mb-3 mt-3 col-md-11 col-lg-11">
+                    <Image
+                        src="/badd-assets/events/beyond-play-photo.jpeg"
+                        layout="responsive"
+                        width={1116} // Original image width
+                        height={970} // Original image height
+                        alt="Event Photo Beyond My Family’s Reach Play"
+                        aria-hidden="true"
+                        className="rounded-3 img-full-width"
+                      />
+                  </div>
+                </div>
+
               </div>
               <div className="col-lg-6 general-content text-white fs-4">
                 <p>
