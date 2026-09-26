@@ -11,7 +11,8 @@ import BaddFooter from "../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Theris’ Law'
+  title: 'Theris’ Law',
+  description: "Learn about Theris' Law, BADD's advocacy efforts, and policy initiatives designed to improve treatment access, accountability, and support for individuals affected by substance use disorders."
 };
 
 export default function TherisLawPage() {
@@ -28,18 +29,25 @@ export default function TherisLawPage() {
             </div>
 
             <div className="general-content">
-              <Link href="/badd-assets/docs/Theris-Law-Fact-Sheet.pdf" className="btn btn-secondary btn-lg mb-4 me-4" target="_blank" aria-label="Print Theris’ Law">
+              <Link href="/badd-assets/docs/Theris-Law-Fact-Sheet.pdf" className="tl-btn btn btn-secondary btn-lg mb-4 me-4" target="_blank" aria-label="Print Theris’ Law">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-printer" viewBox="0 0 16 16">
                   <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"></path>
                   <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1"></path>
                 </svg> &nbsp; <span>Print Face Sheet</span>
               </Link>
-              <Link href="/badd-assets/docs/Theris-Law-2-2.pdf" className="btn btn-secondary btn-lg mb-4" target="_blank" aria-label="Print Theris’ Law">
+              <Link href="/badd-assets/docs/Theris-Law-2-2.pdf" className="tl-btn btn btn-secondary btn-lg mb-4 me-4" target="_blank" aria-label="Print Theris’ Law">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-printer" viewBox="0 0 16 16">
                   <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"></path>
                   <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1"></path>
                 </svg> &nbsp; <span>Print Theris’ Law</span>
               </Link>
+              <Link href="/badd-assets/docs/theris-law-legislative-council-language-rn2604486.pdf" className="tl-btn btn btn-secondary btn-lg mb-4 me-4" target="_blank" aria-label="Print Theris’ Law">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-printer" viewBox="0 0 16 16">
+                  <path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"></path>
+                  <path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1"></path>
+                </svg> &nbsp; <span>Legislative Council Language</span>
+              </Link>
+              
             </div>
 
             <div className="letter-to-you py-4 text-muted">
@@ -79,10 +87,8 @@ export default function TherisLawPage() {
                     He struggled with mental illness and addiction.
                     We saw the danger. We pleaded for support.
                   </p>
-                  <p className="mx-4">
-                    But the law told us:
-                    <br/>❌ You’re not allowed in.
-                    <br/>❌ You’re not authorized to help.
+                  <p>
+                    But the law told us <b>you’re not allowed in</b> and <b>you’re not authorized to help</b>.
                   </p>
                   <p>
                     By the time the system responded, it was already too late.
@@ -140,6 +146,64 @@ export default function TherisLawPage() {
               </div>
 
             </div>
+          </div>
+        </section>
+
+        <section className="section-about bg-light" aria-labelledby="why-we-stand-title">
+          <div className="section-content">
+            <article className="row">
+              <div className="col-lg-10 general-content fs-4">
+                <h3 id="why-we-stand-title" className="fs-2 py-2">The Legal Imbalance Ending Lives: </h3>
+                <p className="fs-4 highlight">
+                  Why We Stand for Theris’ Law
+                </p>
+                <p>
+                  In her seminal legal piece <cite><a href="https://southerncalifornialawreview.com/wp-content/uploads/2018/01/88_1021.pdf" target="_blank" rel="noopener noreferrer">Is California Committed?</a></cite>, legal scholar Andrea Reynoso highlights a central dilemma:
+                </p>
+                <blockquote className="border-start border-4 border-secondary ps-4 my-4 fs-5">
+                  <p>
+                    “Inherent in this intersection of law and mental health is the delicate balance between preserving liberty and autonomy interests on the one hand, and providing for individual and societal safety on the other.”
+                  </p>
+                </blockquote>
+                <br/>
+                <p>
+                  For decades, California’s legal system has tipped this balance too far toward non-intervention. Under the guise of “protecting autonomy,” the system stands by while individuals suffering from severe psychiatric illness and severe addiction deteriorate in plain sight.
+                </p>
+                <p>
+                  When my son, TC, was battling mental illness and severe addiction, the system hid behind this exact shield of “protecting his autonomy”—leaving him without the structured intervention he desperately needed until he was placed in a jail cell, where he ultimately lost his life.
+                </p>
+                <p className="fs-3 fw-bold my-4">That is not liberty. That is neglect.</p>
+                <p>
+                  Brothers Against Drug Deaths (BADD) was founded to correct this fatal imbalance through Theris’ Law.
+                </p>
+                <p>
+                  Theris’ Law asserts a fundamental truth: <strong>True civil liberty cannot exist without life, health, and mind stability.</strong>
+                </p>
+                <br/>
+                <p className="fs-3 fw-bold my-4">Our position is clear:<hr/></p>
+                <div className="mb-4">
+                  <h3 className="fs-4 fw-bold">Treatment is a Civil Right</h3>
+                  <p>
+                    Severe addiction and psychosis strip away a person&apos;s free agency. Pre-crisis legal intervention does not take away liberty; it restores the mental clarity required to exercise true freedom.
+                  </p>
+                </div>
+                <div className="mb-4">
+                  <h3 className="fs-4 fw-bold">Family-Led Intervention</h3>
+                  <p>
+                    Families should not have to wait for an arrest, incarceration, or a fatal overdose to get help. Theris’ Law establishes a direct, family-led legal pathway to intervene before a loved one enters the criminal justice system.
+                  </p>
+                </div>
+                <div className="mb-4">
+                  <h3 className="fs-4 fw-bold">Healing Over Punishment</h3>
+                  <p>
+                    We must replace jail cells and booking rooms with clinical stabilization, court-supported outpatient treatment, and long-term recovery pathways.
+                  </p>
+                </div>
+                <p className="fw-bold mt-4">
+                  We are turning pain into purpose so that no other family has to watch the law prioritize a loved one&apos;s “right to suffer” over their right to live.
+                </p>
+              </div>
+            </article>
           </div>
         </section>
 

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s | BADD',
     default: 'Recovery Advocacy for Mental Health Support & Justice | BADD',
   },
-  description: 'BADD Is A Recovery Advocacy For Mental Health Support Nonprofit Serving Underserved Communities. Join Us In Creating Real Change.',
+  description: "Brothers Against Drug Deaths (BADD) is a grassroots organization supporting families impacted by substance use, overdose, mental health challenges, and barriers to recovery through advocacy, education, and community action.",
   metadataBase: new URL('https://www.badd-sf.org'),
   alternates: {
     canonical: '/',

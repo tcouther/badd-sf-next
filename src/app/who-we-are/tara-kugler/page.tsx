@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Who We Are : Tara Kugler'
+  title: 'Who We Are : Tara Kugler',
+  description: "Learn about Tara Kugler and her work supporting family advocacy, community partnerships, and overdose prevention initiatives."
 };
 
 export default function Events() {

@@ -11,7 +11,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Who We Are : Theris Coats'
+  title: 'Who We Are : Theris Coats',
+  description: "Learn about Theris L. Coats, Sr., founder of Brothers Against Drug Deaths, community advocate, and leader dedicated to supporting families impacted by addiction and overdose."
 };
 
 export default function Events() {

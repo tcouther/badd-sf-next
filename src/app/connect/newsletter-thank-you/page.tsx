@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Connect : Newsletter Sign Up Confirmed'
+  title: 'Connect : Newsletter Sign Up Confirmed',
+  description: "Thank you for subscribing to the BADD newsletter. Stay informed about events, advocacy efforts, recovery resources, and community updates."
 };
 
 export default function Events() {

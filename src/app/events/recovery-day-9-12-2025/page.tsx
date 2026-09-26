@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events: 5TH ANNUAL RECOVERY DAY, Friday, September 12, 2025'
+  title: 'Events: 5TH ANNUAL RECOVERY DAY, Friday, September 12, 2025',
+  description: "Celebrate recovery, resilience, and community at the 5th Annual Recovery Day event featuring speakers, resources, and support services."
 };
 
 export default function Events() {

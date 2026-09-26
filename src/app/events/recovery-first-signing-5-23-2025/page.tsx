@@ -11,7 +11,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events: RECOVERY FIRST ORDINANCE SIGNING CEREMONY, Friday, May 23, 2025'
+  title: 'Events: RECOVERY FIRST ORDINANCE SIGNING CEREMONY, Friday, May 23, 2025',
+  description: "Join community leaders and advocates for the Recovery First Ordinance Signing Ceremony supporting pathways to treatment and recovery."
 };
 
 export default function Events() {

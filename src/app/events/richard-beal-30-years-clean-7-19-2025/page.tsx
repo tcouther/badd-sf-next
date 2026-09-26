@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events: RICHARD BEAL 30 YEARS CLEAN, Saturday, July 19, 2025'
+  title: 'Events: RICHARD BEAL 30 YEARS CLEAN, Saturday, July 19, 2025',
+  description: "Celebrate Richard Beal's remarkable 30-year recovery journey and the power of long-term recovery, resilience, and community support."
 };
 
 export default function Events() {

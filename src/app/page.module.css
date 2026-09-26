@@ -1,3 +1,14 @@
 .page {
   font-family: var(--font-geist-sans);
 }
+
+.lifelineFeatureSection {
+  position: relative;
+  background-image:
+    url("/badd-assets/graphics/lifeline-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+

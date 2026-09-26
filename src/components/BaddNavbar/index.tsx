@@ -8,7 +8,7 @@ const BaddNavbar = () => {
 	return (
 	<nav className="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Website Navigation">
 		
-		<div className="container-fluid">
+		<div className="section-content container-fluid">
 			<Link className="navbar-brand" href="/"><span className="navbar-brand-background"></span><span className="navbar-brand-foreground short-title d-md-none">BADD</span><span className="navbar-brand-foreground d-none d-md-block">BROTHERS AGAINST DRUG DEATHS</span></Link>
 			<button 
 			className="navbar-toggler" 
@@ -34,6 +34,9 @@ const BaddNavbar = () => {
 					</li>
 					<li className="nav-item">
 						<Link className="nav-link" href="/resources">Resources</Link>
+					</li>
+					<li className="nav-item">
+						<Link className="nav-link nav-link-highlight nav-link-attention" href="/give">Give</Link>
 					</li>
 				</ul>
 			</div>

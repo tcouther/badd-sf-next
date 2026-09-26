@@ -10,7 +10,8 @@ import BaddFooter from "../../../components/BaddFooter";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Events : CITY HALL CHECK-IN, Thursday, May 29th, 2025'
+  title: 'Events : CITY HALL CHECK-IN, Thursday, May 29th, 2025',
+  description: "Stay engaged with BADD's advocacy efforts through community updates and discussions with city leaders at City Hall Check-In."
 };
 
 export default function Events() {
