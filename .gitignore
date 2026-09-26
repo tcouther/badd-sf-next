@@ -1,6 +1,6 @@
-.DS_Store
-**/.DS_Store
 .htaccess
 .env.local
 .next/
 node_modules/
+.DS_Store
+**/.DS_Store
