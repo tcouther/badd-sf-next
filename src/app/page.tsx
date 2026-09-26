@@ -129,10 +129,28 @@ export default function Home() {
                   between the ages of 18 to 36 dealing with mental health and substance abuse. 
                 </p>
                 <div className="card card-slim mb-4 mt-4 sm-w-100 w-40 fs-4">
-                    Register for our next session. Tuesday, August 25th 2026.
+
+                    Register for our next session. 
+
                     <strong>
                       <a href="tel:1-833-292-2233" className="text-nowrap">1-833-292-2233</a>
                     </strong>
+
+                    <br/>
+                    <p>
+                      <strong>Starting September 19th, we meet on the first and third Saturdays of each month, 
+                      in San Francisco and Sacramento.</strong>
+                    </p>
+                    
+                    <p>
+                      Join us in person if you can, or online by <Link href="https://us06web.zoom.us/j/83366212009?pwd=GrWqdRBuU6wvlumRmRvCEAwIVIdNbM.1&jst=5" target="_blank">Zoom/video</Link>.
+                    </p>
+
+                    <p>
+                      <Link href="/badd-assets/events/voices-unmuted-flyer.jpeg">Download the flyer</Link> for more information.
+                    </p>
+
+
                 </div>
                 <p className="fs-4"> 
                   If you need a judgment-free space to heal with brothers who actually get it, this is your circle.
@@ -142,7 +160,7 @@ export default function Home() {
               <div className="col-md-6"> 
                 <div className="portrait-video rounded overflow-hidden shadow-lg">
                   <iframe
-                    src="https://www.youtube.com/embed/-jxdRvgzG7g"
+                    src="https://www.youtube.com/embed/3ZspetFEtg8"
                     title="Voices Unmuted"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
