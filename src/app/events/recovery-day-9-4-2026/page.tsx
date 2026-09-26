@@ -1,4 +1,5 @@
 import styles from "../../page.module.css";
+import Image from "next/image";
 
 //Navbar
 import BaddNavbar from "../../../components/BaddNavbar";
@@ -55,10 +56,14 @@ export default function Events() {
 
                 <div className="general-content col-md-7">
                   <p>
-                    <img
-                      width="100%"
-                      alt="6th Annual Recovery Day flyer"
+                    <Image
                       src="https://cub.dpx.mybluehost.me/wp-content/uploads/2026/07/annual-recovery-day-2026.jpeg"
+                      layout="responsive"
+                      width={1116} // Original image width
+                      height={970} // Original image height
+                      alt="6th Annual Recovery Day flyer"
+                      aria-hidden="true"
+                      className="img-full-width"
                     />
                   </p>
                 </div>

@@ -1,0 +1,135 @@
+{
+	"date" : "5/7/2026",
+	"items": [
+		{
+			"id" : "article0001",
+			"image" : "/badd-assets/articles/article-001.jpeg",
+			"alt" : "Father and Son, Theris Coats II and Theris Coats Sr.",
+			"link" : "https://missionlocal.org/2025/03/sf-jail-conservatorship-drugs-theris-coats/",
+			"description" : "SF police, a city supervisor, local doctors, His family tried to help ",
+			"descriptionl" : "him off the streets. He ended up dead in San Francisco jail. Theris “TC” Coats had the support of his large family as he struggled with mental illness and addiction, living on the streets of the Tenderloin and in the Sixth and Mission streets area of SoMa in San Francisco. ",
+			"source" : "Mission Local",
+			"date" : "March 22, 2025"
+		},
+		{
+			"id" : "article0002",
+			"image" : "/badd-assets/articles/article-002.jpeg",
+			"alt" : "Community organizers and activists in San Francisco",
+			"link" : "https://www.kqed.org/news/12034445",
+			"description" : "Black men born between 1951 & 1970 account for 12% of overdose deaths ",
+			"descriptionl" : "in San Francisco between January 2020 and October 2024, despite representing less than 1% of the city’s population. A Generation of Black Men Is Being Lost to Overdoses in San Francisco. The disparity in San Francisco is greater than any other major city.",
+			"source" : "KQED: THE BAY",
+			"date" : "April 4, 2025"
+		},
+		{
+			"id" : "article0003",
+			"image" : "/badd-assets/articles/article-003.jpeg",
+			"alt" : "San Francisco's Tenderloin and SoMa struggling with drugs",
+			"link" : "https://missionlocal.org/2025/04/sf-addiction-treatment-often-near-street-drugs/",
+			"description" : "In the Tenderloin and SoMa, where drugs are ubiquitous, addiction treatment centers and ",
+			"descriptionl" : "S.F. addiction treatment is often placed within arm’s reach of street drugs. Why? When Theris Coats failed to make it from his San Francisco hospital bed to a sobering center in February, and wound up dead in county jail a few weeks later, his father, like any parent, wanted someone to blame. ",
+			"source" : "Mission Local",
+			"date" : "April 11, 2025"
+		},
+		{
+			"id" : "article0004",
+			"image" : "/badd-assets/articles/article-004.jpeg",
+			"alt" : "The “Recovery First” legislation signing event group photo with BADD's Richard Beal",
+			"link" : "/events/recovery-first-signing-5-23-2025/",
+			"description" : "Mayor Daniel Lurie today signed new “Recovery First” legislation, another step in his ",
+			"descriptionl" : "Mayor Daniel Lurie signed new “Recovery First” legislation, another step in his administration’s work to support San Franciscans in recovery and tackle the city’s behavioral health and homelessness crisis. Sponsored by District 6 Supervisor Matt Dorsey, the legislation enshrines long-term remission through recovery as San Francisco’s primary substance use disorder policy goal.",
+			"source" : "BADD",
+			"date" : "May 23, 2025"
+		},
+		{
+			"id" : "article0005",
+			"image" : "/badd-assets/articles/article-005.jpeg",
+			"alt" : "Drug users are regulars at the city-funded Monarch",
+			"link" : "https://beyondchron.org/san-franciscos-overdose-crisis-a-call-for-drug-free-housing/",
+			"description" : "San Francisco’s Overdose Crisis: A Call for Drug-Free Housing ",
+			"descriptionl" : "The Best Strategy for Stopping Overdoses San Francisco is on a record-setting drug overdose pace that should alarm every single resident. As of May 2025, San Francisco has already recorded 320 overdose deaths. If this current trend continues, we are on track for 770 overdose deaths by the end of this year. These numbers are not just statistics; they represent lives lost, families shattered, and communities devastated.",
+			"source" : "BeyondChron",
+			"date" : "June 16, 2025"
+		},
+		{
+			"id" : "article0006",
+			"image" : "/badd-assets/articles/article-8-8-2025-fent-badd.jpeg",
+			"alt" : "San Francisco firefighter exlpains how fent is affecting our community.",
+			"link" : "https://twitter.com/war24182236/status/1872762889880375650",
+			"description" : "One pill. One time. One life gone. SFFD Chief report reversing 50–60 overdoses every single day.",
+			"descriptionl" : "One pill. One time. One life gone. SFFD Chief report reversing 50–60 overdoses every single day — most of them never make the news. But not everyone gets that second chance. This video is a powerful reminder of how real and relentless this crisis is. For more content, Follow JJ Smith, @war24182236 on Twitter.",
+			"source" : "jj smith, @war24182236 on Twitter",
+			"date" : "December 27, 2024"
+		},
+		{
+			"id" : "article0007",
+			"image" : "/badd-assets/articles/article-007.jpeg",
+			"alt" : "Father and Son, Theris Coats II and Theris Coats Sr.",
+			"link" : "https://www.sfchronicle.com/sf/article/jail-death-jail-theris-coats-lawsuit-20816131.php",
+			"description" : "The parents of a 33-year-old man who died from synthetic opioid overdose roughly 28 hours after he was booked",
+			"descriptionl" : "The parents of a 33-year-old man who died from synthetic opioid overdose roughly 28 hours after he was booked into San Francisco County jail on misdemeanor charges this spring have sued the city as they press for more answers about what happened to their son.",
+			"source" : "SF Chronicle",
+			"date" : "August 14, 2025"
+		},
+		{
+			"id" : "article0008",
+			"image" : "/badd-assets/articles/article-008.jpeg",
+			"alt" : "Richard Beal, author",
+			"link" : "https://beyondchron.org/no-safe-use-end-the-distribution-of-smoking-paraphernalia-and-expand-drug-free-environments/",
+			"description" : "No Safe Use: End Distribution of Smoking Paraphernalia, Expand Drug-Free Environments ",
+			"descriptionl" : "In communities across San Francisco and the nation, we are facing a devastating truth: fent has changed everything. For decades, public health strategies included harm reduction methods such as distributing pipes, foil, or other paraphernalia in the name of reducing transmission of disease. But the synthetic opioid crisis demands a new conversation.",
+			"source" : "BeyondChron",
+			"date" : "October 6, 2025"
+		},
+		{
+			"id" : "article0009",
+			"image" : "/badd-assets/articles/article-009.jpeg",
+			"alt" : "Richard Beal, author",
+			"link" : "https://missionlocal.org/2025/11/sf-theris-coats-jail-death-play/",
+			"description" : "He died in a San Francisco jail. His family wrote a play about it ",
+			"descriptionl" : "After Theris Coats II, (TC to those who knew him), died of a drug overdose in a San Francisco jail in March of this year, his family sought ways to move forward. ",
+			"source" : "Mission Local",
+			"date" : "November 13, 2025"
+		},
+		{
+			"id" : "article0010",
+			"image" : "/badd-assets/articles/article-010.jpeg",
+			"alt" : "Richard Beal, author",
+			"link" : "https://beyondchron.org/completing-the-bridge-from-reentry-to-permanent-recovery-housing/",
+			"description" : "Completing the Bridge: From Reentry to Permanent Recovery Housing ",
+			"descriptionl" : "When I walk through the doors of the Drake Hotel at 235 Eddy Street, I see what many people thought was impossible—men and women rebuilding their lives after incarceration, addiction, and years of instability. In 2015, the Tenderloin Housing Clinic launched the New Horizons Transitional Housing Program with support from the San Francisco Adult Probation Department. Our mission was clear: provide a structured transitional housing program that combines accountability, recovery services, and housing stability.",
+			"source" : "BeyondChron",
+			"date" : "February 23, 2026"
+		},
+		{
+			"id" : "article0011",
+			"image" : "/badd-assets/articles/article-011.jpeg",
+			"alt" : "Alice Finno, author",
+			"link" : "https://missionlocal.org/2026/02/sf-probation-department-mobile-van/",
+			"description" : "S.F. probation rolls out van for unhoused in ‘high-poverty,’ ‘high-crime’ areas ",
+			"descriptionl" : "The San Francisco Adult Probation Department launched a mobile unit this week that will travel to “high-poverty and high-crime communities” across the city to reach people on probation in the streets.",
+			"source" : "Mission Local",
+			"date" : "February 28, 2026"
+		},
+		{
+			"id" : "article0012",
+			"image" : "/badd-assets/articles/article-012.jpeg",
+			"alt" : "Brothers Against Drug Deaths board member John Jeffrey, co-founder Theris Coats Sr., and co-founder Richard Beal. Photos by Laura Wenus.",
+			"link" : "https://www.tlvoice.org/year-loss-san-francisco-tenderloin-leaders-addiction-services/?ref=the-tenderloin-voice-newsletter",
+			"description" : "They lost family to drugs. Now they work to save lives. ",
+			"descriptionl" : "Theris Coats Sr. and Richard Beal like to say they’re turning “pain into purpose” — and both men have experienced pain in profound excess. But on a sunny late April afternoon in the Tenderloin, they were celebrating. It was the one-year anniversary party for their organization, Brothers Against Drug Deaths, formed to support people battling addiction. They were also marking the grand opening of their small ground-floor office on Eddy Street, which was filled with proud, grinning allies, many of them high-ranking city officials. ",
+			"source" : "TL Voice",
+			"date" : "May 7, 2026"
+		},
+		{
+			"id" : "article0013",
+			"image" : "/badd-assets/articles/article-013.jpeg",
+			"alt" : "Sidewalk drug users. Harm Reduction Fails San Francisco",
+			"link" : "https://beyondchron.org/harm-reduction-fails-san-francisco/",
+			"description" : "Harm Reduction Fails San Francisco A Tale of Two San Francisco’s.  ",
+			"descriptionl" : "Sidewalk drug users do more than hurt San Francisco’s image—they also undermine the city’s remaining low-income and working-class neighborhoods. Communities our elected officials continually vow to protect. ",
+			"source" : "BeyondChron",
+			"date" : "May 11, 2026"
+		}
+	]
+}

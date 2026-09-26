@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../../page.module.css";
+import Script from 'next/script'
 
 //Globals
 import GLOBALS from "../../globals.json";
@@ -61,7 +62,7 @@ export default function Events() {
                       referrerPolicy="strict-origin-when-cross-origin" 
                       style={{position:"absolute", top:0, left:0, width:"100%", height:"100%"}} title="Beyond My Family's Reach : Official Trailer"></iframe>
                     </div>
-                    <script src="https://player.vimeo.com/api/player.js"></script>
+                    <Script src="https://player.vimeo.com/api/player.js"></Script>
 
                   </div>
                 </div>

@@ -1,0 +1,145 @@
+{
+	"date" : "4/24/2026",
+	"items": [
+		{
+			"id" : "event0001",
+			"image" : "/badd-assets/events/matt-dorsey-theris-in-memoriam.jpeg",
+			"alt" : "",
+			"link" : "/events/matt-dorsey-theris-in-memoriam-3-25-2025/",
+			"description" : "Join Brothers Against Drug Deaths in San Francisco for the theatrical premier of this emotionally charged play. Get Tickets Now!",
+			"title" : "Beyond My Family’s Reach",
+			"location" : "San Francisco",
+			"date" : "March 25th 2025"
+		},
+		{
+			"id" : "event0002",
+			"image" : "/badd-assets/events/recovery-rally-brooke-jenkins-richard-beale.jpeg",
+			"alt" : "",
+			"link" : "/events/rally-for-recovery-5-5-2025/",
+			"description" : "San Francisco Supervisor Matt Dorsey’s memorial for Theris Lee “TC” Coats II at Board of Supervisors Meeting in SF City Hall.",
+			"title" : "SF BOARD OF SUPERVISORS MEMORIAL TO Theris Lee “TC” Coats II",
+			"location" : "San Francisco",
+			"date" : "May 5th 2025"
+		},
+		{
+			"id" : "event0003",
+			"image" : "/badd-assets/events/ordinance-group.jpeg",
+			"alt" : "",
+			"link" : "/events/recovery-first-signing-5-23-2025",
+			"description" : "BADD (Brothers Against Drug Deaths), Matt Dorsey, Mayor Lurie, and friends celebrate the formal signing of the “Recovery First” Ordinance!",
+			"title" : "RECOVERY FIRST ORDINANCE SIGNING CEREMONY",
+			"location" : "San Francisco",
+			"date" : "May 23rd 2025"
+		},
+		{
+			"id" : "event0004",
+			"image" : "/badd-assets/events/sf-city-hall-check-in-may29.jpeg",
+			"alt" : "",
+			"link" : "/events/city-hall-checkin-5-29-2025",
+			"description" : "Join BADD and the San Francisco Chamber of Commerce 5/29/2025 for a FREE event to connect with District 6 Supervisor Matt Dorsey.",
+			"title" : "CITY HALL CHECK-IN",
+			"location" : "San Francisco",
+			"date" : "May 29th 2025"
+		},
+		{
+			"id" : "event0005",
+			"image" : "/badd-assets/events/united-playaz-001.jpeg",
+			"alt" : "",
+			"link" : "/events/united-playaz-grand-opening-6-12-2025",
+			"description" : "BADD was in attendance as Mayor Daniel Lurie celebrated the grand opening of a new community resource center in San Francisco’s South of Market Neighborhood (SoMa).",
+			"title" : "UNITED PLAYAZ’s GRAND OPENING CEREMONY",
+			"location" : "San Francisco",
+			"date" : "June 12th 2025"
+		},
+		{
+			"id" : "event0006",
+			"image" : "/badd-assets/events/richard-beal-30-years-group-photo.jpeg",
+			"alt" : "",
+			"link" : "/events/richard-beal-30-years-clean-7-19-2025",
+			"description" : "Come celebrate Richard B.’s 30 years of clean time with us - mark your calendars and save the date for a special event in person!",
+			"title" : "RICHARD BEAL 30 YEARS CLEAN",
+			"location" : "San Francisco",
+			"date" : "July 19th 2025"
+		},
+		{
+			"id" : "event0007",
+			"image" : "/badd-assets/events/Overdose-Awareness-Day-8-20-2025.jpeg",
+			"alt" : "",
+			"link" : "/events/overdose-awareness-day-8-20-2025",
+			"description" : "Join us for the 2nd annual Overdose Awareness Day at RAFIKI UMOJA HAP QUESADA in San Francisco. Enjoy CALIVE DJ, FOOD, WELLNESS, RESOURCES, and COMMUNITY SPEAKERS",
+			"title" : "OVERDOSE AWARENESS DAY",
+			"location" : "San Francisco",
+			"date" : "August 20th, 2025"
+		},
+		{
+			"id" : "event0008",
+			"image" : "/badd-assets/events/2025-international-overdose-awareness-day-photo-2.jpeg",
+			"alt" : "",
+			"link" : "/events/international-overdose-awareness-day-8-31-2025",
+			"description" : "Brothers Against Drug Deaths (BADD) was honored to stand alongside Mothers Against Drug Addiction & Deaths (MADAAD) at a powerful rally in San Francisco.",
+			"title" : "International Overdose Awareness Day: 1000 Lights for 1000 Lives",
+			"location" : "San Francisco",
+			"date" : "August 31, 2025"
+		},
+		{
+			"id" : "event0009",
+			"image" : "/badd-assets/events/recovery-day-2025-pics-01.jpeg",
+			"alt" : "",
+			"link" : "/events/recovery-day-9-12-2025",
+			"description" : "Over 400 participants received food, 150 recovery books given, cases of narcan and fentanyl test strips were distributed, information on reentry, treatment, and other recovery resources from over 20 organizations!",
+			"title" : "5TH ANNUAL RECOVERY DAY",
+			"location" : "San Francisco",
+			"date" : "September 12th 2025"
+		},
+		{
+			"id" : "event0010",
+			"image" : "/badd-assets/events/both-sides-conversation-podcast-9-23-2025.jpeg",
+			"alt" : "",
+			"link" : "/events/both-sides-conversation-podcast-9-23-2025",
+			"description" : "This is a powerful platform dedicated to educating, uplifting, and empowering our communities. We’ll come together for meaningful conversations that truly make an impact.",
+			"title" : "Both Sides of the Conversation Hidden Gems Podcast",
+			"location" : "Youtube",
+			"date" : "September 23, 2025"
+		},
+		{
+			"id" : "event0011",
+			"image" : "/badd-assets/events/2025-play-beyond-my-familys-reach-wide.jpeg",
+			"alt" : "",
+			"link" : "/events/beyond-my-familys-reach-play-2025-11-22-2025",
+			"description" : "The theatrical premier of this emotionally charged play, “Beyond My Family’s Reach” was a tremendous success, with both performances selling out and being enthusiastically received by the community.",
+			"title" : "Beyond My Family’s Reach",
+			"location" : "San Francisco",
+			"date" : "November 22, 2025"
+		},
+		{
+			"id" : "event0012",
+			"image" : "/badd-assets/events/talented-thursday-1-15-2026.jpeg",
+			"alt" : "",
+			"link" : "/events/talented-thursday-1-15-2026",
+			"description" : "Join us for a powerful Talented Thursday featuring Theris Coats, Sr. and Richard Beal — cofounders of BADD | Brothers Against Drug Deaths. This conversation centers on truth, loss, recovery, advocacy, and the urgent work needed to save lives impacted by addiction, mental illness, and incarceration.",
+			"title" : "Talented Thursday",
+			"location" : "Youtube",
+			"date" : "January 15, 2026"
+		},
+		{
+			"id" : "event0013",
+			"image" : "/badd-assets/events/first-anniversary-office-grand-opening-medium.jpeg",
+			"alt" : "",
+			"link" : "/events/badd-sf-grand-opening-first-anniversay-4-23-2026",
+			"description" : "BADD — Brothers Against Drug Deaths — is proud to celebrate our 1st Anniversary and Official Grand Opening on April 23, 2026. Join us as we celebrate our new home in San Francisco, serving education, outreach, advocacy, and healing in our communities.",
+			"title" : "First Anniversary and Grand Opening Celebration",
+			"location" : "San Francisco",
+			"date" : "April 23, 2026"
+		},
+		{
+			"id" : "event0014",
+			"image" : "/badd-assets/events/rally-for-recovery-5-27-2026-1.jpeg",
+			"alt" : "",
+			"link" : "https://www.mobilize.us/mahanforcalifornia/event/954777/",
+			"description" : "San Francisco - join me for a Recovery Rally in San Francisco on Wednesday, May 27. With the California primary taking place on June 2nd, this will be a key moment to come together, in community, celebrate the progress we've made in San Jose, and rally our neighbors together to vote.",
+			"title" : "Rally for Recovery with Matt Mahan and Supervisor Matt Dorsey | San Francisco",
+			"location" : "Private address.",
+			"date" : "May 27, 2026"
+		}
+	]
+}
