@@ -133,7 +133,7 @@ export default function Home() {
                     Register for our next session. 
 
                     <strong>
-                      <a href="tel:1-833-292-2233" className="text-nowrap">1-833-292-2233</a>
+                      <a href={`tel:${GLOBALS.GLOBAL_PHON1A}`} className="text-nowrap">{GLOBALS.GLOBAL_PHON1A}</a>
                     </strong>
 
                     <br/>
@@ -143,7 +143,7 @@ export default function Home() {
                     </p>
                     
                     <p>
-                      Join us in person if you can, or online by <Link href="https://us06web.zoom.us/j/83366212009?pwd=GrWqdRBuU6wvlumRmRvCEAwIVIdNbM.1&jst=5" target="_blank">Zoom/video</Link>.
+                      Join us in person if you can, or online by <Link href={GLOBALS.GLOBAL_VOICES_UNMUTED}  target="_blank">Zoom/video</Link>.
                     </p>
 
                     <p>

@@ -1,6 +1,9 @@
 import styles from "../../page.module.css";
 import Link from "next/link";
 
+//Globals
+import GLOBALS from "../../globals.json";
+
 //Navbar
 import BaddNavbar from "../../../components/BaddNavbar";
 
@@ -50,7 +53,7 @@ export default function Events() {
                       <div className="general-content col-md-6">
                       <p>
                         <strong>San Francisco</strong>: 
-                        <br/>233 Eddy St., San Francisco, CA 94102
+                        <br/>{GLOBALS.ADDRESS.LINE1}, {GLOBALS.ADDRESS.LINE2}
                       </p>
                       </div>
                       <div className="general-content col-md-6">
@@ -61,22 +64,17 @@ export default function Events() {
                       </div>
                     </div>
 
-
-
                     <p>
                         Register for our next session. <br/>
-                        <a href="tel:1-833-292-2233" className="text-nowrap">1-833-292-2233</a>
+                        <a href={`tel:${GLOBALS.GLOBAL_PHON1A}`} className="text-nowrap">{GLOBALS.GLOBAL_PHON1A}</a>
                     </p>
-
 
                     <p>
-                      Join us in person if you can, or online by <Link href="https://us06web.zoom.us/j/83366212009?pwd=GrWqdRBuU6wvlumRmRvCEAwIVIdNbM.1&jst=5" target="_blank">Zoom/video</Link>.
+                      Join us in person if you can, or online by <Link href={GLOBALS.GLOBAL_VOICES_UNMUTED} target="_blank">Zoom/video</Link>.
                     </p>
-
 
                     <p>Voices Unmuted is a virtual support group built specifically for young men 
                   between the ages of 18 to 36 dealing with mental health and substance abuse. </p>
-
 
                     <p> 
                       If you need a judgment-free space to heal with brothers who actually get it, this is your circle.
